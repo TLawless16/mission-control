@@ -1,0 +1,31 @@
+{
+  "id": "3d01a7f5374e47e89542fee2f585f1b2",
+  "title": "🐛 Error Handling + Fixing Problems",
+  "videoLink": "https://www.youtube.com/watch?v=9kiHfFEAaRg",
+  "resources": [
+    {
+      "title": "Module 2 Lesson 3 Follow-Along",
+      "file_id": "90d65bc8668b43fa8e616c628e8f3184",
+      "file_name": "Module 2 Lesson 3 Follow-Along.docx",
+      "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "title": "Upload me to n8n  (Part 1)",
+      "file_id": "d8eb52d171794efba03cb27111bf1abd",
+      "file_name": "M2L3_1_2.json",
+      "file_content_type": "application/json"
+    },
+    {
+      "title": "Upload me to n8n  (Part 2)",
+      "file_id": "3519c69533ee4934ba3a9cb4390f138c",
+      "file_name": "M2L3_2_2.json",
+      "file_content_type": "application/json"
+    },
+    {
+      "title": "transcript",
+      "file_id": "b26dae16604242c79d177cc0d283d167",
+      "file_name": "Error Handling + Fixing Problems.txt",
+      "file_content_type": "text/plain"
+    }
+  ]
+}

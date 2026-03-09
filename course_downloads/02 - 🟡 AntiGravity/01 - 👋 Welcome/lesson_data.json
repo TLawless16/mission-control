@@ -1,0 +1,21 @@
+{
+  "id": "77f38052d3454714b5bed49a635d1f56",
+  "title": "👋 Welcome",
+  "videoId": "5568f4ed2c504b33b82fb8dac068258b",
+  "resources": [
+    {
+      "title": "🔥 AntiGravity Master Prompt",
+      "link": "https://www.notion.so/AntiGravity-Master-Prompt-2ebe8d6bd13780b79036f055625b471d"
+    },
+    {
+      "title": "Jack's MCP Config",
+      "file_id": "f5795614e8bb491188a596846ee449c1",
+      "file_name": "MCPconfig.txt",
+      "file_content_type": "text/plain"
+    },
+    {
+      "title": "👋 MCP Marketplace",
+      "link": "https://mcpmarket.com/server"
+    }
+  ]
+}

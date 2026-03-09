@@ -1,0 +1,94 @@
+{
+    "name": "Mission Control Content Router",
+    "flow": [
+        {
+            "id": 1,
+            "module": "gateway:CustomWebHook",
+            "version": 1,
+            "parameters": {
+                "hook": "mission_control_content"
+            },
+            "mapper": {},
+            "metadata": {
+                "designer": {
+                    "x": 0,
+                    "y": 0
+                },
+                "notes": "Receives the content payload from Mission Control's /api/content route when status changes to 'scheduled' or 'published'."
+            }
+        },
+        {
+            "id": 2,
+            "module": "builtin:BasicRouter",
+            "version": 1,
+            "parameters": {},
+            "mapper": {},
+            "metadata": {
+                "designer": {
+                    "x": 300,
+                    "y": 0
+                },
+                "notes": "Routes the content based on the platform selected in Mission Control."
+            }
+        },
+        {
+            "id": 3,
+            "module": "linkedin:CreatePost",
+            "version": 1,
+            "parameters": {
+                "content": "{{1.content_item.body}}"
+            },
+            "filter": {
+                "name": "Is LinkedIn",
+                "conditions": [
+                    [
+                        {
+                            "a": "{{1.content_item.platform}}",
+                            "o": "text:equal",
+                            "b": "linkedin"
+                        }
+                    ]
+                ]
+            },
+            "metadata": {
+                "designer": {
+                    "x": 600,
+                    "y": -150
+                },
+                "notes": "Publishes the Draft to LinkedIn."
+            }
+        },
+        {
+            "id": 4,
+            "module": "wordpress:CreatePost",
+            "version": 1,
+            "parameters": {
+                "title": "{{1.content_item.title}}",
+                "content": "{{1.content_item.body}}",
+                "status": "publish"
+            },
+            "filter": {
+                "name": "Is WordPress",
+                "conditions": [
+                    [
+                        {
+                            "a": "{{1.content_item.platform}}",
+                            "o": "text:equal",
+                            "b": "wordpress"
+                        }
+                    ]
+                ]
+            },
+            "metadata": {
+                "designer": {
+                    "x": 600,
+                    "y": 150
+                },
+                "notes": "Publishes the Draft to WordPress."
+            }
+        }
+    ],
+    "metadata": {
+        "version": 1
+    }
+}

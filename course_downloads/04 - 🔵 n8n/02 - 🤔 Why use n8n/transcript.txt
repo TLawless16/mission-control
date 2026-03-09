@@ -1,0 +1,631 @@
+1
+00:00:00,011 --> 00:00:03,502
+Hey there guys and girls. So, why use N8N? I want to start with
+
+2
+00:00:03,503 --> 00:00:06,568
+the big picture. N8N is automation software,
+
+3
+00:00:06,569 --> 00:00:10,702
+where basically, we can use N8N as a no-code platform.
+
+4
+00:00:10,703 --> 00:00:12,853
+What are other examples of no-code platforms?
+
+5
+00:00:12,854 --> 00:00:16,009
+We have Zapier, we have Make.com,
+
+6
+00:00:16,010 --> 00:00:20,663
+and we have N8N. N8N is just one of a series
+
+7
+00:00:20,664 --> 00:00:24,075
+of no-code platforms that we can use to use AI.
+
+8
+00:00:24,076 --> 00:00:27,870
+And automation is to correct spectacular things that you used to have to pay
+
+9
+00:00:27,999 --> 00:00:31,698
+hundreds of thousands for. I've spent so much on developers in my life.
+
+10
+00:00:31,699 --> 00:00:34,470
+If this technology existed, I would have saved a lot of money.
+
+11
+00:00:34,471 --> 00:00:36,848
+So, N8N, just do what I'll say,
+
+12
+00:00:36,849 --> 00:00:39,705
+they all have their quirks and their differences, and I just want to explain
+
+13
+00:00:39,706 --> 00:00:43,005
+some of the reasons why you may wish to learn N8N. Now,
+
+14
+00:00:43,006 --> 00:00:45,537
+if you are a beginner, and this is day one for you,
+
+15
+00:00:45,687 --> 00:00:48,139
+by all means, please, enjoy the beautiful course.
+
+16
+00:00:48,140 --> 00:00:50,372
+So we've got laid out for you here, but if not, you may want
+
+17
+00:00:50,373 --> 00:00:53,698
+to consider using make.com if you're day one,
+
+18
+00:00:53,849 --> 00:00:58,539
+because most, almost everything you can do in N8N, you can do a make.com
+
+19
+00:00:58,540 --> 00:01:01,599
+initially. And there are some exceptions to that that I cover in the next
+
+20
+00:01:01,600 --> 00:01:03,816
+video. And I'll also briefly touch on here.
+
+21
+00:01:03,817 --> 00:01:07,164
+One of the key things is this AI agent.
+
+22
+00:01:07,411 --> 00:01:10,288
+Now, one of the things about make.com, I explained this in the video,
+
+23
+00:01:10,525 --> 00:01:13,439
+is that it's a linear flow. It goes from left to right,
+
+24
+00:01:13,440 --> 00:01:15,460
+and you stack things, and you can add different modules,
+
+25
+00:01:16,213 --> 00:01:18,253
+and air table, and,
+
+26
+00:01:18,254 --> 00:01:19,421
+uhm, you know, chat GPT, and things pulsed, and it kind of is a
+
+27
+00:01:19,422 --> 00:01:21,564
+very linear flow. And if you've just said,
+
+28
+00:01:21,565 --> 00:01:25,109
+hey Jack, I want to automate emails, I want to do really simple automations,
+
+29
+00:01:25,110 --> 00:01:27,672
+and I'm just getting started, do me a favour,
+
+30
+00:01:27,920 --> 00:01:31,149
+head over to the classroom, and where I'd suggest that you start,
+
+31
+00:01:31,150 --> 00:01:33,408
+is come over here, on the start here section,
+
+32
+00:01:33,656 --> 00:01:37,301
+and you can start by learning these really simple basic things here,
+
+33
+00:01:37,302 --> 00:01:39,396
+introducing my AI fundamentals,
+
+34
+00:01:39,397 --> 00:01:41,917
+that sort of stuff, uhm, just to get you started,
+
+35
+00:01:41,918 --> 00:01:45,320
+because NA10 is slightly more complex,
+
+36
+00:01:45,488 --> 00:01:49,232
+it can do more things, but it's learning curve is slightly steeper,
+
+37
+00:01:49,233 --> 00:01:52,687
+so what you'll probably find, is that 95% of what you need to do,
+
+38
+00:01:52,973 --> 00:01:55,885
+can be found at meg.com. Now, why NA10? Now,
+
+39
+00:01:55,886 --> 00:01:59,265
+the biggest, coolest feature, there's a few key ones that NA10 has,
+
+40
+00:01:59,605 --> 00:02:02,559
+one of them is, is this AI agent, and can you see he's like
+
+41
+00:02:02,560 --> 00:02:05,470
+wiggling around like an octopus, he's got all these things in there,
+
+42
+00:02:05,821 --> 00:02:08,477
+it's a non-linear flow,
+
+43
+00:02:08,700 --> 00:02:11,547
+in other words, any scenario in AI automation,
+
+44
+00:02:11,548 --> 00:02:13,823
+okay, has a couple of things, number one,
+
+45
+00:02:13,824 --> 00:02:17,251
+it has a trigger, that is something, that's the start button that begins it,
+
+46
+00:02:17,528 --> 00:02:20,071
+a trigger, and we have a module covering that, but just to give you
+
+47
+00:02:20,072 --> 00:02:22,150
+the big picture here, is something that,
+
+48
+00:02:22,151 --> 00:02:25,797
+that starts the scenario off, it could be a WhatsApp message,
+
+49
+00:02:25,798 --> 00:02:29,486
+it could be an email, it could be a form on your website,
+
+50
+00:02:29,487 --> 00:02:32,584
+or it could just start by itself, or even a chatbot on the website,
+
+51
+00:02:32,806 --> 00:02:36,273
+it is an action that begins the scenario,
+
+52
+00:02:36,389 --> 00:02:39,108
+now, you'll have this trigger, the scenario begins,
+
+53
+00:02:39,109 --> 00:02:41,167
+and then essentially think of it like a sandwich, you have your trigger,
+
+54
+00:02:41,506 --> 00:02:45,511
+and then you have your final thing, now, the final aspect of it could
+
+55
+00:02:45,512 --> 00:02:48,144
+be sending you a message back, if it's a chatbot,
+
+56
+00:02:48,145 --> 00:02:50,378
+or maybe a be, you get another Telegram message back,
+
+57
+00:02:50,379 --> 00:02:52,537
+or a WhatsApp message back, or, uhm, you know,
+
+58
+00:02:52,733 --> 00:02:57,031
+the, the actual, a database changes, or, think of what the end,
+
+59
+00:02:57,032 --> 00:02:59,207
+end point could be, it could be anything that you want to,
+
+60
+00:02:59,418 --> 00:03:02,762
+and if you think of N8N, and make as Lego bricks,
+
+61
+00:03:02,763 --> 00:03:06,179
+Lego bricks as we say in the UK, you can essentially build anything,
+
+62
+00:03:06,180 --> 00:03:09,122
+once you know how those bricks connect together,
+
+63
+00:03:09,312 --> 00:03:12,528
+and you will learn exactly how to connect all these bricks together to build
+
+64
+00:03:12,529 --> 00:03:15,483
+whatever you want to, at Jordan's course. So I started to say,
+
+65
+00:03:15,757 --> 00:03:19,384
+that's the kind of concept of it. Now, this looks a little complicated,
+
+66
+00:03:19,385 --> 00:03:22,859
+but I'll explain. Now, one, one really cool thing about N8N is we can
+
+67
+00:03:22,860 --> 00:03:24,919
+use this agent module. Now,
+
+68
+00:03:25,012 --> 00:03:27,284
+what is an agent? And in fact, what I'm also going to do is
+
+69
+00:03:27,285 --> 00:03:29,502
+just come over here, and slightly build on with you,
+
+70
+00:03:29,503 --> 00:03:31,512
+just to give you a rough thing. Now this isn't something that you're going
+
+71
+00:03:31,513 --> 00:03:33,980
+to go and use today, this is just to give you an example of
+
+72
+00:03:33,981 --> 00:03:36,400
+what this looks like, okay? So let's just say, for instance,
+
+73
+00:03:36,401 --> 00:03:39,076
+I have. Another trigger here, and I just want to trigger something manually.
+
+74
+00:03:39,077 --> 00:03:42,868
+And where does that appear to? It is not appearing on my screen.
+
+75
+00:03:42,869 --> 00:03:45,047
+In fact, do you know what I think would be easier? If I just
+
+76
+00:03:45,048 --> 00:03:47,435
+run you through this one, you've got this telegram trigger,
+
+77
+00:03:47,436 --> 00:03:49,894
+which is, I get a message and we have an agent.
+
+78
+00:03:50,158 --> 00:03:54,372
+And what's really cool about this agent guys, is it can access multiple tools
+
+79
+00:03:54,373 --> 00:03:57,777
+and communicate with them more. We install an AI brain in it,
+
+80
+00:03:57,778 --> 00:04:00,427
+where you'll find out exactly how to build this stuff. And then you give
+
+81
+00:04:00,428 --> 00:04:06,094
+it access. Now, why this is different than make, and it's different than zapping
+
+82
+00:04:06,095 --> 00:04:08,798
+or the no code tools is the fact that this,
+
+83
+00:04:13,035 --> 00:04:15,569
+let me move this, uh, test working flow over here, can call all or
+
+84
+00:04:15,600 --> 00:04:18,500
+many of them at the same time. It's a self control unit.
+
+85
+00:04:18,681 --> 00:04:21,804
+You have the brain, so it could check your notion database.
+
+86
+00:04:21,805 --> 00:04:23,864
+It could then check calendars. It can create calendar events. It can send messages,
+
+87
+00:04:24,084 --> 00:04:26,703
+check messages, search the internet,
+
+88
+00:04:26,704 --> 00:04:29,109
+do whatever it ever you could possibly imagine.
+
+89
+00:04:29,650 --> 00:04:32,371
+And once this agent feels like it's,
+
+90
+00:04:32,646 --> 00:04:36,080
+as they feel in a broad sense, feels like it's got the output,
+
+91
+00:04:36,081 --> 00:04:38,683
+it will then send an action. That is very unique to NA10 and one
+
+92
+00:04:38,684 --> 00:04:42,078
+of the key components that make NA10 quite special in that sense.
+
+93
+00:04:42,079 --> 00:04:45,298
+The other cool thing to think about with NA10, now this isn't going to
+
+94
+00:04:45,299 --> 00:04:47,543
+be, this is not going to affect most of you, and I don't want
+
+95
+00:04:47,765 --> 00:04:50,565
+you to get pulled up in shiny object syndrome.
+
+96
+00:04:50,566 --> 00:04:52,967
+You hear about self-hosting. Many of you, if you want to sell this to
+
+97
+00:04:53,248 --> 00:04:55,720
+a business or, you know, implement it in your own business,
+
+98
+00:04:55,721 --> 00:04:59,446
+you're not going to need this, being completely 100% honest with you,
+
+99
+00:04:59,447 --> 00:05:01,920
+because a lot of people will delay the first step trying to figure out
+
+100
+00:05:01,921 --> 00:05:04,759
+self-hosting, you don't need that. But one of the key things I have to
+
+101
+00:05:04,760 --> 00:05:08,395
+point out here is that with NA10, it's open source.
+
+102
+00:05:08,396 --> 00:05:11,466
+It's basically, the code is completely open for everybody to look at and use.
+
+103
+00:05:11,661 --> 00:05:13,838
+And the key thing you have with NA10 is data sovereignty,
+
+104
+00:05:14,161 --> 00:05:16,217
+which means that you can run it locally,
+
+105
+00:05:16,218 --> 00:05:19,624
+on your laptop, or in the cloud,
+
+106
+00:05:19,625 --> 00:05:21,802
+wherever you want to do it. It doesn't have to exist on a server
+
+107
+00:05:22,030 --> 00:05:24,342
+somewhere. NA10 can run locally,
+
+108
+00:05:24,343 --> 00:05:26,645
+which means that your data, your sensitive,
+
+109
+00:05:26,646 --> 00:05:29,369
+private data, with your clients,
+
+110
+00:05:29,370 --> 00:05:32,155
+with your customers, stays exactly on the machine.
+
+111
+00:05:32,404 --> 00:05:35,888
+It doesn't need to leave to run to a billion different places.
+
+112
+00:05:35,889 --> 00:05:38,650
+And that is valuable for a lot of businesses that really want to keep
+
+113
+00:05:38,651 --> 00:05:41,587
+a tight rein on what that software physically looks like. And if you look
+
+114
+00:05:41,588 --> 00:05:44,014
+at this as compared to Make, as a quick, for instance, we've got people
+
+115
+00:05:44,321 --> 00:05:46,401
+joining the community, they're here, we're doing a NA10 masterclass like Jack,
+
+116
+00:05:46,402 --> 00:05:49,003
+we need to get signed in there. You know, we have a couple of
+
+117
+00:05:49,004 --> 00:05:53,747
+things, and I just want to call some key differences out to Make. If
+
+118
+00:05:53,748 --> 00:05:56,308
+you look at the pricing model, okay, Make is pay-per-complete workflow for,
+
+119
+00:05:56,309 --> 00:05:58,358
+excuse me, workflow run, free self-hosting is available,
+
+120
+00:05:58,359 --> 00:06:00,971
+and, excuse me, this is the wrong one, yeah, this is the right way
+
+121
+00:06:00,972 --> 00:06:04,036
+around, actually, my apologies. And then,
+
+122
+00:06:04,037 --> 00:06:06,619
+Hang on a sec, one moment here. Yeah, okay,
+
+123
+00:06:06,620 --> 00:06:10,020
+that makes sense. So basically, Make is cloud-only,
+
+124
+00:06:10,217 --> 00:06:12,757
+NA10, now just run it yourself. If it's low-volume,
+
+125
+00:06:12,758 --> 00:06:14,794
+Make is actually cheaper. Bear that in mind,
+
+126
+00:06:14,795 --> 00:06:16,996
+you may not need to do it, but it's cheaper to get started,
+
+127
+00:06:16,997 --> 00:06:19,136
+and it'll introduce you to many cool concepts. You know,
+
+128
+00:06:19,483 --> 00:06:23,326
+NA10, 20 bucks a month for 2,500 runs,
+
+129
+00:06:23,555 --> 00:06:27,584
+however, as you scale, NA10 becomes significantly cheaper,
+
+130
+00:06:27,838 --> 00:06:30,697
+and Make becomes more expensive. NA10, just based on the way that it runs,
+
+131
+00:06:30,698 --> 00:06:32,765
+does favour more developers initially, because of the stuff you have to learn,
+
+132
+00:06:32,766 --> 00:06:35,217
+whereas Make is for people who, who say, look,
+
+133
+00:06:35,218 --> 00:06:37,850
+keep it simple. So think about this, Make, usually,
+
+134
+00:06:37,851 --> 00:06:40,820
+is for business owners who are time poor, and just want to get stuff
+
+135
+00:06:40,821 --> 00:06:43,523
+done, and they want to connect it. Beautiful. NA10, if you're willing to do
+
+136
+00:06:43,746 --> 00:06:46,007
+the skillset and learn, it is geared more towards developers,
+
+137
+00:06:46,017 --> 00:06:48,044
+but it has more, uhm,
+
+138
+00:06:48,373 --> 00:06:50,501
+more sort of, uhm, things that it can actually drive and do for you.
+
+139
+00:06:50,502 --> 00:06:53,481
+And the final point I just want to make for you guys, and why
+
+140
+00:06:53,482 --> 00:06:55,512
+I use NA10, it's better for more complex workflows.
+
+141
+00:06:55,513 --> 00:06:59,265
+So if you want to get really complex with it and do lots of
+
+142
+00:06:59,266 --> 00:07:01,786
+different things, NA10 can do that. You can have multiple triggers firing off in
+
+143
+00:07:01,787 --> 00:07:05,918
+the same module at the same time.
+
+144
+00:07:05,919 --> 00:07:09,474
+We can have sub-agents, they've configured it in such a way that it's actually
+
+145
+00:07:09,729 --> 00:07:13,128
+easy to do with more complex automations.
+
+146
+00:07:13,163 --> 00:07:15,594
+So, that's just some reasons why we use NA10. I personally freaking love NA10.
+
+147
+00:07:15,595 --> 00:07:18,195
+I love the agentic nature of it,
+
+148
+00:07:18,196 --> 00:07:21,095
+I love how you can configure it all, uhm, and there's a lot of
+
+149
+00:07:21,096 --> 00:07:23,430
+value here. So, if you're wondering why I use NA10, there's a million reasons
+
+150
+00:07:23,431 --> 00:07:26,693
+why you should do that. If you're an AI automator,
+
+151
+00:07:26,694 --> 00:07:29,609
+you do want to automate your business, what I want to do is give
+
+152
+00:07:29,610 --> 00:07:32,834
+you the really key bits, so you can just do that without having to
+
+153
+00:07:32,835 --> 00:07:36,315
+waste any time in your learning. So you will find that using an AI
+
+154
+00:07:36,316 --> 00:07:38,887
+agent has never been easier than it has today without NA10. And it's really
+
+155
+00:07:38,888 --> 00:07:41,979
+exciting, so make the next module guys, I'm going to dive into,
+
+156
+00:07:41,980 --> 00:07:44,300
+on a video, where I compare Make to NA10, so you can get a
+
+157
+00:07:44,581 --> 00:07:46,923
+full breakdown of which one is right for you,
+
+158
+00:07:46,924 --> 00:07:48,500
+and then we'll continue with the rest of the NA10 course.

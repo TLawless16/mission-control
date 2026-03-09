@@ -1,0 +1,31 @@
+Hi there, beautiful Air automator. One of the biggest questions that I get is, how do I take incredible websites, Jack, how do I take gorgeous websites to look a little bit something like this? They come up, they go down, they've got different interactive components, and how do I put it on something like go high level.
+
+How do I put it on something like WordPress? Well, the reason why most people struggle with this stuff is because A, they dunno how to build custom apps. Within these websites, but there's also a mismatch. Think about different code, different coding styles of different coding languages. And sometimes when you build something that's really beautiful like this, which you have access to in the community, of course, of being here exclusively, um.
+
+You don't know necessarily how to bring it over because it's got a different coding language that won't fit in here. So I took this website that we built and I built this in, uh, Gil High level right here that looks like this. Come down and you can see it's got the same level styles. There are a few small, tiny differences you'll notice, but.
+
+For the most part, if you look at it, it is pretty much crazy. It's got the same thing here. We can scroll by, uh, and do various different animations. Um, it doesn't get 100% of the stuff. So for example, some spectacular out of this world animations like, uh, like this for example. This burning websites thing, um, are built in a very specific language, but for like 99% of the websites that you're gonna build, you can actually go ahead and build them in, uh, go high level that look fantastic and do various different things.
+
+So the question is, how on earth, Jack do we do that? Well, let me show you, um, in anti-gravity. So let's open up anti-gravity and check it out. So the way this works is I built an anti-gravity. Uh, if you want go high level conversion skill, or if you'd like word WordPress conversion skill that work in WordPress and it'll work in anti-gravity.
+
+So what we're gonna do is command an l We're gonna come up and open a new page here. Uh, and let me just explain exactly how this works. So. The first thing you do is clone the repo to the environment. So find the design that you've built in AI Studio or whatever it is, and clone it to anti-gravity. Now, I always recommend my strategy guys, if I come up and show you is always build an AI studio.
+
+First. Download that file because AI Studio is a design first platform. And basically, uh, and I should also say, by the way, this is one shot. I could do further, um, critiques, further developments to this, but effectively, let's say that we head over to GitHub, which is where mine is hosted. You just copy this, you come back over to anti-gravity, or you're uploaded and you basically say, Hey there, dude, I want you to clown this repo and add it to the left hand side.
+
+And then you basically come down and you enter in the, your realm. Now I already did this earlier as why, you can see for example, down here, website, I've got all this stuff. Bread is rock and roll. Now essentially what you're gonna be using is this clawed, um, excuse me, Claude, we're using this kind of like, um, HTL flying, um, skill.
+
+So let me show you what the skill is and how it works. So effectively, what this effectively does is. Converts any website code base, react next, JavaScript spelt, et cetera, into a single self-contained HTML file compatible with go high levels custom, HTML, um, JavaScript code Block. So use this when user mentions go high level, blah, blah, blah, blah.
+
+So again, if you wanna do WordPress, just substitute out for WordPress. It doesn't make a difference. Um, and in fact, let me just update that right now. Hey, dude, could you update the skill on the left hand side to include WordPress please? Okay, beautiful. So we'll update that right now. Effectively, what this will do is take your entire application, run through lots of different bits and pieces, and give you a HTML file.
+
+That's literally all you're gonna do. Then how this works and go high level is, and let me open up a brand new page and show you this. So. Um, you're gonna come down to your website editor. I'm gonna assume you know where this is. If you're editing can go high level, but effectively you're gonna come and add in one of these blocks.
+
+So the block that you're gonna be adding in is going to be the custom code block. Okay? So if you come down here, use type in code like so beautiful, and then you're gonna get all of the code on the right hand side. I'll click on open code editor, copy all of it, bam. And then it's basically just paste it in.
+
+So anti-gravity will correct this for you, and you just paste all this in. That's literally all it is. Just turned it into H TM R code, ready to rock and roll, basically. That's like freaking power for this. And then what you could also do if you want to, is build other aspects of the websites around it. I do think though, that there's a couple different fe um, ideas with this one is what we call, um, the complete, like the entire page is just built with the HTML.
+
+The second route though is you can what we call h tm L snipe in a sense that we kind of have these strategic blocks where it's like you could have all the great stuff here. Loads of great stuff underneath. And then we add specific HMR blocks as you wish. And then what you would want to do is basically publish it and save it.
+
+So I'm gonna delete this guy real quick because this is a test block. Publish this, open this up in a new window, which you can do by clicking on this visibility button and it'll appear. And then we've got everything. Sweet and you can go through, you can test it if you don't like it. Basically you just come straight back over to anti-gravity and then you give a prompt.
+
+You'd say something like, Hey dude, looks great, but this part is missing, or it does this on mobile, whatever it is, and it will just tweak the HMR code. You copy it once more and then basically you just throw it into, throw it back into go high level. Then that enables you basically to get stunning gorgeously designed websites in go high level in seconds that pretty much no one else on the planet is doing right.

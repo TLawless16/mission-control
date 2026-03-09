@@ -1,0 +1,115 @@
+1
+00:00:00,011 --> 00:00:04,771
+Guys, let's get started with building your very first N8N environment,
+
+2
+00:00:04,772 --> 00:00:07,985
+and just how you actually use the interface. So, you're gonna head over to
+
+3
+00:00:07,986 --> 00:00:11,792
+n8n.io. I actually just created a new account going through this,
+
+4
+00:00:11,793 --> 00:00:13,866
+and then Lynn was like, By the way Jack, we're gonna delete that,
+
+5
+00:00:13,867 --> 00:00:16,654
+so don't worry about it. What do you do? You come through to get
+
+6
+00:00:16,740 --> 00:00:18,882
+started, alright? Now, cool.
+
+7
+00:00:19,011 --> 00:00:22,997
+I've just created an account. What that screen's gonna ask you is your name,
+
+8
+00:00:23,190 --> 00:00:26,825
+your email address, a password, why you heard about N8N, and then you're gonna
+
+9
+00:00:26,826 --> 00:00:30,410
+learn on a page that looks something like this, and it'll have for you
+
+10
+00:00:30,411 --> 00:00:32,444
+start from scratch, and I'll show you right here.
+
+11
+00:00:32,445 --> 00:00:34,587
+You will see this page. I'm just gonna delete this, because this is what
+
+12
+00:00:34,588 --> 00:00:37,765
+I did in my last video, and it very unkindly,
+
+13
+00:00:37,766 --> 00:00:40,439
+uh, just decided to recommend.
+
+14
+00:00:40,571 --> 00:00:42,741
+So, you're gonna see something that looks a little bit like this, guys, alright?
+
+15
+00:00:43,684 --> 00:00:47,003
+How's this gonna work? You are going to start from scratch in this particular
+
+16
+00:00:47,004 --> 00:00:49,823
+instance. Now, What's important to know here?
+
+17
+00:00:49,824 --> 00:00:52,563
+You've got these things on the left hand side. Most of the time,
+
+18
+00:00:52,564 --> 00:00:54,834
+you're not gonna use any of this stuff. Uh,
+
+19
+00:00:54,845 --> 00:00:57,228
+one key little kind of thing that you may want to use here, or
+
+20
+00:00:57,229 --> 00:00:59,328
+your credentials are gonna be stored here, which is cool,
+
+21
+00:00:59,531 --> 00:01:01,578
+and executions where you can see everything that's happened,
+
+22
+00:01:01,579 --> 00:01:03,593
+so when you do create scenarios,
+
+23
+00:03:13,494 --> 00:03:17,896
+when you come on that and we'll cover on exactly how to do that
+
+24
+00:03:17,897 --> 00:03:20,487
+for yourself. Now, one very quick little thing I want to help you do
+
+25
+00:17:36,158 --> 00:17:38,315
+Admin. Boom. And then everything with admin.
+
+26
+00:17:38,316 --> 00:17:41,118
+Zazzix. You can really quick accessibility to everything like that.
+
+27
+00:17:41,277 --> 00:17:43,936
+So guys, hope you found this one helpful. You've been familiar with the interface
+
+28
+00:17:43,937 --> 00:17:45,822
+and how it works. I'll catch you from next video where we're going through
+
+29
+00:17:45,823 --> 00:17:48,619
+some more hacks and we're going to absolutely frickin' crush it.

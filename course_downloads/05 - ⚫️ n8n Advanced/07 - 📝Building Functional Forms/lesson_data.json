@@ -1,0 +1,25 @@
+{
+  "id": "35b0af9d810c48a3bd57c993ee2f907c",
+  "title": "📝Building Functional Forms",
+  "videoLink": "https://www.youtube.com/watch?v=Wf8hMBhpiw4",
+  "resources": [
+    {
+      "title": "Module 3 Lesson 1 Follow-Along",
+      "file_id": "512ba7e0256a405b87cf95a595fdc6c8",
+      "file_name": "Module 3 Lesson 1.docx",
+      "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "title": "Upload me to n8n",
+      "file_id": "8d10fa8cb57a45c1acac2fdd5e211991",
+      "file_name": "M3L1.json",
+      "file_content_type": "application/json"
+    },
+    {
+      "title": "transcript",
+      "file_id": "3afd93dc3f0944159cb7c6b9ad6bdcfe",
+      "file_name": "Building Functional Forms.txt",
+      "file_content_type": "text/plain"
+    }
+  ]
+}

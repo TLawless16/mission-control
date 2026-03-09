@@ -1,0 +1,46 @@
+1
+00:00:00,016 --> 00:00:04,281
+Howdy, beautiful AI Automator. Today I'm going to show what exactly you're going to
+
+2
+00:00:04,282 --> 00:00:07,016
+learn in this N8N module.
+
+3
+00:00:07,017 --> 00:00:10,508
+So we've done Make Beautiful, now we're going to pick up some N8N stuff.
+
+4
+00:00:10,509 --> 00:00:13,381
+So, as I always say, we always ask the question,
+
+5
+00:00:13,382 --> 00:00:15,721
+automation's in service of what?
+
+6
+00:00:15,859 --> 00:00:18,653
+Any automation that we build in the N8N platform,
+
+7
+00:00:18,654 --> 00:00:21,500
+I'm going to go through in a lot of detail what that looks like,
+
+8
+00:00:21,501 --> 00:00:25,778
+and how it's different, and all the kind of graphical interface differences,
+
+9
+00:00:25,965 --> 00:00:27,985
+and all the incredible stuff we can do. But always,
+
+10
+00:00:28,161 --> 00:00:31,485
+when we're building automation, we are doing it in service of something else.
+
+11
+00:00:31,486 --> 00:00:33,700
+We're trying to get some kind of output. So,
+
+12
+0

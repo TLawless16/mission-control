@@ -1,0 +1,31 @@
+{
+  "id": "d4d3a86505584994adcc9dc374c7439f",
+  "title": "🚀 Build a WebApp (Poem Maker)",
+  "videoLink": "https://youtu.be/8xznJTvBNKU",
+  "resources": [
+    {
+      "title": "Module 3 Lesson 5 Follow-Along",
+      "file_id": "ff3501c3b50d4f588b5c837cf9ae6d01",
+      "file_name": "Module 3 Lesson 5.docx",
+      "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "title": "Upload me to n8n",
+      "file_id": "835d49a216e44bf6a7bbfa20b84ae367",
+      "file_name": "M3L5 (1).json",
+      "file_content_type": "application/json"
+    },
+    {
+      "title": "webapp files",
+      "file_id": "1de3130f30f945f28160b33b4ca04ccf",
+      "file_name": "webapp.zip",
+      "file_content_type": "application/x-zip-compressed"
+    },
+    {
+      "title": "transcript",
+      "file_id": "df5a56a6e362414a9f86371a3b65fef4",
+      "file_name": "Build a WebApp (Poem Maker).txt",
+      "file_content_type": "text/plain"
+    }
+  ]
+}

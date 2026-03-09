@@ -1,0 +1,25 @@
+{
+  "id": "ad59b46f47e040e98654c028f494e279",
+  "title": "📦 Nodes, triggers, and actions",
+  "videoLink": "https://www.youtube.com/watch?v=r14Ie-pmOpc",
+  "resources": [
+    {
+      "title": "Module 2 Lesson 1 Follow-Along",
+      "file_id": "1853cd5064a64f5b839612859fd1ce16",
+      "file_name": "Module 2 Lesson 1 (1).docx",
+      "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "title": "Upload me to n8n",
+      "file_id": "093b5fb9992244eeb3f1bd19bbbeb1a5",
+      "file_name": "M2L1.json",
+      "file_content_type": "application/json"
+    },
+    {
+      "title": "transcript",
+      "file_id": "e5d377c8be894aa08f5d10c6b7f941fb",
+      "file_name": "Nodes, triggers, and actions.txt",
+      "file_content_type": "text/plain"
+    }
+  ]
+}

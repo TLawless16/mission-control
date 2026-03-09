@@ -1,0 +1,47 @@
+Howdy guys, and welcome to the first lesson on this. So I'm gonna talk about why this is essential and it's something you must learn. So lemme start by a little bit of an overview, and that is just by simply explaining that everything is changing. Does it always feel like everything's changing? It is, and this is one of the biggest shifts that you have to pay attention to.
+
+20 26, 20 27. It's massive. Okay. Now I know it can feel a little overwhelming, um, but I'm gonna take you from this guy on the left hand side over to this guy. And not only am I gonna take you to from shock to happy, we're also gonna cut 20 years off your life. That's really cool. Right? So if I go back in time and show you some stuff, okay.
+
+In 2021, you look@make.com, right? Life was really simple and we've covered make.com in a classroom here, right? You'd basically do basic modules. Now we're building full blown SaaS using this technology. Now, one of the things I really want you to understand here is the difference between anti-gravity.
+
+These what we call. You could call them vibe coders is one way to think about it, but it's slightly different. Okay. So you've got nhm, which is a workflow building tool, right? Where effectively we use nhm and we use meg.com when we have a really simple process. Okay. Something that is what we would call deterministic.
+
+In other words, like if somebody. Signs up to my form, add them to my email address list. This happens every single day. It never changes. You could do it a million times. It's the exact same thing that I want to, this is what we call a deterministic. Very simple, very straightforward form, and we would use make.com or NA 10 for that, or if we wanna build in something with.
+
+An agent, you can do it with this, and as weve covered into the module, you can do very cool things at N 10 ai. Like describe the things that you want to, okay, now here's the really cool thing. With these technologies like anti-gravity, you can effectively and actually replace the need for NA 10 and make.com.
+
+Because I can actually say, Hey, I want you to quote for me a website that has an automation, that I upload an image and it changes the color of my jumper, and then I've got a full blown website. We're at that point where it crushes it. Now to understand why that's important and how that works, you have to understand conceptually what me.com and NA 10 R, they are, if you think about it, an extraction.
+
+Layer. Okay, so there's three levels to this cake. The top level is meg.com at NA 10, and all they really are is just code. That's it. For example, if I show you an NA 10 workflow, if I copy all of this, all this is is JSON. You see all this. It's just all J. That's all it is. It's just code that does things and I post it.
+
+There you go again. It's the exact same thing. It's exactly the same in meg.com and all meg.com and any 10 have done in the loose sense, and they're worth billions, is they've kind of created a visual interface on top of it that's literally orbit's happening. So meg.com and na tam are extraction layers above.
+
+The code, and it's the code that's really doing things. So for example, this webhook, okay, we've got a nice shiny thing here, but all it is is taking information from one place and sending it to somewhere else. Or you'll have like an, and it's a scenario something where you are firing off. An API all this is is an API to Google, and you can do that exact same thing with anti-gravity.
+
+So think about it like this. You have meg.com and the top letter of a cake. These are extraction layers above the code. Underneath that, you have what I would call your vibe coding platforms. So this is stuff like, and you've probably seen it lovable dev, right? Not love lovable dev. Alright, let's pull this guy up and have a look at it.
+
+We've got things like bolt nim. Now these are kind of like. Coding interfaces, right? But what they are really is, if you think about it, like ikea, right? So what's the difference between using bolt new lovable dev and then actually using something like coding in your own environment? And, and don't worry, this looks complicated.
+
+I promise this is gonna look so incredibly simple. You can think, Jack, how the hell did I not get it earlier? So this is when we talk about anti-gravity, this is what it is. I'm gonna cover exactly what it is in the next module, but I just wanna conceptually set the framework for what's happening here.
+
+Anti-gravity is one example of what we'd call an interface where you can code on your laptop. Everything else. If you, if think of it like this is your coding in the cloud, right? So lovable, for example, will host and do everything for you, and you speak to it and it does things. You don't need to touch your laptop.
+
+It's the same thing with Bolt. And to some extent it's also the same thing here with. Uh, AI Studio, which is the online version. Now, what's the problem with Livable and Bolt is that in order to make it simple, they trade off on functionality. It. That's the trade off. So think of it like you're buying a house, but you're buying it from iCare, which is, we'll get you the house.
+
+But we've got very set structures in the way that we do things. When you download things into your laptop and you use a local environment, either anti-gravity, there's other things like a cursor, there's, which looks just like this, for example. I'll pop it up and show you. Um, just so you can get a good view and a sense of what that is, uh, let's have a look.
+
+Okay. If by open up curs, you can see they do the same sort of things. We're just gonna be talking about anti-gravity because it's just simple to use one particular platform through this whole thing. But the same rules apply essentially to everything else that we're talking about. So your bolt.news and lovable.
+
+They just exist in the cloud. They're fine for getting started, and they're a great starting place. So the first thing I'd recommend you do if you've never built an app before and you're just starting off, is head over to Lovable Bolt or this website here, which is AI Studio, and just get it. To build you something really simple and describe it and you can do all this stuff.
+
+It's very, very cool. This is the easiest way to get used to what it's like to build apps, but I'm gonna take you through actually taking it now onto your laptop, onto your desktop, and understanding why that's so cool. But I have to really explain why this is the future. So make.com a few years ago, and then anytime came I had coffee with the third employee at NA 10 recently.
+
+Really, really cool guy. They never thought they'd be as big. Is meg.com. They actually, when they get started, just wanted to be a player in the space. But what the really interesting thing is the technology's fast evolving, right? And it can feel sometimes that, how do I know what, how to keep up with everything.
+
+There is nothing beyond anti-gravity. There's nothing beyond these coding interfaces. There is the final. Layer if you think about it like that. 'cause all you've done is you start to begin a friendly, which is I move modules around and I do things. Then I've learned how to use vibe coding apps, which is great.
+
+And then the final layer at the bottom is coding like the, that the code is the thing that does everything. So this is the final. The final level, if you think, if you think about it like that. So you can effectively, now these models get more powerful. Do anything. This trend is only ever going to increase in what it can do, how quickly it can do it, and it will change literally everything.
+
+Now, you still need to know and understand how mec.com works, how NA 10 works, because there's gonna be use cases where we want to use those technologies for different things, and understanding how they work will make you better at using anti-gravity. So when you finish this section. Go down and complete NA 10 advance, but I just wanted to give you a really core overview so you can get started with this stuff.
+
+But just know this, that the applications of this are only ever gonna increase. Now in the next module, we're gonna install anti-gravity together. I'm gonna show you how you import a project, and then we're gonna literally take this into stellar.

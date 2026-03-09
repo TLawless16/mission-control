@@ -1,0 +1,31 @@
+{
+  "id": "bab975cad3c94f78af8fbad66122df74",
+  "title": "👨‍💻 Best practices",
+  "videoLink": "https://www.youtube.com/watch?v=IqBBTUG48V8",
+  "resources": [
+    {
+      "title": "Module 2 Lesson 4 Follow-Along",
+      "file_id": "517257473c504a16acc74a0d6b169ea1",
+      "file_name": "Module 2 Lesson 4 Follow-Along.docx",
+      "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "title": "Upload me to n8n  (Part 1)",
+      "file_id": "10cff3c1e4cb4153905f4b1be2e67049",
+      "file_name": "M2L4_1_2.json",
+      "file_content_type": "application/json"
+    },
+    {
+      "title": "Upload me to n8n  (Part 2)",
+      "file_id": "63c426954a6e48cd87f956ba222a0db9",
+      "file_name": "M2L4_2_2.json",
+      "file_content_type": "application/json"
+    },
+    {
+      "title": "transcript",
+      "file_id": "377011f4ecfc41448109a3676ed5887a",
+      "file_name": "Best practices.txt",
+      "file_content_type": "text/plain"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "a967f213e90e4e35b309fd7638fb3344",
+  "title": "🎨 n8n -> WordPress (Custom Landing Page)",
+  "videoLink": "https://www.youtube.com/watch?v=_w0MF4N-lgY",
+  "resources": [
+    {
+      "title": "Module 3 Lesson 4 Follow-Along",
+      "file_id": "db5b750e58d949a1a9981f044b6222d6",
+      "file_name": "Module 3 Lesson 4.docx",
+      "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "title": "Upload me to n8n",
+      "file_id": "cf22b1413c17466d9069ba25898a4ad4",
+      "file_name": "M3L4.json",
+      "file_content_type": "application/json"
+    },
+    {
+      "title": "transcript",
+      "file_id": "5b308301fe0149018b49f20a2c92192f",
+      "file_name": "WordPress (Custom Landing Page).txt",
+      "file_content_type": "text/plain"
+    }
+  ]
+}

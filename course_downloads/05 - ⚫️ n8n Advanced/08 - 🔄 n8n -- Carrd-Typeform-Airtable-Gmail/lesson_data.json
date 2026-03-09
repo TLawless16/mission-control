@@ -1,0 +1,25 @@
+{
+  "id": "c7d41242e8f04b269d8c5cc6f370d9cd",
+  "title": "🔄 n8n <> Carrd/Typeform/Airtable/Gmail",
+  "videoLink": "https://www.youtube.com/watch?v=bD8iCPr4UII",
+  "resources": [
+    {
+      "title": "Module 3 Lesson 2 Follow-Along",
+      "file_id": "ada3098e9a004c5c8559053d5e6942d1",
+      "file_name": "Module 3 Lesson 2.docx",
+      "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "title": "Upload me to n8n",
+      "file_id": "e660cb833a324ab3be202e29041d954c",
+      "file_name": "M3L2.json",
+      "file_content_type": "application/json"
+    },
+    {
+      "title": "transcript",
+      "file_id": "0d6539f5a9ee49148e38756f8bcc2504",
+      "file_name": "n8n Carrd.txt",
+      "file_content_type": "text/plain"
+    }
+  ]
+}

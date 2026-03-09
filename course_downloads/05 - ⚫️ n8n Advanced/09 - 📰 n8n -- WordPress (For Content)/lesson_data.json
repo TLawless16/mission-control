@@ -1,0 +1,25 @@
+{
+  "id": "00474166d36a4418a5b198fddc2b0018",
+  "title": "📰 n8n -> WordPress (For Content)",
+  "videoLink": "https://www.youtube.com/watch?v=njlZN1AxBzE",
+  "resources": [
+    {
+      "title": "Module 3 Lesson 3 Follow-Along",
+      "file_id": "25ae328bb580446486d7a36a5a7b83e1",
+      "file_name": "Module 3 Lesson 3.docx",
+      "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "title": "Upload me to n8n",
+      "file_id": "11ee0cb7c7d74c2ba41989a9dfe2236e",
+      "file_name": "M3L3__B2G_.json",
+      "file_content_type": "application/json"
+    },
+    {
+      "title": "transcript",
+      "file_id": "4a5c2e5e451c4b8ea4182c707415ecb7",
+      "file_name": "WordPress (For Content).txt",
+      "file_content_type": "text/plain"
+    }
+  ]
+}

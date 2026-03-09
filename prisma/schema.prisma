@@ -1,0 +1,455 @@
+generator client {
+  provider        = "prisma-client"
+  output          = "../src/generated/prisma"
+  previewFeatures = ["partialIndexes"]
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model agents {
+  id           String         @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  name         String         @unique @db.VarChar(255)
+  role         String?        @db.VarChar(255)
+  department   String?        @db.VarChar(100)
+  description  String?
+  model        String?        @db.VarChar(100)
+  capabilities Json?          @default("[]")
+  config       Json?          @default("{}")
+  active       Boolean        @default(true)
+  created_at   DateTime       @default(now()) @db.Timestamptz(6)
+  updated_at   DateTime       @default(now()) @db.Timestamptz(6)
+  credit_usage credit_usage[]
+}
+
+model audit_log {
+  id            String         @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id        String?        @db.Uuid
+  user_id       String?        @db.Uuid
+  action        String         @db.VarChar(100)
+  resource_type String         @db.VarChar(100)
+  resource_id   String?        @db.Uuid
+  ip_address    String?        @db.Inet
+  details       Json?          @default("{}")
+  created_at    DateTime       @default(now()) @db.Timestamptz(6)
+  organizations organizations? @relation(fields: [org_id], references: [id], onUpdate: NoAction)
+  users         users?         @relation(fields: [user_id], references: [id], onUpdate: NoAction)
+
+  @@index([org_id], map: "idx_audit_log_org")
+  @@index([user_id], map: "idx_audit_log_user")
+}
+
+model changelog {
+  id            String         @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id        String?        @db.Uuid
+  action        String         @db.VarChar(100)
+  entity_type   String?        @db.VarChar(100)
+  entity_id     String?        @db.Uuid
+  description   String
+  performed_by  String?        @db.Uuid
+  agent_name    String?        @db.VarChar(100)
+  metadata      Json?          @default("{}")
+  created_at    DateTime       @default(now()) @db.Timestamptz(6)
+  organizations organizations? @relation(fields: [org_id], references: [id], onUpdate: NoAction)
+  users         users?         @relation(fields: [performed_by], references: [id], onUpdate: NoAction)
+
+  @@index([entity_type, entity_id], map: "idx_changelog_entity")
+  @@index([org_id], map: "idx_changelog_org")
+}
+
+model client_contacts {
+  id              String   @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  client_id       String   @db.Uuid
+  name            String   @db.VarChar(255)
+  email           String?  @db.VarChar(255)
+  phone           String?  @db.VarChar(50)
+  role            String?  @db.VarChar(100)
+  primary_contact Boolean  @default(false)
+  social_links    Json?    @default("{}")
+  notes           String?
+  created_at      DateTime @default(now()) @db.Timestamptz(6)
+  updated_at      DateTime @default(now()) @db.Timestamptz(6)
+  clients         clients  @relation(fields: [client_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model clients {
+  id              String            @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id          String            @db.Uuid
+  name            String            @db.VarChar(255)
+  industry        String?           @db.VarChar(100)
+  bio             String?
+  brand_voice     String?
+  target_audience String?
+  notes           String?
+  tier            String            @default("starter") @db.VarChar(50)
+  active          Boolean           @default(true)
+  settings        Json?             @default("{}")
+  metadata        Json?             @default("{}")
+  created_at      DateTime          @default(now()) @db.Timestamptz(6)
+  updated_at      DateTime          @default(now()) @db.Timestamptz(6)
+  client_contacts client_contacts[]
+  organizations   organizations     @relation(fields: [org_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  content_items   content_items[]
+  documents       documents[]
+  ideas           ideas[]
+  client_notes    notes[]
+  projects        projects[]
+  social_accounts social_accounts[]
+  tasks           tasks[]
+
+  @@index([org_id], map: "idx_clients_org")
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model content_items {
+  id                                     String        @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id                                 String        @db.Uuid
+  client_id                              String?       @db.Uuid
+  title                                  String        @db.VarChar(500)
+  body                                   String?
+  content_type                           String        @db.VarChar(50)
+  status                                 String        @default("idea") @db.VarChar(50)
+  platform                               String?       @db.VarChar(50)
+  scheduled_for                          DateTime?     @db.Timestamptz(6)
+  published_at                           DateTime?     @db.Timestamptz(6)
+  published_url                          String?
+  media_urls                             Json?         @default("[]")
+  hashtags                               Json?         @default("[]")
+  performance_metrics                    Json?         @default("{}")
+  created_by                             String?       @db.Uuid
+  approved_by                            String?       @db.Uuid
+  metadata                               Json?         @default("{}")
+  created_at                             DateTime      @default(now()) @db.Timestamptz(6)
+  updated_at                             DateTime      @default(now()) @db.Timestamptz(6)
+  users_content_items_approved_byTousers users?        @relation("content_items_approved_byTousers", fields: [approved_by], references: [id], onUpdate: NoAction)
+  clients                                clients?      @relation(fields: [client_id], references: [id], onUpdate: NoAction)
+  users_content_items_created_byTousers  users?        @relation("content_items_created_byTousers", fields: [created_by], references: [id], onUpdate: NoAction)
+  organizations                          organizations @relation(fields: [org_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@index([client_id], map: "idx_content_client")
+  @@index([org_id], map: "idx_content_org")
+  @@index([platform], map: "idx_content_platform")
+  @@index([scheduled_for], map: "idx_content_scheduled", where: raw("((status)::text = 'scheduled'::text)"))
+  @@index([status], map: "idx_content_status")
+}
+
+model credit_budgets {
+  id                  String        @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id              String        @db.Uuid
+  month               DateTime      @db.Date
+  budget_usd          Decimal       @db.Decimal(10, 2)
+  spent_usd           Decimal       @default(0) @db.Decimal(10, 2)
+  alert_threshold_pct Int?          @default(80)
+  created_at          DateTime      @default(now()) @db.Timestamptz(6)
+  organizations       organizations @relation(fields: [org_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@unique([org_id, month])
+}
+
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model credit_usage {
+  id               String        @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id           String        @db.Uuid
+  agent_id         String?       @db.Uuid
+  model            String        @db.VarChar(100)
+  input_tokens     Int           @default(0)
+  output_tokens    Int           @default(0)
+  cost_usd         Decimal       @default(0) @db.Decimal(10, 6)
+  task_description String?
+  session_id       String?       @db.VarChar(255)
+  created_at       DateTime      @default(now()) @db.Timestamptz(6)
+  agents           agents?       @relation(fields: [agent_id], references: [id], onUpdate: NoAction)
+  organizations    organizations @relation(fields: [org_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@index([created_at], map: "idx_credit_usage_date")
+  @@index([org_id], map: "idx_credit_usage_org")
+}
+
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model documents {
+  id              String        @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id          String        @db.Uuid
+  client_id       String?       @db.Uuid
+  title           String        @db.VarChar(500)
+  category        String        @default("general") @db.VarChar(100)
+  content         String?
+  file_path       String?
+  file_type       String?       @db.VarChar(50)
+  file_size_bytes BigInt?
+  tags            Json?         @default("[]")
+  created_by      String?       @db.Uuid
+  created_at      DateTime      @default(now()) @db.Timestamptz(6)
+  updated_at      DateTime      @default(now()) @db.Timestamptz(6)
+  clients         clients?      @relation(fields: [client_id], references: [id], onUpdate: NoAction)
+  users           users?        @relation(fields: [created_by], references: [id], onUpdate: NoAction)
+  organizations   organizations @relation(fields: [org_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@index([client_id], map: "idx_documents_client")
+  @@index([org_id], map: "idx_documents_org")
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model ideas {
+  id            String        @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id        String        @db.Uuid
+  client_id     String?       @db.Uuid
+  text          String
+  context       String?       @db.VarChar(100)
+  status        String        @default("new") @db.VarChar(50)
+  agent_note    String?
+  submitted_by  String?       @db.Uuid
+  created_at    DateTime      @default(now()) @db.Timestamptz(6)
+  updated_at    DateTime      @default(now()) @db.Timestamptz(6)
+  clients       clients?      @relation(fields: [client_id], references: [id], onUpdate: NoAction)
+  organizations organizations @relation(fields: [org_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  users         users?        @relation(fields: [submitted_by], references: [id], onUpdate: NoAction)
+}
+
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model notes {
+  id            String        @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id        String        @db.Uuid
+  client_id     String?       @db.Uuid
+  title         String?       @db.VarChar(500)
+  content       String
+  tags          Json?         @default("[]")
+  created_by    String?       @db.Uuid
+  created_at    DateTime      @default(now()) @db.Timestamptz(6)
+  updated_at    DateTime      @default(now()) @db.Timestamptz(6)
+  clients       clients?      @relation(fields: [client_id], references: [id], onUpdate: NoAction)
+  users         users?        @relation(fields: [created_by], references: [id], onUpdate: NoAction)
+  organizations organizations @relation(fields: [org_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model notification_preferences {
+  id       String  @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  user_id  String  @db.Uuid
+  channel  String  @db.VarChar(50)
+  enabled  Boolean @default(true)
+  settings Json?   @default("{}")
+  users    users   @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@unique([user_id, channel])
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model notifications {
+  id            String        @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id        String        @db.Uuid
+  title         String        @db.VarChar(500)
+  body          String?
+  type          String        @db.VarChar(50)
+  source        String?       @db.VarChar(100)
+  priority      String?       @db.VarChar(20)
+  status        String        @default("unread") @db.VarChar(20)
+  metadata      Json?         @default("{}")
+  created_at    DateTime      @default(now()) @db.Timestamptz(6)
+  updated_at    DateTime      @default(now()) @db.Timestamptz(6)
+  organizations organizations @relation(fields: [org_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@index([org_id], map: "idx_notifications_org")
+  @@index([status], map: "idx_notifications_status")
+}
+
+model org_members {
+  id            String        @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id        String        @db.Uuid
+  user_id       String        @db.Uuid
+  role_id       String?       @db.Uuid
+  title         String?       @db.VarChar(255)
+  is_owner      Boolean       @default(false)
+  joined_at     DateTime      @default(now()) @db.Timestamptz(6)
+  organizations organizations @relation(fields: [org_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  roles         roles?        @relation(fields: [role_id], references: [id], onUpdate: NoAction)
+  users         users         @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@unique([org_id, user_id])
+  @@index([org_id], map: "idx_org_members_org")
+  @@index([user_id], map: "idx_org_members_user")
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model organizations {
+  id             String           @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  name           String           @db.VarChar(255)
+  slug           String           @unique @db.VarChar(100)
+  tier           String           @default("starter") @db.VarChar(50)
+  active         Boolean          @default(true)
+  settings       Json?            @default("{}")
+  created_at     DateTime         @default(now()) @db.Timestamptz(6)
+  updated_at     DateTime         @default(now()) @db.Timestamptz(6)
+  audit_log      audit_log[]
+  changelog      changelog[]
+  clients        clients[]
+  content_items  content_items[]
+  credit_budgets credit_budgets[]
+  credit_usage   credit_usage[]
+  documents      documents[]
+  ideas          ideas[]
+  intel          intel[]
+  notes          notes[]
+  notifications  notifications[]
+  org_members    org_members[]
+  projects       projects[]
+  roles          roles[]
+  tasks          tasks[]
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model projects {
+  id            String        @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id        String        @db.Uuid
+  client_id     String?       @db.Uuid
+  name          String        @db.VarChar(255)
+  description   String?
+  status        String        @default("active") @db.VarChar(50)
+  priority      String?       @default("medium") @db.VarChar(20)
+  start_date    DateTime?     @db.Date
+  target_date   DateTime?     @db.Date
+  settings      Json?         @default("{}")
+  created_at    DateTime      @default(now()) @db.Timestamptz(6)
+  updated_at    DateTime      @default(now()) @db.Timestamptz(6)
+  clients       clients?      @relation(fields: [client_id], references: [id], onUpdate: NoAction)
+  organizations organizations @relation(fields: [org_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  tasks         tasks[]
+}
+
+model roles {
+  id            String         @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id        String?        @db.Uuid
+  name          String         @db.VarChar(100)
+  permissions   Json           @default("[]")
+  is_system     Boolean        @default(false)
+  created_at    DateTime       @default(now()) @db.Timestamptz(6)
+  org_members   org_members[]
+  organizations organizations? @relation(fields: [org_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@unique([org_id, name])
+}
+
+model social_accounts {
+  id                     String    @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  client_id              String    @db.Uuid
+  platform               String    @db.VarChar(50)
+  handle                 String    @db.VarChar(255)
+  profile_url            String?
+  followers              Int?
+  access_token_encrypted String?
+  settings               Json?     @default("{}")
+  last_synced_at         DateTime? @db.Timestamptz(6)
+  created_at             DateTime  @default(now()) @db.Timestamptz(6)
+  updated_at             DateTime  @default(now()) @db.Timestamptz(6)
+  clients                clients   @relation(fields: [client_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@unique([client_id, platform, handle])
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model task_comments {
+  id         String   @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  task_id    String   @db.Uuid
+  user_id    String?  @db.Uuid
+  agent_name String?  @db.VarChar(100)
+  content    String
+  type       String?  @default("comment") @db.VarChar(50)
+  created_at DateTime @default(now()) @db.Timestamptz(6)
+  tasks      tasks    @relation(fields: [task_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  users      users?   @relation(fields: [user_id], references: [id], onUpdate: NoAction)
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model tasks {
+  id                             String          @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id                         String          @db.Uuid
+  project_id                     String?         @db.Uuid
+  client_id                      String?         @db.Uuid
+  parent_task_id                 String?         @db.Uuid
+  title                          String
+  description                    String?
+  status                         String          @default("new") @db.VarChar(50)
+  priority                       String          @default("medium") @db.VarChar(20)
+  category                       String?         @default("general") @db.VarChar(100)
+  assigned_to                    String?         @db.Uuid
+  assigned_agent                 String?         @db.VarChar(100)
+  created_by                     String?         @db.Uuid
+  due_date                       DateTime?       @db.Date
+  completed_at                   DateTime?       @db.Timestamptz(6)
+  tags                           Json?           @default("[]")
+  metadata                       Json?           @default("{}")
+  created_at                     DateTime        @default(now()) @db.Timestamptz(6)
+  updated_at                     DateTime        @default(now()) @db.Timestamptz(6)
+  completion_summary             String?
+  requirements_checklist         Json?           @default("[]")
+  task_comments                  task_comments[]
+  users_tasks_assigned_toTousers users?          @relation("tasks_assigned_toTousers", fields: [assigned_to], references: [id], onUpdate: NoAction)
+  clients                        clients?        @relation(fields: [client_id], references: [id], onUpdate: NoAction)
+  users_tasks_created_byTousers  users?          @relation("tasks_created_byTousers", fields: [created_by], references: [id], onUpdate: NoAction)
+  organizations                  organizations   @relation(fields: [org_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  tasks                          tasks?          @relation("tasksTotasks", fields: [parent_task_id], references: [id], onUpdate: NoAction)
+  other_tasks                    tasks[]         @relation("tasksTotasks")
+  projects                       projects?       @relation(fields: [project_id], references: [id], onUpdate: NoAction)
+
+  @@index([assigned_to], map: "idx_tasks_assigned")
+  @@index([assigned_agent], map: "idx_tasks_assigned_agent")
+  @@index([client_id], map: "idx_tasks_client")
+  @@index([due_date], map: "idx_tasks_due", where: raw("((status)::text <> 'completed'::text)"))
+  @@index([org_id], map: "idx_tasks_org")
+  @@index([project_id], map: "idx_tasks_project")
+  @@index([status], map: "idx_tasks_status")
+}
+
+model users {
+  id                                             String                     @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  email                                          String                     @unique @db.VarChar(255)
+  name                                           String                     @db.VarChar(255)
+  password_hash                                  String?                    @db.VarChar(255)
+  avatar_url                                     String?
+  phone                                          String?                    @db.VarChar(50)
+  timezone                                       String?                    @default("America/Los_Angeles") @db.VarChar(100)
+  is_platform_admin                              Boolean                    @default(false)
+  last_login_at                                  DateTime?                  @db.Timestamptz(6)
+  created_at                                     DateTime                   @default(now()) @db.Timestamptz(6)
+  updated_at                                     DateTime                   @default(now()) @db.Timestamptz(6)
+  audit_log                                      audit_log[]
+  changelog                                      changelog[]
+  content_items_content_items_approved_byTousers content_items[]            @relation("content_items_approved_byTousers")
+  content_items_content_items_created_byTousers  content_items[]            @relation("content_items_created_byTousers")
+  documents                                      documents[]
+  ideas                                          ideas[]
+  notes                                          notes[]
+  notification_preferences                       notification_preferences[]
+  org_members                                    org_members[]
+  task_comments                                  task_comments[]
+  tasks_tasks_assigned_toTousers                 tasks[]                    @relation("tasks_assigned_toTousers")
+  tasks_tasks_created_byTousers                  tasks[]                    @relation("tasks_created_byTousers")
+}
+
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model intel {
+  id              String        @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  org_id          String        @db.Uuid
+  title           String        @db.VarChar(500)
+  body            String?
+  category        String        @db.VarChar(50)
+  source_url      String?
+  stack_component String?       @db.VarChar(100)
+  impact          String        @default("low") @db.VarChar(20)
+  status          String        @default("new") @db.VarChar(20)
+  metadata        Json?         @default("{}")
+  created_at      DateTime      @default(now()) @db.Timestamptz(6)
+  updated_at      DateTime      @default(now()) @db.Timestamptz(6)
+  organizations   organizations @relation(fields: [org_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@index([org_id], map: "idx_intel_org")
+  @@index([status], map: "idx_intel_status")
+  @@index([category], map: "idx_intel_category")
+}

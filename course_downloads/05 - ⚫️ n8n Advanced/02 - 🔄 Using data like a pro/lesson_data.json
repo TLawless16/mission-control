@@ -1,0 +1,25 @@
+{
+  "id": "277a3fee63324fb1afe9475f0ad874f6",
+  "title": "🔄 Using data like a pro",
+  "videoLink": "https://www.youtube.com/watch?v=PjV6ITecfzQ",
+  "resources": [
+    {
+      "title": "Module 2 Lesson 2 Follow-Along",
+      "file_id": "37fec17b7bdc4afb97c35effc604b176",
+      "file_name": "Module 2 Lesson 2 Follow-Along.docx",
+      "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "title": "Upload me to n8n",
+      "file_id": "43545d3a290844d6b21234d6a2e35ed1",
+      "file_name": "M2L2.json",
+      "file_content_type": "application/json"
+    },
+    {
+      "title": "transcript",
+      "file_id": "bdc87b6ca1ef43f485c471721a8c1b27",
+      "file_name": "Using data like a pro.txt",
+      "file_content_type": "text/plain"
+    }
+  ]
+}

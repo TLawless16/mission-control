@@ -1,0 +1,5 @@
+ Highly beautiful Automators. In this video, I'm gonna talk you through what I call the anti-gravity pre-flight checklist, which is a checklist that you should run before you publish and hand over any anti-gravity or cold code project to any clients. But first of all, I wanna start about and talk about how do we actually give these incredible applications to clients and what does it look like, because it's gonna be very different than make the comment anytime.
+
+I'm gonna take a sip of my water before I jump in with this. Mm, you've gotta load up on those electrolytes, right? So if you think about it, NA 10 and Meg are fundamentally different because the way that it used to work is that we would create these blueprints within meg.com and NA 10, and effectively we would build this in a client's account.
+
+So all the integrations are there and they quote unquote own it. In other words, the automation itself was actually the product. We've now moved over from kind of selling a

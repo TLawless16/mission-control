@@ -1,0 +1,760 @@
+[
+  {
+    "id": "9025cef477b341079045c2f1992d140d",
+    "title": "Start here",
+    "lessons": [
+      {
+        "id": "52137cb7941541a7a28e2954bac30a6c",
+        "title": "📚 What you'll learn",
+        "videoLink": "",
+        "videoId": "dd575b23f8844aa187bb12f09e60465e",
+        "resources": []
+      },
+      {
+        "id": "4182aaee15ed483996309e49fc598245",
+        "title": "🔮 Your Pathway",
+        "videoId": "917de1b6b2a84920960daf2d2c856684",
+        "resources": []
+      }
+    ]
+  },
+  {
+    "id": "03c88e8554b84b979d8c3b3f0420a4a1",
+    "title": "🟡 AntiGravity",
+    "lessons": [
+      {
+        "id": "77f38052d3454714b5bed49a635d1f56",
+        "title": "👋 Welcome",
+        "videoId": "5568f4ed2c504b33b82fb8dac068258b",
+        "resources": [
+          {
+            "title": "🔥 AntiGravity Master Prompt",
+            "link": "https://www.notion.so/AntiGravity-Master-Prompt-2ebe8d6bd13780b79036f055625b471d"
+          },
+          {
+            "title": "Jack's MCP Config",
+            "file_id": "f5795614e8bb491188a596846ee449c1",
+            "file_name": "MCPconfig.txt",
+            "file_content_type": "text/plain"
+          },
+          {
+            "title": "👋 MCP Marketplace",
+            "link": "https://mcpmarket.com/server"
+          }
+        ]
+      },
+      {
+        "id": "931a121b01ac4b5a9e3144c2781632d0",
+        "title": "🚨 AntiGravity vs n8n + Make",
+        "videoId": "760f6f2a764249bd9cb7a5ae277b6162",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "f532b3d8b39448dab6be676bc6c91bbd",
+            "file_name": "AntiGravity vs n8n + Make.txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "3a7d1d2a2bb54cdbac578609fb11cdb2",
+        "title": "👾 Setup AntiGravity",
+        "videoId": "b91e3281c1504b35af92e845eec3923b",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "37a07581811946c7b4c0a1dedd703dc6",
+            "file_name": "Setup AntiGravity.txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "ac20bb411ba744c4a298a5ad166c84de",
+        "title": "🧱 Build Your First App",
+        "videoId": "537d3c54dc084001a0500d3811ad577c",
+        "resources": [
+          {
+            "title": "👾 Debugging Prompt",
+            "link": "https://github.com/NeuraCerebra-AI/Ultimate-Debugger-Prompt-for-Claude-3"
+          }
+        ]
+      },
+      {
+        "id": "307e9968677e4fa597cf329b153a0a13",
+        "title": "🚀 Launch + Maintain your App",
+        "videoId": "c5f5f426e5bf4c58b785924150506a11",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "b4f385df779b4b12967594822eb5dd29",
+            "file_name": "Launch + Maintain your App.txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "448eb5c777034c5385bff7560d792ffd",
+        "title": "👉 Do this Next",
+        "videoId": "22537f5e30df4d67b0bf4082373a0541",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "3d4508cb8b8946d4b8b245c59dbbc02b",
+            "file_name": "Do this Next.txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "ea786e8c4f3f4263ad1382c65d766f29",
+        "title": "🎁 Bonus: Claude Code",
+        "videoLink": "https://www.youtube.com/watch?v=wnRQI4WZlPY&views=",
+        "resources": [
+          {
+            "title": "Claude.md",
+            "link": "https://www.canva.com/design/DAG-ZbJZWxk/qfLLVqzSLZiotZbLCqtgJA/edit?utm_content=DAG-ZbJZWxk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+          },
+          {
+            "title": "transcript",
+            "file_id": "86337e9b10934bd982ddfba19a81338f",
+            "file_name": "The Secrets of Claude Code (from its creator).txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5904ff8672f44b2d9eebe6c9ef8b5ecd",
+    "title": "⚫️ AntiGravity Advanced",
+    "lessons": [
+      {
+        "id": "8c0af892bde144309244bf6b41f8160c",
+        "title": "👋 Welcome",
+        "videoId": "16ed4ea80464435fbc35e6cec19e1b93",
+        "resources": []
+      },
+      {
+        "id": "7028bfd7bc0d4a6986005f0ffb3e157e",
+        "title": "🧬 AntiGravity Cloning System",
+        "videoId": "bbbb5ea4b39b4fbaaaea6f5db10f204c",
+        "resources": [
+          {
+            "title": "🧬 AntiGravity Cloning Skill",
+            "file_id": "44736512c624493bbc106a473dbb7c06",
+            "file_name": "skill.md",
+            "file_content_type": "application/octet-stream"
+          },
+          {
+            "title": "transcript",
+            "file_id": "368e4d43bcc543acafcb0682733f8bd3",
+            "file_name": "AntiGravity Cloning System.txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "22b3a82fbea74eff8956910356f8a9b0",
+        "title": "🧑‍💻 Copy AntiGravity sites to GoHighLevel",
+        "videoId": "31ce1a81ccea4738b6899d17ebd70508",
+        "resources": [
+          {
+            "title": "🤖 Transformer Skill",
+            "file_id": "90f1daf63f464c2c9c25ca9e2640a0f6",
+            "file_name": "GoHighLevel.txt",
+            "file_content_type": "text/plain"
+          },
+          {
+            "title": "transcript",
+            "file_id": "1f12c2f769eb4da98b41e9c8b3521e2d",
+            "file_name": "Copy AntiGravity sites to GoHighLevel.txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "5d7cd05f4dcd401295521fd294f6ab3b",
+        "title": "🚀 Selling AntiGravity to Clients",
+        "videoId": "b182b5166da8405eb7f5ccbe3fe073ae",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "e0a18dd29a1c481285ad4b31cfb2119c",
+            "file_name": "Selling AntiGravity to Clients.txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5499be950bab4fe29e9356cabb21a3ee",
+    "title": "🔵 n8n",
+    "lessons": [
+      {
+        "id": "41761a3fb1144cab910c7f5a846b642a",
+        "title": "📚 What you'll learn",
+        "videoLink": "https://www.loom.com/share/432dc349c83449058ffacd31ad755717?from_recorder=1&focus_title=1",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "7b6afe0e37ab492192fde5518bf4d4ed",
+            "file_name": "Getting Started with N8N_ Your Guide to Automation Mastery.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "ea73c93e9b0b4e39bd68cee07d4621cd",
+        "title": "🤔 Why use n8n",
+        "videoLink": "https://www.loom.com/share/737a629f620142cf89d9975ebf50d992",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "3e89a4e341ea4bb19c7c8d5b694cabdb",
+            "file_name": "Exploring N8N Automation Software.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "bc4fe5ba4fc74b54996fd8c9267810e4",
+        "title": "🛠️ How to use n8n",
+        "videoLink": "https://www.loom.com/share/477726defa214775943c96701a27a5ea",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "e4e2074f38f04d04bae4977e343d8f91",
+            "file_name": "Getting Started with N8N.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "68e03812c737464ab891dea3d6f19e2e",
+        "title": "👾 n8n Hacks",
+        "videoLink": "https://www.loom.com/share/634be8678fae4cf3bd997f812a6732fb",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "af0f7158a4574292b72e837e5fc4f7bc",
+            "file_name": "Software Upgrade and Workflow Tips.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "afe35c4f93d343278802bab05c47a937",
+        "title": "🎉 Build your first automation",
+        "videoLink": "https://www.loom.com/share/f70efe7b5c854bb39a48f6771f08e488",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "89a3c05e73d64668aca93d5a57278991",
+            "file_name": "Building Your First AI Automation 🚀.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "1ce1f7b388bc489dbee89d7f6e74572e",
+        "title": "🤖 your first n8n AI agent",
+        "videoLink": "https://www.loom.com/share/ea05d0b6b0a446ee98afea8aecffe06c",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "42fe5bad6e874b05a2db38c43220ea8e",
+            "file_name": "Getting Started with N8N_ Your First AI Automation Journey 🚀 (1).srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "eb3bcd25a9784b6386026c502a034dce",
+        "title": "📈 30+ Hidden n8n Features",
+        "videoLink": "https://www.youtube.com/watch?v=Alrrire4Pyo",
+        "resources": [
+          {
+            "title": "Resource Document From Workshop",
+            "file_id": "7fec8dfdaa124abd8ec9bc67c9f53d0c",
+            "file_name": "6_6_25_ N8N Power User Workshop_ Hidden Features & Productivity Hacks.docx",
+            "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          },
+          {
+            "title": "transcript",
+            "file_id": "d403924ec39b409ea818197978a8d918",
+            "file_name": "n8n masterclass.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "458429b3f1974111844215895cdd9db4",
+    "title": "⚫️ n8n Advanced",
+    "lessons": [
+      {
+        "id": "ad59b46f47e040e98654c028f494e279",
+        "title": "📦 Nodes, triggers, and actions",
+        "videoLink": "https://www.youtube.com/watch?v=r14Ie-pmOpc",
+        "resources": [
+          {
+            "title": "Module 2 Lesson 1 Follow-Along",
+            "file_id": "1853cd5064a64f5b839612859fd1ce16",
+            "file_name": "Module 2 Lesson 1 (1).docx",
+            "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          },
+          {
+            "title": "Upload me to n8n",
+            "file_id": "093b5fb9992244eeb3f1bd19bbbeb1a5",
+            "file_name": "M2L1.json",
+            "file_content_type": "application/json"
+          },
+          {
+            "title": "transcript",
+            "file_id": "e5d377c8be894aa08f5d10c6b7f941fb",
+            "file_name": "Nodes, triggers, and actions.txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "277a3fee63324fb1afe9475f0ad874f6",
+        "title": "🔄 Using data like a pro",
+        "videoLink": "https://www.youtube.com/watch?v=PjV6ITecfzQ",
+        "resources": [
+          {
+            "title": "Module 2 Lesson 2 Follow-Along",
+            "file_id": "37fec17b7bdc4afb97c35effc604b176",
+            "file_name": "Module 2 Lesson 2 Follow-Along.docx",
+            "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          },
+          {
+            "title": "Upload me to n8n",
+            "file_id": "43545d3a290844d6b21234d6a2e35ed1",
+            "file_name": "M2L2.json",
+            "file_content_type": "application/json"
+          },
+          {
+            "title": "transcript",
+            "file_id": "bdc87b6ca1ef43f485c471721a8c1b27",
+            "file_name": "Using data like a pro.txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "3d01a7f5374e47e89542fee2f585f1b2",
+        "title": "🐛 Error Handling + Fixing Problems",
+        "videoLink": "https://www.youtube.com/watch?v=9kiHfFEAaRg",
+        "resources": [
+          {
+            "title": "Module 2 Lesson 3 Follow-Along",
+            "file_id": "90d65bc8668b43fa8e616c628e8f3184",
+            "file_name": "Module 2 Lesson 3 Follow-Along.docx",
+            "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          },
+          {
+            "title": "Upload me to n8n  (Part 1)",
+            "file_id": "d8eb52d171794efba03cb27111bf1abd",
+            "file_name": "M2L3_1_2.json",
+            "file_content_type": "application/json"
+          },
+          {
+            "title": "Upload me to n8n  (Part 2)",
+            "file_id": "3519c69533ee4934ba3a9cb4390f138c",
+            "file_name": "M2L3_2_2.json",
+            "file_content_type": "application/json"
+          },
+          {
+            "title": "transcript",
+            "file_id": "b26dae16604242c79d177cc0d283d167",
+            "file_name": "Error Handling + Fixing Problems.txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "bab975cad3c94f78af8fbad66122df74",
+        "title": "👨‍💻 Best practices",
+        "videoLink": "https://www.youtube.com/watch?v=IqBBTUG48V8",
+        "resources": [
+          {
+            "title": "Module 2 Lesson 4 Follow-Along",
+            "file_id": "517257473c504a16acc74a0d6b169ea1",
+            "file_name": "Module 2 Lesson 4 Follow-Along.docx",
+            "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          },
+          {
+            "title": "Upload me to n8n  (Part 1)",
+            "file_id": "10cff3c1e4cb4153905f4b1be2e67049",
+            "file_name": "M2L4_1_2.json",
+            "file_content_type": "application/json"
+          },
+          {
+            "title": "Upload me to n8n  (Part 2)",
+            "file_id": "63c426954a6e48cd87f956ba222a0db9",
+            "file_name": "M2L4_2_2.json",
+            "file_content_type": "application/json"
+          },
+          {
+            "title": "transcript",
+            "file_id": "377011f4ecfc41448109a3676ed5887a",
+            "file_name": "Best practices.txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "1ca44a22a5c645eb88fdece2a6d2dfac",
+        "title": "🔗 Connecting apps with n8n (Part 1)",
+        "videoLink": "https://www.youtube.com/watch?v=pQB7il8ovek",
+        "resources": [
+          {
+            "title": "Module 2 Lesson 5(P1) Follow-Along",
+            "file_id": "2a0041d3145e4408b6b07952dc886b65",
+            "file_name": "Module 2 Lesson 5 (Part 1) Follow-Along.docx",
+            "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          },
+          {
+            "title": "transcript",
+            "file_id": "efa161b0dd04423c9b9c284ecd315e5e",
+            "file_name": "Connecting apps with n8n (Part 1).txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "f81b9cc71e5a4362b56a8b036fe000f8",
+        "title": "🔗 Connecting apps with n8n (Part 2)",
+        "videoLink": "https://www.youtube.com/watch?v=uN4Hil5SXz4",
+        "resources": [
+          {
+            "title": "Module 2 Lesson 5(P2) Follow-Along",
+            "file_id": "87a6edfd18304eb79d2a2c1318eb093a",
+            "file_name": "Module 2 Lesson 5 (Part 2) Follow-Along.docx",
+            "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          },
+          {
+            "title": "transcript",
+            "file_id": "3204ace4747244a7bfcbfe16be564e25",
+            "file_name": "Connecting apps with n8n (Part 2).txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "35b0af9d810c48a3bd57c993ee2f907c",
+        "title": "📝Building Functional Forms",
+        "videoLink": "https://www.youtube.com/watch?v=Wf8hMBhpiw4",
+        "resources": [
+          {
+            "title": "Module 3 Lesson 1 Follow-Along",
+            "file_id": "512ba7e0256a405b87cf95a595fdc6c8",
+            "file_name": "Module 3 Lesson 1.docx",
+            "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          },
+          {
+            "title": "Upload me to n8n",
+            "file_id": "8d10fa8cb57a45c1acac2fdd5e211991",
+            "file_name": "M3L1.json",
+            "file_content_type": "application/json"
+          },
+          {
+            "title": "transcript",
+            "file_id": "3afd93dc3f0944159cb7c6b9ad6bdcfe",
+            "file_name": "Building Functional Forms.txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "c7d41242e8f04b269d8c5cc6f370d9cd",
+        "title": "🔄 n8n <> Carrd/Typeform/Airtable/Gmail",
+        "videoLink": "https://www.youtube.com/watch?v=bD8iCPr4UII",
+        "resources": [
+          {
+            "title": "Module 3 Lesson 2 Follow-Along",
+            "file_id": "ada3098e9a004c5c8559053d5e6942d1",
+            "file_name": "Module 3 Lesson 2.docx",
+            "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          },
+          {
+            "title": "Upload me to n8n",
+            "file_id": "e660cb833a324ab3be202e29041d954c",
+            "file_name": "M3L2.json",
+            "file_content_type": "application/json"
+          },
+          {
+            "title": "transcript",
+            "file_id": "0d6539f5a9ee49148e38756f8bcc2504",
+            "file_name": "n8n Carrd.txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "00474166d36a4418a5b198fddc2b0018",
+        "title": "📰 n8n -> WordPress (For Content)",
+        "videoLink": "https://www.youtube.com/watch?v=njlZN1AxBzE",
+        "resources": [
+          {
+            "title": "Module 3 Lesson 3 Follow-Along",
+            "file_id": "25ae328bb580446486d7a36a5a7b83e1",
+            "file_name": "Module 3 Lesson 3.docx",
+            "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          },
+          {
+            "title": "Upload me to n8n",
+            "file_id": "11ee0cb7c7d74c2ba41989a9dfe2236e",
+            "file_name": "M3L3__B2G_.json",
+            "file_content_type": "application/json"
+          },
+          {
+            "title": "transcript",
+            "file_id": "4a5c2e5e451c4b8ea4182c707415ecb7",
+            "file_name": "WordPress (For Content).txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "a967f213e90e4e35b309fd7638fb3344",
+        "title": "🎨 n8n -> WordPress (Custom Landing Page)",
+        "videoLink": "https://www.youtube.com/watch?v=_w0MF4N-lgY",
+        "resources": [
+          {
+            "title": "Module 3 Lesson 4 Follow-Along",
+            "file_id": "db5b750e58d949a1a9981f044b6222d6",
+            "file_name": "Module 3 Lesson 4.docx",
+            "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          },
+          {
+            "title": "Upload me to n8n",
+            "file_id": "cf22b1413c17466d9069ba25898a4ad4",
+            "file_name": "M3L4.json",
+            "file_content_type": "application/json"
+          },
+          {
+            "title": "transcript",
+            "file_id": "5b308301fe0149018b49f20a2c92192f",
+            "file_name": "WordPress (Custom Landing Page).txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "d4d3a86505584994adcc9dc374c7439f",
+        "title": "🚀 Build a WebApp (Poem Maker)",
+        "videoLink": "https://youtu.be/8xznJTvBNKU",
+        "resources": [
+          {
+            "title": "Module 3 Lesson 5 Follow-Along",
+            "file_id": "ff3501c3b50d4f588b5c837cf9ae6d01",
+            "file_name": "Module 3 Lesson 5.docx",
+            "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          },
+          {
+            "title": "Upload me to n8n",
+            "file_id": "835d49a216e44bf6a7bbfa20b84ae367",
+            "file_name": "M3L5 (1).json",
+            "file_content_type": "application/json"
+          },
+          {
+            "title": "webapp files",
+            "file_id": "1de3130f30f945f28160b33b4ca04ccf",
+            "file_name": "webapp.zip",
+            "file_content_type": "application/x-zip-compressed"
+          },
+          {
+            "title": "transcript",
+            "file_id": "df5a56a6e362414a9f86371a3b65fef4",
+            "file_name": "Build a WebApp (Poem Maker).txt",
+            "file_content_type": "text/plain"
+          }
+        ]
+      },
+      {
+        "id": "a2597ef338154091926d6662f0932e52",
+        "title": "👇 What next",
+        "videoLink": "https://www.loom.com/share/aa2e97f94a2d43138cf47345d8e7881f",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "ae586c3a5a82471496b0d9da45a2cec5",
+            "file_name": "Unlocking Your AI Automation Skills_ Next Steps and Exciting Applications.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1e4ae00c72a746e2b7321f9c6894ce79",
+    "title": "🏆 Certification",
+    "lessons": [
+      {
+        "id": "7af040aa0dec4af9aaef09d3856c6a6c",
+        "title": "🎉 AI Automation Foundations",
+        "videoLink": "",
+        "videoId": "46061150832b43b0ae38f79a15e7b9a9",
+        "resources": []
+      },
+      {
+        "id": "ced45ad42bc345fd98677854c90458cb",
+        "title": "💎 Bonus Tool: Tone Of Voice Generator",
+        "videoLink": "https://www.loom.com/share/44d1b5ce54794d439b34a46397a9cc1e",
+        "resources": []
+      }
+    ]
+  },
+  {
+    "id": "cb0c0065580949289211e2ebfe8b84ae",
+    "title": "🟣 Make",
+    "lessons": [
+      {
+        "id": "bcf9cb5ff1b8494f82c4e636839c3129",
+        "title": "🔥 Connect your accounts",
+        "videoLink": "https://www.loom.com/share/3f388250ea984b7b9e4dc9dc3985eee3",
+        "resources": []
+      },
+      {
+        "id": "4588c785b0cb44529ed06e836360ee75",
+        "title": "🔮 Introduction to Make",
+        "videoLink": "https://youtu.be/sX-THSsRo1c",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "1b50a5ed37764c6c87bc32b72fce7538",
+            "file_name": "An Introduction to Make Basics.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "c511e1a644464db0910884d630e64084",
+        "title": "💎 AI Fundamentals",
+        "videoLink": "https://www.loom.com/share/31077c85fe6e47269e51b9208f0ea18f",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "2ebffe0f0e2d40efbfcf7714c80aa893",
+            "file_name": "Understanding AI Fundamentals 🤖.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "d2b2d8c202d54999b778c09368f4c0db",
+        "title": "🤖 Connect ChatGPT + Claude",
+        "videoLink": "https://www.loom.com/share/90cc19b46aef436eb78f8ed60d022866",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "0a2b237c43ec472aac1c50e7e3860bb7",
+            "file_name": "AI 2) How to connect claude and chatgpt.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "4bcaffdd893d4570893b2f3ece9ad343",
+        "title": "🎉 Create Your First AI Automation",
+        "videoLink": "https://www.loom.com/share/d5f2e66f98e84dabb54f3eb5620b5ba3",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "e64ec3a4f6da4a0cadee3da145fd830b",
+            "file_name": "3) Creating Your First AI Automation.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "0af772c08bf745e78d41dd23179f4281",
+        "title": "⭐️ Using AI in Make",
+        "videoLink": "https://www.loom.com/share/bf2057d6739642418189e24983ae3d06",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "d2e0b8f1f75746518ace4dc3e62b80e4",
+            "file_name": "AI Capabilities Unveiled 🤖.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "3009435249674c8f8494c4dc6a3d44a1",
+        "title": "🤔 How to Automate ANYTHING",
+        "videoLink": "https://www.loom.com/share/eda26aa692894c0c92570a84d8c7e9c2",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "028be2c921814ded97f361e213aafb58",
+            "file_name": "Building Effective Automations 🤖.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "4646cd2ff8bd4ff4b40df35e64030cd0",
+        "title": "🤩 Make Best Practices",
+        "videoLink": "https://www.loom.com/share/894e9fa3c20d4492824923c215f7bf41",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "3f150e8e688446928fd5ac74f8adaa3d",
+            "file_name": "Make Best Practices 💡.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "6f84963dacb7461481d7fa3909ddf485",
+        "title": "🧑‍💻 How to Demo Automations",
+        "videoLink": "https://www.loom.com/share/b501e65001ea4ca89158031b4de3fe7d",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "95ea0e524e0746e69d62fe30ad05eec1",
+            "file_name": "Selling and Sharing AI Automations 🤖.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "71f56fcc18fc478d93aee17bd7ccc00a",
+        "title": "🧠 Glossary",
+        "resources": []
+      },
+      {
+        "id": "5fb03d4eaa744c24bc93b3c1d428f7ac",
+        "title": "⚖️ Make vs n8n",
+        "videoLink": "https://www.youtube.com/watch?v=WtrEe223s3Q",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "0a21e4ebef2b46099a80a5d66e796cf4",
+            "file_name": "n8n vs Make.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      },
+      {
+        "id": "e97811aa25ae43ec8fc1a9cc9ed7409a",
+        "title": "👇 What next",
+        "videoLink": "https://www.loom.com/share/38296af011b4481990258353c33175e5",
+        "resources": [
+          {
+            "title": "transcript",
+            "file_id": "67140ca6f3dd48ab9bac8b34cd784d3a",
+            "file_name": "Congratulations on Completing the Make Section! 🎉.srt",
+            "file_content_type": "application/octet-stream"
+          }
+        ]
+      }
+    ]
+  }
+]

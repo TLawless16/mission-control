@@ -1,0 +1,1611 @@
+Transcript
+
+
+0:13
+Do you want anything else while I'm here? Like to a little snack.
+0:19
+Hello. Hello. Hey, John. Hey, Milos. How you doing, Kevin?
+0:24
+Good. Good. Good. How are you, John? Good. I'm well, thank you.
+0:31
+Welcome guys. Welcome Sandy
+0:36
+William. So we're live. We're recording. All right. Cool. So thanks
+0:43
+for being here guys. Happy Friday to you. And this should be I guess an interesting workshop because it's about
+0:50
+NATO and how to take it to the next level. So as I said in the post that I made, it's not for beginners. I will
+0:58
+consider that there is a certain level of knowledge with the stuff that I'm going to be showing. At the same time,
+1:04
+it can help you build better workflows at whatever level it is that you are at
+1:10
+when it comes to using an ATN. And some of the concepts I would say might
+1:17
+also pass through or be able to help you with I guess the thinking around
+1:22
+building automation. So I think it will be an all round sort of useful workshop as well. So this is my hope with that.
+1:30
+Cool. So I have a list of 30 N10 tips and shortcuts on over here. What
+1:37
+I was thinking about before the workshop was should I build these out in an A10 and then run you through them or would
+1:44
+it be more useful to sort of build them out together? And I think the letter is
+1:49
+more useful rather than showing you, okay, this is what I build. This is what is happening. I think it would be more
+1:55
+useful to just go through it step by step and sort of build together. So that is what is going to happen in this
+2:00
+workshop. As always, if you have any comments, any feedback, type it in the chat. I'll be having a look at the chat
+2:06
+every few minutes. And obviously feel free to unmute at that stage and then we can also have a discussion at the end of
+2:13
+the day. It's also a workshop that we're running through together. Any questions
+2:18
+before we get started about anything? Hey there. Hi. Yeah, looks
+2:27
+Hey, I like the idea of building it out. It's better than it all pre-built. Cool.
+2:34
+So, what I have here is this document. I mean 30 plus and 810 tips and shortcuts.
+2:39
+I have different sections. I'll share this document later after the workshop as well. But I will divide the whole
+2:46
+thing into a few sections. It will start off easy and it would get somewhat
+2:51
+progressively a bit more advanced. So the first section is about keyboard
+2:57
+shortcuts and these are again shortcuts that you can use at any level that with any automation that you are building.
+3:03
+So, if I were to go here, I add a manual trigger. And let's put a few set nodes
+3:10
+just to have some stuff on the workflow. And the keyboard shortcuts I'm using
+3:16
+here, I'm going to mention in a bit. But let's say we have these execution
+3:22
+workflow. And then we have these four set nodes, right? Sometimes you zoom in, you zoom out and
+3:28
+you want to quickly get into like see what you're doing at a very high level.
+3:34
+Over here you have the zoom to fit which on the keyboard is a number one. So if I
+3:39
+hit one on my keyboard irrespective of where I'm at, this will immediately bring me back in
+3:46
+the center sort of view. So this is a very useful shortcut to use. You also have the zoom in or thetrl plus. So you
+3:54
+can zoom in and control minus to zoom out. At the same time you can also use the mouse wheel to scroll in and uh like
+4:01
+to zoom in zoom out. So either using the mouse wheel either plus control minus or
+4:07
+by using the button right here.
+4:14
+Can you mute yourself guys please? Then over here you also have the undo
+4:20
+button or the reset zoom which is um the zero button. So if I'm zoomed
+4:28
+in and I press zero that will take me back
+4:35
+to the center of the automation. So this is more about the center whereas the
+4:42
+number one is more about what I actually have. So there's a bit of a difference between the two. If I were to if I had
+4:48
+to just start building in the center when I started, then they should technically take me to the same place.
+4:54
+In my case, this node happens to be in the center. So, if I were to use the reset
+5:00
+zoom, it would not exactly be where my automation is at, right? But if I press
+5:05
+one, I'm taking directly to that. Now, that's pretty
+5:12
+straightforward. I think we have the save button or control S. So, Ctrl S will automatically save that. And I
+5:18
+always like doing that sort of it becomes a second habit after some time to just hit Ctrl S as you go along.
+5:25
+Similar to what you would do with pretty much any other
+5:30
+software. You can control A to select everything or
+5:35
+you can hold shift and select everything. And this is very useful if
+5:40
+you want to take an automation. you have something that is not working and you
+5:46
+want to run it via JPT cloud. So one thing I like doing is a couple of
+5:53
+things. Number one, I take a screenshot of that and I say okay this is what I have
+5:59
+built so far, right? And maybe I highlight where the issue is as I'm passing this to shed GPT. So I took a
+6:04
+screenshot, I copied the image and let's say I go to shed GPD and I paste that in
+6:11
+there. So now I have the screenshot that I took in there. In addition, I want to give Chad GPT, Oracle load or any large
+6:18
+language model more information. So what you could do is you select everything. So shift and drag and like drag your
+6:26
+mouse or control A or command A. And then if you Ctrl
+6:32
+C, what happens is actually that the actual code that goes into building
+6:39
+this workflow gets copied into your clipboard. So now this is the code version of all the nodes that I have in
+6:46
+here. So if I go in here, I copy this and I go to sh GBT even if I don't
+6:52
+include a screenshot and I just paste all the code in here and I say can you tell me what this NA10 workflow seems to
+6:59
+be doing. My question is will this be able
+7:06
+to understand based on that code what is happening? So here it's saying we have a workflow with a manual trigger and then
+7:12
+I have a sequence of four set nodes named edit fields one two and three. So based on that code, it was also able to
+7:19
+create that sort of flowchart or logic of what is happening. And this is very
+7:25
+useful if you have an error with a specific node. You're not just saying I have an issue in this node. You're giving it the whole context of what is
+7:32
+happening in your automation. So to quickly recap, this was me selecting everything Ctrl+ A hitting Ctrl C and
+7:40
+then pasting that into CH GPD. Similarly, you could also select one node or multiple ones. Ctrl C. And then
+7:49
+you just have those two nodes rather than the whole
+7:55
+thing. Any thoughts so far? Any questions so far? I think should be pretty
+8:02
+straightforward yet. But any questions so
+8:07
+far? Okay, let's keep going. Here we have
+8:13
+edit fields one, edit fields or edit fields, edit fields one, edit fields two
+8:19
+and edit fields three which is not very intuitive, right? So different ways
+8:24
+to potentially rename these. One thing would be to right click on that and
+8:30
+choosing rename. So this could be cabin one and this could be
+8:36
+whatever. I can click on a node and hit
+8:41
+space. And I can also hit uh click on a node and hit F2. So different ways to rename nodes.
+8:49
+Click hit space. Click hit F2 or click
+8:54
+or right click and hit rename. The fourth way would be to go into a node
+9:00
+and just click that right there. So this is also another way to rename nodes. So let's call this cabin 4 and hit enter.
+9:08
+So all those for methods do exactly the same thing. When you rename nodes in NA10 and you
+9:15
+are referencing these nodes in a later part of your workflow, you need to be
+9:21
+careful because if here let's say I'm setting for example x equal to 1, here
+9:28
+I'm setting y equals to 2 and here I'm setting z equal to three and I run the
+9:37
+whole thing. If I connect this Kevin 4, this can obviously see everything
+9:44
+right here. So now I can say let's grab the value from Kevin 1 and drag it in there. So now this is saying that the
+9:51
+value of this variable is one. If I were to change Kevin 1 to Kevin 1 3 4
+9:57
+whatever and I try to execute this unless this updates or unless you
+10:04
+update it in some situations you might run into issues. So the name of the node is super
+10:11
+important. So that is it's not like make where you can rename any node, any module and it has no consequences. In
+10:19
+NA10 that is super important. Some other keyboard shortcuts. If I click on a node, I can
+10:26
+hit enter and that will open up the full view of the node. So I don't have to double click here. I can click on a
+10:33
+node. I can also go from one node to another using the left and right arrow
+10:39
+and I can hit enter to enter that node. Another way to go between
+10:44
+different nodes is to hover on the left here and on the right here. So here I went to the last node. I
+10:52
+have no more stuff happening right here. Here I can go to fields two. I can I can
+10:58
+go to that. I can go to that and I can go to the first trigger. So I don't have
+11:04
+to leave the detailed view in order to go to a previous or to the next node.
+11:10
+These only show up when I hover on sort of like the middle right hand side or
+11:16
+left hand side of my screen. Any questions so
+11:29
+far? Okay, we keep going. Let's speak about adding new nodes because most
+11:36
+people would go here, they hit the plus symbol and then obviously they choose whatever it is they want to
+11:42
+add. In this case, as you can see, when I went to the plus symbol and I chose an AI agent in this case, it just dropped
+11:49
+it off wherever my mouse pointer had just clicked. However, I don't want
+11:54
+that. I want that the AI agent is immediately connected to this last node here. So I can either hit the plus
+12:02
+button here or if I click on this and press tab and then I use my keyboard to
+12:07
+choose AI. So I hit enter and AI agent. This is now immediately connected
+12:14
+to that last node. So it will sort of start from where your mouse is or the node that you
+12:21
+have selected. Similarly, if I wanted to add an AI agent after cabin 134 here, I
+12:27
+can click on that. Do the same thing. So, AI AI agent. And now, as you can
+12:34
+see, this immediately connected that to my node. In this case, since I already had
+12:40
+a connection there, it sort of created these two branches. But you can do this to
+12:46
+immediately if I wanted to add a another node here, I can just do that. So I can do whatever use a filter and again this
+12:55
+is now connected directly to that node immediately. So I don't have to add something manually or I don't have to
+13:02
+add that here and then try and figure out where that connects. You just choose
+13:08
+the previous node. You hit tab. You can type whatever it is you're
+13:13
+connecting and then that would immediately get connected to the node that you have selected.
+13:24
+Any questions so far?
+13:33
+All right. Sweet. Let's speak about data. So here I
+13:39
+didn't realize I was on mute. Can I just ask one tiny thing? Sure. You said about the node renaming. Why on earth have N8
+13:48
+given you know it's a professional piece of software done it by text
+13:53
+strings are we saying that the node ID is not unique in the
+13:59
+schema have I misunderstood what you were saying there what I'm saying is that here by default when you use JSON
+14:07
+it will use the sorry I know it's a really good JSON dot
+14:14
+it would use the name Right. So it in this case it would use Y as the name. So it doesn't use the ID. No, it just uses
+14:21
+a string as the name, right? Okay. Thanks. Yeah, I I get what you're asking. Like an ID would never change,
+14:27
+right? Whereas the Yeah, it just seems bizarre. Yeah. Okay. Thanks. Sorry folks. Sure thing. Sure
+14:34
+thing. Now let's speak about there about another two couple of very important or
+14:39
+useful shortcuts. Let's say that I have all this flow right here, right? I have some nodes that are or that I haven't
+14:46
+yet configured. So if I were to run this, this would give me an error. So
+14:52
+maybe what I want to do is test with the stuff that is actually working. So a quick way of doing that would be to
+14:57
+click on the nodes that have an error, hit D on them, and that will deactivate them. So now if I were to run that, I
+15:05
+mean here I have an error as well. JSON. So now if I were to run this
+15:11
+again, it would work correctly because there is no nodes with errors. So either right
+15:19
+clicking and hitting deactivate or hitting D will deactivate
+15:25
+that. Another super useful keyboard shortcut is this execute workflow
+15:30
+shortcut. So instead of having to click that, you can just hit command and enter
+15:37
+and that will execute the workflow immediately. So there's no need to keep
+15:43
+hitting that button when you can just hit control and enter or command and enter. That will immediately execute the
+15:49
+workflow. William, I see you have a hand raised.
+15:54
+Yeah. What's up? What's up? So basically I see you self-hosting. Mhm. Are you
+16:02
+going to be going over cloud hosting tips as well? Because there is an entire
+16:09
+AI assistant that cloud hosted people get that self-hosted people like you and I don't
+16:16
+have access to. I've been playing around with the built-in N like AI assistant on
+16:23
+cloud. Um, it's very helpful and there is like
+16:29
+a certain way that you have to talk to it. Um, so I was just wondering if
+16:34
+you're going over the difference between cloud hosting tips and self-hosting like tips. Yeah.
+16:44
+Not in this workshop. Okay. All right. Cool. Just Yep.
+16:53
+So uh the activate activate nodes one other super useful thing is the ability
+17:00
+to pin data. So here as the output we have z equals to simply because we are
+17:05
+saying z equals to but if I click on actually let me save this. If I right
+17:13
+click and pin here this will hold the data that is in there. Now in this case
+17:19
+it's not very useful because this is just a set trigger. Where this comes in handy if I delete everything here is if
+17:27
+we have for example an AI agent where we're making a request to a model and what we
+17:35
+don't want is either to waste credits whether it's our own or clients or to waste time because each time this runs
+17:41
+it will take a couple of seconds. So, if I go to OpenAI, choose the model here, and I say, um, let's see, let's define a
+17:50
+message here, and I say, you're a helpful assistant that makes a joke based on a
+17:59
+user's name. So, let's do that. I'm going to
+18:04
+give this a username here, which I'm going to pass from a previous node. So, I'm just going to add a note here and
+18:10
+I'm going to put a set and I'm going to say name. In this case, I'm going to put
+18:15
+my name here. So, what I'm going to do, just connect that like so. And if I run
+18:24
+this, I'm going to drag and drop that name. So, now this AI agent knows that
+18:29
+it needs to make a joke and I'm passing along the name. So if I run
+18:39
+that, why did Kevin bring a ladder to the bar? Because he heard the drinks were on the house. So that is the joke
+18:46
+about Kevin. Apparently, if I wanted to run this each time, I would hit execute
+18:52
+workflow. And obviously, this would give me here another joke.
+18:57
+But if I wanted to skip that step, I can right click and choose P or
+19:05
+pin. Same on the keyboard. And then this, as you can see, has the pin icon.
+19:11
+So now each time this runs, it won't waste credits. It won't waste time with
+19:18
+running that agent. And the good thing about this pinning is that even if I save and refresh, so even
+19:25
+if you were to come back to this workflow at a later stage, that data would still be pinned right there. So
+19:31
+that is
+19:38
+pinning. Let's add another node here which is a set node. So normally when
+19:43
+you want to add variables you say I know you give the name of the variable here and over here you have two types you
+19:50
+have the fixed and you have the expression fixed always means that if I put Kevin here this will always be Kevin
+19:57
+essentially if I have expression I can have a variable output or a variable
+20:02
+input in this case if you didn't want to have to keep clicking or having to go to
+20:09
+expression in order to ensure this is an expression. The way to use the keyboard
+20:14
+shortcut would be to type in equals and as you can see this immediately changed it to expression. So now expression is
+20:21
+selected. So again this is just I can I recreate this I can add another note
+20:28
+here set I can drag that or click that I
+20:33
+can give it a name here. So name if I go if I hit tab I'm now add value. I can
+20:40
+press equals and now I have I switched over to expression. Once I'm here I can
+20:46
+type in two curly brackets to insert a variable. And now
+20:52
+if I type in or if I hit enter I have JSON which refers to the previous node.
+20:59
+And if I put a dot I have output. So now just by using the keyboard I'm able to
+21:04
+reference the output from the previous node. So what I did is I used a an equal
+21:13
+symbol to use the keyboard to flip to expression. I put in the double curly
+21:18
+brackets so that this nose knows I'm using a variable. I'm using JSON which
+21:24
+refers to the previous node. I put a dot and then I'm referencing the variable
+21:30
+name which is output in this case. If I wanted to reference this stuff from
+21:36
+edit fields, I can also do that. But in this case, let me just execute this. And
+21:45
+now instead of JSON, I can use or I can reference the v the values from edit
+21:51
+fields specifically this name equals Kevin. So instead of JSON, I can delete
+21:56
+that and I can put in the following sort of um notation. So it's just putting a
+22:03
+parenthesis. I can choose the field I'm referencing or the node I'm referencing which is edit field. And then I just
+22:11
+need to put in dot item do.json. And then I can reference the
+22:16
+specific variable. So in my case as you can see here I have name. So now with this I can reference
+22:23
+anything that happened in the previous
+22:29
+nodes. And now I can execute all that. So now this is outputting
+22:37
+cabin. Now let's say that you want to organize stuff. Maybe these edit fields
+22:43
+aren't very well organized and you want them to be a bit more
+22:49
+structured. A quick way of doing that would be to hit shift and s. And this will add a sticker note. And when you do
+22:56
+that, you can drag and drop or you can rather drag that to make it larger. You
+23:03
+can also hit Ctrl D or right click and duplicate. And this will make a copy of
+23:09
+that sticky note. So now if I go to the icon here, I can change the color of the
+23:15
+top sticky note, which is how you like you get all the
+23:22
+fancy workflows that sometimes you see on social media. I
+23:27
+guess another thing with sticky notes is that you can make them a bit more descriptive. Rather than I'm a note,
+23:34
+double click to edit me. You can double click to edit that or you can also click on that and hit enter. So that will open
+23:39
+up the sticker note. Once we're in here, you're very
+23:44
+much like you're very free to make this as long or as short as you want. So this
+23:51
+over here uses what is known as markdown language. And in this case, we have a
+23:57
+heading two because we have two hash symbols. If I were to remove
+24:03
+one, this would become a heading one. So it's a bit bigger, right? If it's three, it's a smaller sort of font. In
+24:11
+addition, you can also do other stuff using the markdown language. So in this
+24:16
+case, double click, as you can see, has two asterisk next to it, which makes it bold. If I wanted, I can add a item
+24:26
+one, item two. So that will give me a bullet point sort of
+24:33
+list. Another thing if I wanted I can add images in this sticky note. So if I grab
+24:39
+a an image link here let me grab
+24:49
+that image. So let's say I have this
+24:56
+image and I want to include that in my sticky note. The way to do that would be
+25:01
+to use the specific markdown format for including images which is an exclamation
+25:08
+point. Then you put in the alt text. So the text that you want to include for
+25:13
+example image. And then you paste in the URL of the image. And now as you can see
+25:21
+that will include the image as part of the stick node. So again that was let me zoom
+25:30
+in. You have a exclamation point. You have whatever text you want to use as
+25:35
+the alternative text in case the image is broken which you can I believe you can also leave this empty. Yeah, you
+25:43
+just need to have the square brackets and then in normal parenthesis you need to put the actual URL to your image. So,
+25:50
+this will allow you to make sticker notes that much more, I guess, intuitive or that much more
+26:00
+descriptive. Any questions so far? You should always use sticky notes when selling workflows, especially to
+26:06
+clients. Yep. I mean, even for yourself, because unless it's something that's
+26:12
+super straightforward, going back to something even a few days later, at least personally, sometimes it's not as
+26:17
+easy to remember what is actually happening. And having descriptive sticky notes make it that much easier to
+26:24
+understand what is happening.
+26:30
+Any questions so far guys? Because this sort of concludes the first section. Hey
+26:35
+Kevin, sorry to go Phillip. Um just a quick one. Um use a lot of tools like this
+26:42
+that you can put things into containers. So the sticky notes is good, but if you wanted like the nodes to be dragable. So
+26:51
+if you move the the whole sticky note for example, is that what you're asking? Yeah. Yeah.
+26:56
+So how Yep. So just like we selected multiple ones at the beginning using if you hit um shift if you click that hold
+27:04
+it down you can select multiple stuff right. So I can select that I can select that or I can select everything there.
+27:12
+So now I selected the sticker node and the actual notes. So now I can drag that as a group. Oh, but that's if it's
+27:20
+selected. If you just click to the canvas and select the note, it will drag free. Yeah. So you can't get them to
+27:26
+actually. So you see containers containing the nodes and then you know
+27:31
+have not in a group sort of like in the traditional sort of thing. No. Yeah. Yeah. Okay. All right. No worries.
+27:39
+Hey, it's it was exactly the same question. I wanted to be able to move the group
+27:46
+like grouping them not only by selecting not at the moment. I I mean I would assume that would be like a requested
+27:53
+feature but not something that can be done at the moment. One yeah one final thing I didn't
+27:59
+mention here is let's say I have a two other things actually in terms of this section here I have a tidy up workflow
+28:07
+which is shift alt and t if you hit that so shift alt t this will do its best to
+28:16
+organize that in a structured way sometimes it manages to
+28:22
+do that at other times it's a bit of a hit and miss and sometimes times when you have things organized in a specific way and
+28:28
+you try to do that it sort of backfires but the option is there it's a recently introduced feature sometimes it works
+28:35
+that's what I will say the final thing I will say in this section is let's say I want to click on this edit fields right
+28:44
+the second node and instead of holding shift and dragging to select I can also
+28:51
+click on that and if I hold shift and press right on my keyboard that will select from this node I have selected up
+28:58
+until the very end right
+29:05
+hey I don't know who that was so what I said is let's say I have the AI agent
+29:11
+here and I want to select everything from the AI agent up until the first node so from the third up until the
+29:18
+first I can hit the shift button hit left and that will select all those three nodes which can be very handy if
+29:24
+you have different routes different branches instead of I mean having to select that. So just click shift and
+29:30
+then left or right uh keyboard button. So that will select up until the end or
+29:36
+the beginning. Uh let me see if I have anything else here. No, I'm good with
+29:43
+that. I have a question for you Kevin on that one. Sorry that my m was open. If you
+29:50
+have like a switch of like a different routes and press right, which one is this going to go until the switch or
+29:56
+just gonna continue with a the four like or any other routes that you have? So,
+30:02
+are you saying I have a switch, right? Mhm. So, let's say I have two
+30:13
+routes. If I go here and I hit shift right, it will go until the end. If I
+30:19
+click here and shift left, it will go until the very beginning. And if you click on the edit fields to
+30:26
+right in the in the first one, which one? Next to the agent. Obviously, you will get everything. This one or this
+30:33
+one? The one next to the agent. He means the one in front of you. Click on this
+30:38
+one. And then click right. It will choose everything until the end. Okay. So, there's no way to select one of the
+30:44
+roads. Yeah. Yeah. If you just want to select that, I would just select that and then do that essentially. That's a
+30:50
+cool one. Thank you. Yeah, sure. You're welcome. Any other questions, guys? So
+31:00
+far, so let's speak a bit more about data management because over here we had
+31:06
+the AI agent that we pinned the data from, right, when we were speaking about the Kevin joke here. But let's say that
+31:14
+I don't want to rerun the agent, but I do want to change the output of this agent. What I can do here is just hit
+31:19
+the pencil icon and I get the JSON, it is
+31:25
+editable. So I'm changing it once, right? Because if I say I don't know, Joseph instead of
+31:33
+Kevin, now the output is as if the AI agent outputed that which can be very
+31:38
+useful for testing minor changes because now everything if I run this again, everything that comes after the agent
+31:44
+will take Joseph as the pinned data. And one thing I didn't really
+31:52
+notice or realize up until very recently is that the spin icon, sorry, the my
+31:57
+bad, the pencil icon is available on all the nodes. So you are not limited to
+32:05
+outputs even if you just start an automation. So if I drag this and let's
+32:10
+say we're starting an automation right with a normal um execute workflow trigger here you can immediately start
+32:18
+with any data that you want. So here you can say I don't know let's do a shopping
+32:24
+list. So here I will have a an array called shopping
+32:31
+list which contains apples which contains bananas bananas and which
+32:38
+contains oranges. So
+32:44
+now if I save this I immediately get that area. So immediately I can start a
+32:50
+workflow with that pin data which can be super handy in many
+32:56
+different instances. You are not limited to having to have that and then have
+33:01
+another thing and then have a set. You can immediately start with the data that you want to test. So this is the pencil
+33:08
+icon right here where you can change stuff and then hit save. And all the nodes have that ability. So here I could
+33:16
+change the output of the switch node if I wanted
+33:22
+to something manual. So I could technically I guess I mean I've never tried this but based on the code there.
+33:29
+So I put a comma copy that and add a third item. I'm pretty sure we're going
+33:34
+to add another output to uh whatever that was or not. I don't
+33:42
+know. Third item. Edit output. Save. Let's see. Maybe not. Add
+33:49
+routing. Anyway, so here that Yeah. So, we got three routes here. Just needed to
+33:54
+edit them, I guess, or not. Anyway, so that pencil
+33:59
+icon is available on all the nodes. So, it's super easy to just change any output that would be then reflected in
+34:07
+the input of the following nodes. So, that is the pencil icon. Another thing
+34:13
+related to data and this is quite a new one as well I think if let's say we take
+34:18
+this execute and let me just add so far I found this to be the case with notion
+34:25
+with haven't seen it anywhere else so let's say we have a notion create a database page right obviously it's not
+34:31
+connected to anything so I would need to choose my credentials pick a database and all that but let's say that I don't
+34:38
+want to connect it just yet and I go to that over here under schema and it has to be under schema some nodes have what
+34:47
+NA10 knows the output to be if that makes sense. So with notion here and a
+34:55
+database creation page or operation NA10 knows that this generally
+35:02
+outputs an ID a name and a URL. So instead of having to connect stuff
+35:07
+immediately, you can test with this information. So here I can drag and drop that and this will sort of show me what
+35:14
+the expected output would be. The information here is also in these um
+35:20
+like the border is I don't know if you can see it is sort
+35:25
+of like broken, right? It's not one consistent thing in terms of the border.
+35:30
+We chose it. This is the let's see what it calls it here.
+35:37
+the not the pretend data but the expected data I guess you will only fully know what the actual data is once
+35:44
+you run it but with some of these nodes it gives you sort of this expected data which can be handy in some situations if
+35:50
+you I don't know if you don't have the client credentials or you just want to build and then test so this is under
+35:58
+the next node and it would be under the schema so this is sort of this pretend
+36:06
+or this expected sort of
+36:14
+data. Any questions so
+36:21
+far? All right. So, let's keep going with some data management stuff. Let's
+36:26
+say that we have Let me remove this. That should be okay. Let's go to
+36:35
+perlexity and let's just um perplexity API
+36:46
+docs references. Yeah, let's do a chat completion here. By the way, if you're on the cloud
+36:55
+version, NA10 now supports community nodes. So if you're on the cloud
+37:00
+version, if you go to action in app, you'll be able to see all the new
+37:06
+community nodes that are now sort of approved by NA10. So before you could
+37:12
+you couldn't do that on the cloud version. Now you can. So you get access to pretty much the same things like this beyond presence. There's a brave search,
+37:20
+there's tely if you're interested in like doing Google searches and all that. There's 11 labs as well. So all
+37:29
+you do if you're on the cloud version, you get that information right there. You click on that and then you just
+37:34
+choose install node. So they did the same thing. I think it was like last at the end of last week. So that makes it
+37:42
+that much easier to use third party stuff without having to do an HTTP
+37:47
+request like going to the documentation, copying and all that. So that's a sort of side note. So over here in
+37:54
+perplexity, let me just copy this skill because I let's say I want to do a perlexity completion. I'm going to go to
+38:02
+NA10. I'm going to add an HTTP request
+38:08
+because as far as I know, yeah, perplexity is not part of the nodes that
+38:14
+are or the integrations that are available by default. So I'm going to
+38:19
+name this perplexity. And over here, I'm just going to import the curl. Paste
+38:25
+that in there. And this will fill up all the information that I would need to
+38:31
+make a perplexity search. The only thing I would need to do here is fill in my
+38:36
+bearer token. So in the case of perplexity if you go to account
+38:44
+uh pretty much it's account my
+38:49
+account and API keys. Let me just create a new API
+38:55
+key. API keys create. So now I created a new API key
+39:03
+for perlexity. So all I would need to do is go back here, paste it in there, and
+39:09
+now I can execute this step. Right? So this should give me an answer to how many stars are there in our
+39:16
+galaxy. And here, this has given me a bunch of answers here. The Milky Way is estimated
+39:23
+to contain between 100 billion and 400 billion stars. So a few things about
+39:29
+this. If you plan on using that API key more than once, it would be a good idea
+39:34
+to just save it into an A10. And the way to do that, so you don't have to keep
+39:39
+pasting it here over and over again. And even if you share workflows, if I were
+39:45
+to download this and share this with you, you would have access to this API key right here. So the way to get over
+39:50
+that or around that would be to go to authentication. In this case, I'm going
+39:55
+to choose generic credential type. I'm going to choose header
+40:02
+authentication and I'm going to go here to create a new credential. I'm going to give it a name.
+40:08
+So, perplexity. I'm going to paste in that value. And here I need to provide the
+40:15
+name that is actually used. So, if I go here, I know that this is authorization. So, that's the first
+40:22
+part. And then I also know that that will be bearer and then token. So it's not enough to just have the API key. I
+40:30
+need to have the header name and the header value which is this bearer token.
+40:35
+So here I'm going to go to authorization because that is the name. And for the
+40:44
+value I'm going to paste that ensuring I have an empty
+40:50
+space between bearer and the actual token simply because that is what perplexity requires. So now if I hit
+40:58
+save let's test this out. I can remove the header and if I run this again if it
+41:04
+all goes well I get the result back. So if I say how many I don't
+41:11
+know who is there's one in perplexity is like who is Leo Messi I believe like
+41:17
+that's the default when you test it out. So if it does
+41:23
+that I should get an an answer there. So I didn't have to specify my API key and
+41:30
+expose it. It is just saved there. So even if I use this in the future, I go to generic, I go to header rot and I
+41:36
+choose my perplexity key and then I can just run that query right
+41:43
+there. So that is in terms of using that. But let's say that for some reason when I paste in my information instead
+41:51
+of typing in sonar which is the perplexity model I put in two wars by mistake. So if I were to execute the
+41:58
+step, I now get an error. If I look at the executions here,
+42:06
+which is a very interesting menu as well. You can see that in this case,
+42:11
+I've run all these executions during the time we have been together. And each
+42:16
+time there was different stuff happening. almost all of the previous interactions or almost all of the previous executions
+42:23
+worked apart from this last execution. I can click into this, I can see what the
+42:29
+error was. What I can now do is if I go back to the editor, let's say I look at
+42:37
+this, I figure out that the error is there. So I remove that
+42:44
+R. I can go back to executions and over
+42:49
+here there is this um icon just retry
+42:55
+execution. So now I can say retry with the currently saved workflow from the node with
+43:00
+error and this will try again and now it was successful because
+43:06
+I fixed the issue that I had in my perplexity model. So this right here will allow you to start with the node
+43:14
+that caused the error. So if you don't want to start from the beginning when you have longer
+43:21
+automations, this right here um that emoji that sorry that icon can really
+43:28
+save you essentially because you can start you can fix whatever it was and then start it from the node that caused
+43:34
+the error. In addition, you also have this debug in editor. So you can hit
+43:40
+that and this will put in all the data from the workflow that you had running
+43:46
+when the error occurred directly in the editor. So you can use that pin data to get up and running or to fix whatever
+43:53
+the issue was very quickly. Any questions so far?
+44:16
+in terms of the last step for data management. There is the ability to pass
+44:22
+along the date and time right to an aent because by default if I create an AI
+44:31
+agent and let's say I'm actually create a
+44:39
+new chat trigger. So I'm just going to choose chat and I'm going to connect it to an
+44:47
+AI agent. I'm going to choose the
+44:53
+model and here I'm going to say what is today's date.
+45:01
+As you can see, by default, this doesn't know the date or time that we're in because according to it, it's 29th of
+45:07
+October, 2023. The way to get around that is to
+45:13
+use a specific variable. So, here in the system prompt, I'm going to say you are
+45:18
+helpful assistant, which is the default prompt, and I'm going to pass along a expression, an expression there. So I'm
+45:26
+going to use the double curly bracket and I'm going to pass along the now function or the
+45:33
+now I guess it's a function which just gives it the time and date of today. So
+45:39
+it's the 6th of June 2025th and it's 1715 on my end. So now
+45:46
+if I try this again and I say what is today's date that should correctly say
+45:52
+today is June 6, 2025. So that dollar sign now is a very
+45:59
+helpful function questions so far before we go
+46:06
+into s something slightly more advanced. Hey Kevin. Hey Joseph. Hey good morning
+46:13
+everybody. Yeah. Um, I don't know if you covered this uh on that um on the the
+46:19
+now feature when uh when you're putting that in. If you want to get different
+46:24
+formats, uh you can do the now and then right after now you put a period and
+46:31
+then format will pop up. You just hit enter. Now, the cool thing right here is
+46:37
+you hit the single quote line. And if you put F, that'll be one.
+46:44
+Uh, it'll give you that date in the format beneath. Now, push another
+46:49
+F. It changes it to that format. And yet another F, it'll give you the date and uh the um
+46:58
+uh time zone. And then if you do one more F, it'll actually show you the full day of the week and all of that cool
+47:05
+stuff. Nice. Thank you for that. Yeah. Um, also here there's
+47:12
+a like all that information that you can use.
+47:18
+Um, so yeah, it's called the Luxen formatting or whatever that is. Um, I
+47:25
+put in the chat. Very helpful. Yeah, because by default if you are using it for yourself
+47:31
+or for clients like if you get that uni I think it's called uni I might be
+47:37
+wrong. Um, but this isn't very legible, right? So, doing that dot format
+47:45
+is the way to go for yourself or for or clients, I guess. So, yeah. Thank you.
+47:51
+Thanks, Joseph. Any anything else from you guys
+47:57
+so far? All right,
+48:03
+sweet. So, let's keep going here. Going to zoom out. I'm going to
+48:09
+hit one as we said earlier to just see everything here. So now I'm going to go
+48:14
+and zoom in here. And what I'm going to do is let's use another or let's grab
+48:20
+the trigger the click execution. Also sometimes if you have
+48:27
+multiple triggers it's I mean it does tend to get somewhat confused as you are building.
+48:34
+So if you have the when chat message received you have the execute you have a web hook sometimes you're waiting maybe
+48:41
+for this to execute and this is waiting for a web hook to come in. So as you're testing it might make sense to disable
+48:48
+or to deactivate some of the nodes in terms of the input. So here if I have
+48:53
+this one clicking execute workflow let's use a set here because I want to
+48:58
+introduce an array here. So here I have some code which will be like part of the
+49:04
+document I'll share with you after which is just um a few people. So there's Jane,
+49:11
+there's John, there's Emma, there's Michael, there's Olivia. And for each person I have total interactions,
+49:17
+webinar attendance, first name, last name, and locality. So pretty standard sort of data. And what I'm going to do
+49:23
+here is just create an array with this data. And I'm going to paste that in
+49:30
+there. Let's call this the I don't know people. So now I get that list of
+49:36
+people which again pretty straightforward sort of data. What I want to show you is let's
+49:44
+say that I want to extract only the emails from that. There are different ways of doing it. I think there are some
+49:51
+that are easier, some that are more complex. What I could do is I could have a code node. I could go to check GPD and
+49:57
+say give me the code to extract the emails from this JSON. That works. However, there is a much easier way. So
+50:04
+if I go and use a set node here connected to the let's call this
+50:10
+people there is something called JSME is that JME so James without an A.
+50:22
+JMEspot JMEspot.org if you want to learn more
+50:28
+about this. So this is a query language for JSON. So put put this in the
+50:36
+chat and what this will allow you to do is search for specific stuff within JSON
+50:41
+and you could even if you want have filtering involved. So, just like I had
+50:46
+here this information, what I'm going to show you is how to extract the emails from this list of people. If I wanted, I
+50:53
+could also only extract people that have more than 20 total interactions with me.
+51:01
+So, it can also become very useful very quickly. And the way it works, if I go back to NA10 here, so again, very
+51:08
+simple, very simple. We have execution. We have the people with those five
+51:14
+people there. And I have an empty set node here. What I'm going to do is just say this is emails. Right here I'm going
+51:22
+to flip to expression. So either pressing that button or as we saw earlier just typing in the equal symbol.
+51:29
+I'm going to create a new variable. So double curly brackets. And if I type in JM S pot that will bring up that
+51:37
+information. And here I need to provide two arguments. The object and the string. Now the object will be
+51:47
+the source of the information. So in my case I'm just going to say JSON because
+51:53
+this will refer to everything that I have here. I can also be more specific and I think yeah I need to be more
+52:00
+specific actually. So in my case it will be JSON people because that is the area where I have the people. I'm going to
+52:06
+put in a comma and then in quotes what I'm going to do in single quotes is I'm
+52:11
+going to say I want all the emails from my area of people and the
+52:17
+way to define that would be to put in a square brackets put in an asterisk
+52:22
+because that means everything then I'm going to say email as you can see this
+52:28
+created an array of just the emails in this case which is I mean might look daunting
+52:36
+at first but once you start using it it can be very useful because it allows you
+52:41
+to move forward very quickly. So if we look at the output here here we have all the information of those people and here
+52:47
+we have an array with those emails only. Any questions on that or anything
+52:56
+we've covered so
+53:03
+far? Okay, let's take this one step further. So, here we have an array, right, called emails, which has these,
+53:09
+if I zoom out, um, five emails. What if I wanted to convert this into a string?
+53:17
+Because, actually, my bad here, I have a string that contains all the emails.
+53:24
+What if I wanted to convert it into an array? in NA10 and in JavaScript there's a dot
+53:32
+join and a dotsplit which are sort of um opposites of each other. So here if I
+53:38
+have a set and I want to take these emails and convert them into an array I
+53:43
+could say dotsplit and here we have commas as the
+53:49
+dividers between each item. So if I put in a comma here and I run this, I now
+53:56
+get an array of five items. And if I wanted to split that out
+54:01
+using the split out function, I could put in emails there and I now get five
+54:06
+items with each of these having one email address within it. The opposite of the split would be
+54:15
+the join. So here I could also rejoin these back
+54:20
+into one string. So if I have a set and I take that and I say
+54:27
+dot join, this again will go back and I need
+54:33
+to choose area here. So this will now put the data back into a string. And this is super useful when you're playing
+54:39
+around with data types and specific tools that require information in one way or another. So we have the to
+54:46
+quickly recap we have this jme part we have the
+54:52
+dosplit to go from array to
+54:58
+um rather to go from a string to an array and we have the opposite which is the dot join. So here we're joining all
+55:04
+the items in an array into a
+55:10
+string. Any questions so far? That JME path is something I discovered
+55:18
+very recently and I think it's super useful as
+55:24
+well. All right, cool. Let's keep going. Let's say that I
+55:33
+have an image in Google Drive. So, let's do this.
+55:42
+And I'm going to do Google Drive. And I'm going to download a file.
+55:50
+I mean, pretty standard so far. And here I have an ID of a file. I'm going to choose by ID instead of choosing
+55:56
+manually because I know the ID of the file I want to download. I'm going to choose execute. And this will go to my
+56:02
+Google Drive. And download the cute dinosaur. Right now let's say that I want to
+56:10
+upload this immediately somewhere else.
+56:15
+This dinosaur is represented as binary data. So if I go and let's say I'm going
+56:23
+to re-upload it to my Google drive in this case to a different folder or to the root direc directory.
+56:31
+If here I have input data field name which is data and I hit execute step.
+56:36
+This should like very straightforward download the file and then reuploaded.
+56:41
+So there's no issues there. And if I go to my
+56:50
+drive and I look here, you can see I have the two files
+56:56
+right there. Right? So, dinosaur one, dinosaur 2. But let's say that in between these
+57:04
+two there is something else that happens. So, I have a set for example where I'm setting some sort of value. If
+57:12
+I try to run this, as you can see, I run into an
+57:17
+issue simply because the data field or when you were trying to upload data or
+57:23
+binary that node expects data to be readily available from the previous
+57:30
+node. So by default this will not work simply because we have this or other
+57:35
+multiple nodes. And now there are different ways to handle this.
+57:40
+The first would be actually let me bring this back. The first would be I think
+57:48
+the easiest potentially would be to use a merge node with very specific
+57:57
+functions. So here if I connect the set to input two and obviously here we could
+58:03
+have other stuff happening right after the Google drive and before the merge.
+58:09
+So I connect one end like the the rest of the workflow into input two and I
+58:15
+connect the binary data from Google drive to input one. So that's the first
+58:20
+part and then here I need to go and choose combine and I also need to choose by
+58:29
+position. So this will combine the two inputs as input one and input two. And
+58:34
+now if I execute this, there are no issues at all. It will upload as expected. So that is the
+58:42
+first way of doing it. The second way of doing it, if I
+58:47
+delete this merge node. So let's say we have this flow,
+58:53
+right? This is what was causing the error. What I could do is use a code node
+59:02
+because this will sort of bring the information the the output the binary data from this directly here. So then
+59:09
+this would have that readily available and here the exact code to use is very
+59:14
+straightforward. So you just need to say return and then you choose or like you
+59:20
+type in what you're going to return. For JSON, you're going to pass the information in my case from the previous
+59:26
+node, which is this edit fields
+59:31
+9 dot item.json.
+59:40
+Oops. Do item dot autocomplete is doing this thing.
+59:46
+but item.json great and then we're also saying don't just provide the JSON I
+59:53
+also want the binary information which you can get from in our case the Google drive node and in this case it would be
+1:00:02
+the item dot not JSON in our case it would be the item
+1:00:08
+dobbinary so this will create a code node if that works let me see whether
+1:00:15
+I'm doing anything wrong. Execute. Yeah. So, this will output the
+1:00:23
+information or in this case dinosaur from my Google Drive here. And if I were
+1:00:29
+to execute this, this Google Drive now has access
+1:00:36
+to that binary data. So, it doesn't complain and says I can't find that binary. So now if I go back to my Google
+1:00:43
+Drive, I think I should have like four or five instances of that image. Uh
+1:00:49
+yeah, so this was uploading that each and every time. So TLDDR, if you're
+1:00:54
+doing anything with binary data, the previous node to whatever or to wherever
+1:01:00
+you're using that binary needs to have the actual binary and either it is
+1:01:06
+directly that binary file. So if this was the case it would be it would work
+1:01:12
+fine. If you have other things in between you need to either use something like a code node which returns the JSON
+1:01:20
+and the binary to use or you can use a merge node just like we saw that combines the two inputs
+1:01:30
+together. Any questions so far? I've got a question. Yes, Phillip. It's
+1:01:37
+not specifically on that, but it's something you've seen. So, I've done a very similar design pattern where I had
+1:01:43
+a binary going to Google Drive and I did the a little subflow to delete the file
+1:01:50
+if it already existed before uploading. So, so if you look in your Google Drive, you've got multiple copies of the same
+1:01:56
+thing. Yep. And um I wrote a little thing where um it was like where you had
+1:02:02
+the merge and it waited for both inputs to arrive before going to the Google Drive and um the little subtask was to
+1:02:10
+check if the file already existed. If it did delete it and then if it didn't just
+1:02:15
+let it through so that that way I didn't get multiple copies of the same file going into the drive. I'm just wondering
+1:02:21
+if if there's a different way of addressing that or would that design pattern that you're going through at the minute be a suitable fit.
+1:02:29
+Um I mean what I would add here I would
+1:02:36
+h So what would what we would need here before we download you're saying in
+1:02:42
+terms of uploading right? Yeah. It's just like if you upload a file and then do it again and again you get three
+1:02:47
+copies of the file. Yeah. it doesn't with the same name on Google Drive. Obviously, it has unique IDs, but it
+1:02:54
+just you just get this peripheration of just the same file which is frustrating.
+1:03:00
+So, um I didn't know if there's a better way of handling that, but that design
+1:03:05
+pattern that you showed of having the binary loading to Google Drive, but with a another little step that had to run
+1:03:14
+first. So, I would do a search here. search or list files or folders. So if I
+1:03:20
+put in that which is the file name. Let's
+1:03:32
+see. So in this case it found four instances of that name. Right? So in
+1:03:37
+that case what I would say is filter. So if
+1:03:48
+um I mean well don't worry about that
+1:03:54
+specifically. It was um it was just a a design pattern I used. Mhm. No, I think that makes sense. I
+1:04:00
+think it makes sense. Um for items. So what we want is
+1:04:12
+if if the file already exists in the target, delete it before reloading a
+1:04:18
+fresh copy. Yeah. And um so specifically if it
+1:04:23
+wasn't, you know, an image file, if it was like a CSV file and whilst it had the same name, it had an updated data
+1:04:29
+set for example. H. So maybe if that name
+1:04:35
+exists then the Google Drive delete. Yeah. But
+1:04:42
+then if it doesn't exist then you have that issue of the binary not being connected to the to the but then you can
+1:04:49
+yeah do the thing that I just showed. Exactly. That's what I'm saying. That's the scenario I used it in. No, I think
+1:04:54
+that makes sense. Yeah. And then if you delete it, you can also I mean after you
+1:05:00
+delete, are you still like if it exists, are you deleting and re-uploading or
+1:05:06
+Yeah. Yeah. So why? Yes. Mhm. Um Yes. So
+1:05:12
+it' be like um files of of data like just numeric data labeled and um so you
+1:05:19
+had 50 to load and then you ran the process four or five times. You don't want to have 50 times four or five runs of files
+1:05:27
+because then your your Google Drive just gets really cluttered. So with the pattern that you just showed where you
+1:05:34
+have to um the Google the the node that loads the Google Drive, it has to have a
+1:05:40
+connection to the binary you're loading. But before you load it, you want to check if it already exists. Y that's
+1:05:47
+what I did in a little sub node. So obviously you can can connect the the two drive bits, the read and the right
+1:05:54
+um but with a little loop underneath to say um check if it exists first. If so
+1:05:59
+delete and then you bring that together with the merge and then load the file.
+1:06:05
+So if the thing exists Mhm. it will delete and then reload it. Otherwise it
+1:06:10
+will just load it. Would it make sense though to just not delete it and move on? As in if you're deleting and
+1:06:15
+re-uploading? Yeah, it's um well if the if the underlying source data changes but the
+1:06:20
+file name is the same. Okay, fair. Yep. Yeah, but no, I think it makes sense
+1:06:26
+based on what you were saying. Yeah. Yep. Uh
+1:06:33
+so any other questions so far? Okay. Okay. Thank you, Amanda.
+1:06:43
+Let's speak about very quickly the HTTP module. So this is a very interesting
+1:06:48
+one. So if I go to air table API limits, you can see that air table
+1:06:56
+allows five requests per second per base, right? Which means that if you do
+1:07:03
+more than that, you essentially get an error. Air table wouldn't really like that. So if
+1:07:09
+you are using the HTTP request there is a hidden quite a hidden option here
+1:07:14
+which is called batching and here you can define how many items per batch in how many in like
+1:07:23
+in the time period itself. So if you know that air table I mean like in this case maybe air table is not the best
+1:07:29
+because you already have an air table node right? So I'm just giving an example but if you're using this HTTP
+1:07:36
+request with air table you have five requests per second. So if I go to
+1:07:42
+dispatching I can say five requests per second. How many milliseconds? 1,000
+1:07:49
+milliseconds is a second I know milliseconds to seconds. Yeah. So essentially by
+1:07:58
+putting five there this will not do more than five requests per second. So it
+1:08:03
+sort of auto limits based on that higher limit that you put which means that you wouldn't
+1:08:09
+run into errors. So I think it's a very useful function. It's sort of hidden here under batching. So that's one thing
+1:08:16
+I wanted to mention. You could also do like do it
+1:08:21
+the long way around but the option is there. Now in the last part of the workshop
+1:08:26
+what I want to speak about is error handling because this is I mean super important. So different ways of handling
+1:08:33
+data. Let's say that um I want to use the perplexity node again. So let me
+1:08:42
+just cut this out of the way. Let's go here. By the way, you can also controll
+1:08:48
+X and Ctrl V as well. So you can cut and paste notes just like in any other uh
+1:08:53
+like a text processor. So you're not just limited to copy, you can also cut stuff. So here in
+1:09:01
+perplexity, let's say that again I have my I made a mistake and with sonar I put
+1:09:06
+in doubleR. So if I use
+1:09:12
+my execution trigger here and run
+1:09:17
+this, I should get an error there. Bad request. And if this is in production, I
+1:09:24
+mean, it's not a good thing, right? Things fail. We want to either do something about it, we want to at the
+1:09:29
+very least know about it. So there are a couple of options that NA10 provides. First of all, if you
+1:09:37
+click on any node, go to settings and then go here on error, you have three options. So there is stop workflow,
+1:09:44
+which means that this will literally stop just like it did here. It wouldn't continue. You can continue as if nothing
+1:09:51
+happened or you could continue using error output. If you choose the last option,
+1:09:57
+you get the success and the error route. So now you could say if this
+1:10:04
+fails, maybe let's use I don't know open AI message a model. That could be one
+1:10:11
+thing to do sort of a plan B. If it's successful, then we keep going,
+1:10:18
+right? There there's nothing to to happen there or nothing different that
+1:10:23
+would happen. So, we would keep going there. Another thing to do would be to
+1:10:31
+let me remove this. You have a stop and error which
+1:10:37
+allows you to come up with a custom message. So this will give an error in the
+1:10:42
+workflow but you're able to define specifically what that message would say which sort of ties into the next
+1:10:49
+thing I want to mention. So if I go and create another workflow
+1:10:56
+here for any workflow you create, you can have an error workflow which would start with an error
+1:11:04
+trigger and this will only get triggered when there is an error in a specific
+1:11:11
+workflow. So if I call this live workshop
+1:11:16
+error automation and just save that and here I
+1:11:22
+connect it to my Gmail so I send a message let me put in my email
+1:11:28
+here and let's just say problem problems
+1:11:33
+whatever so now there's an error here big
+1:11:40
+problems if I save this and I go back to the original workflow
+1:11:45
+and let me just delete this. What I need to do is first of all I need to I mean
+1:11:52
+let's choose the stop workflow here in order to connect the first
+1:11:58
+workflow with the second one. If I go here and go to settings there is this
+1:12:03
+error workflow setting. If I open that and type in the name that I just gave
+1:12:08
+that workflow which is live workshop error automation. Hit save. If I now execute this workflow here, I got an
+1:12:16
+error. And if we go back here under
+1:12:21
+executions. Oh, yeah. I need to turn this on. Um, no.
+1:12:31
+Executions. Save. Pretty sure I'm missing something.
+1:12:42
+Let's
+1:12:50
+see settings on air stop workflow. Okay.
+1:13:01
+Settings. Okay. So, why did this not H? What am I missing? Has no trigger.
+1:13:08
+activation. Okay.
+1:13:28
+It only works if you activate the workflow. Say again. It only works if
+1:13:34
+you activate the error workflow. The error workflow has no
+1:13:42
+has no ah okay I remember something like let me
+1:13:47
+that's what I yeah um ah it's it's always active okay got it yeah yeah
+1:13:55
+I remember um sorry execute Look
+1:14:06
+good. Yeah, I'm missing something. Very [Music]
+1:14:16
+continue. Stop and error. Let's see. I don't I don't think you need this, but
+1:14:25
+uh
+1:14:36
+settings live workshop. No, you don't need
+1:14:41
+that. So, error out. Okay, you got something
+1:14:48
+here. Okay, one minute ago
+1:14:54
+essentially. No, but this is when I I guess I run it manually.
+1:15:06
+Uh anyway, what I wanted to show and I'll figure out why that is not working
+1:15:11
+here. When you get the error trigger, you get a bunch of information which can be useful if you're trying to debug or
+1:15:18
+if you have multiple workflows to debug. Specifically, you get the ID of the execution. you get the direct link to
+1:15:24
+the workflow that causes the errors. So what I would do here when you're sending the
+1:15:30
+email and let's say you have that in the subject or in the message you it might
+1:15:38
+make sense to put in stuff like the direct URL to the workflow. So the person that gets that email can click on
+1:15:45
+that and immediately get taken to the problematic workflow. There's some other information um like
+1:15:52
+the name and there
+1:15:57
+is let's
+1:16:03
+see there are two variables that might be useful with this one. So if I just
+1:16:09
+create a set just to show you these we have the dollar workflow and
+1:16:15
+the dollar execution. So here if I put in polar workflow dot I
+1:16:25
+can get the ID of the current workflow I get the name which in this
+1:16:30
+case is 98 and I get the active which in this case is false right so that is
+1:16:36
+stuff that you can send about the workflow that had an error in it in addition there's also the dollar
+1:16:44
+execution so here you have again ID which is filled at execution
+1:16:52
+time mode which in this case is test so it's not a production
+1:16:59
+workflow resume URL again filled in at execution time and resume form URL which
+1:17:04
+I've never used so I'm not 100% sure on that but you get a bunch of data that if
+1:17:10
+you wanted you could send as part of this error sort of uh trigger so So that
+1:17:16
+is that right there. H so curious why that
+1:17:21
+is not firing executions. Delete that. Let's try once
+1:17:29
+more. Error. So that needs to be
+1:17:42
+stopped. H maybe I need to be in production in this one. Let's see if I
+1:17:48
+do a web hook here. Just as a quick test and I connect this like
+1:17:55
+so I deactivate that. I shouldn't have any
+1:18:00
+other uh deactivate
+1:18:08
+this. And I have something else here.
+1:18:14
+Deactivate. Deactivate
+1:18:20
+it. Resolve any outstanding issues. What else do we have
+1:18:32
+here? Um
+1:18:47
+So let's try this once more in a new workflow. So if I go here past this in
+1:18:54
+here, this should give me an error because of sonar here. I'm going to
+1:18:59
+choose settings error workflow is the that one.
+1:19:06
+Save. And now if I grab the production URL, this is turned
+1:19:11
+on. So let's run that once more. Okay, workflow was started. Let's see if we got an
+1:19:18
+execution here. Uh over
+1:19:26
+here. Yeah, I just got the email here. So the only thing was that that had to
+1:19:33
+be like the error workflow. There's no trigger for that. But the actual workflow where the error would occur
+1:19:39
+needs to be in production. So now I got this error because that is what I specified in the
+1:19:48
+um live workshop whatever I called it error automation. So here if I change
+1:19:53
+this to we have problems. I try this once more.
+1:19:59
+If I go to my web hook which was that this started normally right then I
+1:20:06
+would run into the perplexity issue. So now if I go back to my inbox I should get another email which is that rider.
+1:20:15
+So whatever you would have passed this information you would now get as a an error
+1:20:21
+email. Any questions so far?
+1:20:28
+Okay, last five minutes. I have some other things and then we can wrap up. So,
+1:20:35
+one useful thing about NA10 is that you can have multiple triggers, right, which
+1:20:40
+I think many of us are aware of at this stage. One trigger that I don't see like
+1:20:46
+I don't think it gets the attention is it deserves is this chron trigger or schedule trigger. So over here you get
+1:20:54
+this green uh watch icon and you have the ability to choose
+1:21:02
+custom and this here you can find help generating your chrome expression here.
+1:21:08
+So here under chronab.guru which shall put in the
+1:21:14
+chat. Uh where's the chat?
+1:21:23
+you can sort of learn how to write a chrome tab schedule expression for whatever. So you can it can be every one
+1:21:29
+minute it can be every seven days something that you can go to check GPT and get help with as well. So let's say
+1:21:35
+you want something to run every 3 hours this would be the formula I mean I don't know formula is the right word but the
+1:21:41
+thing that you would need to copy and just paste in here and now this if I
+1:21:48
+turn it on will run every 3 minutes. So this is a sort of language or an expression that means that every minutes
+1:21:56
+run this automation. There's like hours, minutes, seconds and a bunch of symbols to
+1:22:02
+indicate whatever that is. Right. So this is chron
+1:22:08
+uh flow direction. Yeah. So the last thing I wanted to mention is this. If I
+1:22:15
+just zoom out a bit, let's say I have
+1:22:23
+execute a workflow. Let's delete or disable that
+1:22:29
+and just have this right here. Going to have a bunch of
+1:22:34
+set. Oh, duplicate. Let's duplicate
+1:22:39
+that. Let's set a
+1:22:47
+weight. And let's also duplicate these and do
+1:22:57
+this. If I run this, notice what happens. So it goes up the route
+1:23:04
+there. It waits for 5 seconds and then it goes up the or it goes down that route, right? Pretty
+1:23:11
+straightforward. If I grab this and I put this, notice what happens now. It now
+1:23:18
+goes up the route at the top and then it goes down the route at the bottom. So an A10 works in left to right, top to
+1:23:26
+bottom sort of order. So where you put the actual nodes has a bearing on the
+1:23:33
+actual results. With that said, I have seen instances where it doesn't follow that.
+1:23:40
+So if let's say that over here you need to ensure that both root one and route
+1:23:46
+two have finished before we go to the next part. The way to ensure that happens would be to use a merge node
+1:23:53
+because if I have input one and input two whatever we have after
+1:23:59
+here will not keep going or will not uh as in kick into action unless or until
+1:24:06
+root one and route two are complete. So this will ensure that everything will
+1:24:12
+get executed before
+1:24:17
+resuming and that's pretty much it from my end. So
+1:24:32
+questions we're good. You're the goat man. The goat. I haven't heard that.
+1:24:38
+in this context before. Was that useful? Yeah, very useful for
+1:24:47
+me. And I heard another English voice which was unbelievable in this community. Philillip, say again, Amanda,
+1:24:55
+I heard another English voice which is quite unbelievable in this community. True. That other than Jack. True.
+1:25:03
+There's a few of us. No, I I learned some I I followed half because I was doing other stuff, but I definitely learned some stuff. So, thanks. Thank
+1:25:10
+you, Roger. Hey, uh Kevin, can you hear me? Joseph. Yes. Fantastic. Here, I
+1:25:16
+really love the this last uh stuff that you you showed the crown job. It looks
+1:25:22
+like it has some kind of a an IT use case. Uh I remember back when I was an
+1:25:28
+IT auditor you have all of these jobs that you schedule and they use the chrome I think I'm thinking the same
+1:25:35
+technology. Uh so what will be the use cases um for these in the automations that we
+1:25:44
+have right now where can I maybe use this front job? Yeah. And I don't think
+1:25:49
+it's technical at all because all you need to say is I want an automation to write to run at 5:56 p.m.
+1:25:57
+every I think you can get as detailed as like every third Thursday of the month
+1:26:04
+or something like that. A common one would be wanting it to run at weekdays. So, um, actually, okay. So, what I've
+1:26:12
+posted in the chat, that would do 3 minutes past 7 every day of the month,
+1:26:18
+every month of the year, days, weekdays, 1 to five. So, that would be how you'd set something to run, you know, Monday
+1:26:25
+to Friday and ignore the weekends, you know. So, could it be a situation like So,
+1:26:31
+could it be a situation like let's say um I have an automation go pull all the comments on my social media stuff and do
+1:26:39
+this uh on uh on Friday at 7 p.m. every
+1:26:45
+week. Yeah. Okay. So, sorry. What What time would that be?
+1:26:53
+Uh no, I'm saying 7 p.m. Just throwing a time there. uh on Friday. Yeah, let's say uh
+1:27:02
+I mean I I can give you a use case also. I've used I've built a scheduleuler so
+1:27:07
+where I have dates in Air Table like for social media posting. Yeah. A list of
+1:27:12
+dates, future dates. Mhm. And you can grab that list and you can it's a little
+1:27:18
+bit advanced you can update the workflow. So the chrome job trigger
+1:27:24
+module you can programmatically via the NN8 API you can change the workflow and
+1:27:32
+then you have it will run at exactly at the dates you have in air table
+1:27:38
+this is what we were saying last time on the call right Christian h yeah yeah yeah so that's more advanced but you can
+1:27:44
+build your own scheduleuler if you want with that can I just ask a question about that on scheduling because I
+1:27:50
+haven't seen anybody doing And I don't know whether it's an N limitation, which I can't really believe it is. Uh the
+1:27:58
+bestuling tools, they enable you to sort of fill the stock and flow workflow of
+1:28:03
+the posts. So it will just go into the next available slot. Like on Blato, it
+1:28:09
+does that Hootswuite, Buffer, etc. So, it's like having a stock of posts and
+1:28:14
+you've got slots that are scheduled on the days on the different platforms and
+1:28:19
+it will fill them rather than you've got to because this specifically having to say it's going to go out on this date at
+1:28:25
+that hour is like quite tedious really.
+1:28:30
+So, I just wanted you done any of that with NAN. Yeah, that's what I said. Um, sorry.
+1:28:37
+This this node is static. Yeah. in the workflow uh which is Kevin Kevin is
+1:28:42
+showing. Yeah. But you can you can modify the workflow so that node is not
+1:28:47
+static anymore. You are updating right the workflow itself on the node the content of the
+1:28:55
+node you can update that via the NN8 API. Yeah. Just like I don't know if the
+1:29:01
+example holds Christian but like if you were to prompt at GPT or a large
+1:29:06
+language model you can have the prompt within an A10 or you could have it in a table
+1:29:12
+and then you could modify it in a table based on what you want. In this case, we're doing the same thing but with the
+1:29:18
+schedule. So you have full control over when it runs in our table and you just
+1:29:24
+change that and then it would update in an A10. Yeah. Yeah. I mean it's it's it's pretty
+1:29:30
+pretty simple actually. I mean I can can share it can share it quickly if you
+1:29:36
+want. I I have to run. Yeah. Yeah. But can you make maybe a post about it if
+1:29:41
+you're up for it? I think it'll be useful to Yeah. Yeah. I can do I can I can do that. Yeah. Yeah. Well, just
+1:29:48
+screenshot would be great. I don't want to take up anybody's time on. Cool. Guys, I hope you enjoyed that. Any
+1:29:54
+questions? I mean, I'll upload the replay tomorrow and I'll make a recap post about it. Any questions, let me
+1:29:59
+know. And yeah, hope you have a great week everybody. Have a great week. See you. Have a good week. Catch you soon.
+1:30:06
+Thanks everyone. Thank you very much. Bye.

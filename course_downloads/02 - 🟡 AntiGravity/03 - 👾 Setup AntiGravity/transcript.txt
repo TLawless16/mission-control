@@ -1,0 +1,73 @@
+Alright guys, so let's download Anti-Gravity and get our first projects. We're gonna cover what GitHub is and actually how to get started. So the very first thing I want to do is head over to this. You're gonna go over to Google antigravity.google gonna come down here and you're gonna download for Mac hours, ba.
+
+That's the first thing I want you to do. When you've done that. The other thing I want co ahead the guys in the install is this is nodejs.org. Now what is node js? So do you remember when you were using like an online vibe coding builder, like livable or bolt, how you could basically get it to do changes?
+
+What do, what node JS does for us is it basically lets us, if you think about it like this, right? It lets you do all the changes you want to on your laptop. So it can do many different things like change. And no folders on your computer. It can just do things at your computer level. So the way that it works with anti-gravity, so once you download it, so I get emotional talking about it.
+
+It will look a little bit something like this, which is really cool, right? But it's like, okay, great, but how do I go ahead and actually get a project and what am I physically looking at here? So it looks a bit WhatsApp. So lemme explain just a general overview of the interface. And I also wanna explain to you what the terminal is and how we import projects and stuff.
+
+So on the right hand side, this is the area of the script where you basically give it commands. I can say, Hey, you build me an app, or, Hey, you do X, Y, Z. It's very, very, very cool. Antigravity has got some very unique features that we're gonna cover when we, when we build an app together in this section, which is really cool.
+
+You've got code with the agent, edit in line, and on the left hand side you can see loads of interesting things. Okay? So these are gonna be how you can navigate through everything. You can publish the GitHub, so you can do this if you wanna publish things on GitHub. So this are probably great times to talk about what GI is and how this connects to everything.
+
+So structurally, think of it like this, this anti-gravity lives on your computer. The way that it works is you basically open the file. So the first thing I'm gonna do is come to your desktop and create a new file. If I click on file, if I click on open folder, okay, this is basically the workspace. So create a new folder and we'll call this one like AI Auto with.
+
+Jack. Okay. Bam. Now, this is our project. It's got nothing in it. We just created it. I click on open, bam. Now, AI Auto with Jack is a new project, and that's where we would basically create everything we want to in it, which is very, very cool. Now, let's say for example, that I want to install a project like in the classroom.
+
+You've seen a really cool system that I've built and you want to install it. How do we do that? Well, one of the tools and softwares we use for this. It's something called GitHub. It's not called GitHub. Like some Europeans will have you believe. They've called, it's called GitHub. Now what is GitHub? So GitHub, fundamentally all it is, is a place where we store files.
+
+That's it. It's literally that it, and it lets people collaborate on stuff. So for example, when I, when I code. Create something like this, this website, which is you have this template in the community, by the way. It's very, very cool. And let's say you like Jack. I love this website. I know that it works.
+
+It's got all the bits and pieces into it. It's beautiful. I love it. How do I create it? How do I get this for me? How do I grab it? Well, all we do is we grab the GitHub repository for it, and that's it. So let's actually head over together now into the community and grab this kit hub link so you can see exactly how this works.
+
+So I come over to the classroom. And I believe this one is under every AI automation. The classroom may look a little bit different when you check this one out, simply because I'm revamping it as we go through. So I think it's on this million dollar landing page section. You're gonna come down and you're gonna see down here the million dollar landing page.
+
+So I click on this and be lo and behold, what do we see? We see loads of code. Oh my goodness. The code is crazy. Here's the cool thing. You don't need to know what any of this stuff does yet. You'll pick things up naturally. The more time that you spend with it. But this isn't about becoming a master code, it's not about that.
+
+We've just gotta understand some of the basics. Now you can see it's got loads of interesting stuff. Let me just explain to you what GitHub is and how this works and how you create repos. And we're gonna do the entire thing in this section, but for your purposes, just think of it as a place where we store files and other people can put files there and we can share it with one another and collaborate and grow and be really cool.
+
+So. How does it work? Well, effectively what you would do is you can just click on this code thing and you're gonna see a URL. Okay, that is the GitHub repo, the repository for all this stuff. That's it. And I just copy it. That is it. Now all I do is gonna come down and literally, the cool thing about Anti-gravity is it's powered by Gemini three Pro, which is literally so fricking powerful.
+
+Claude Sonnet 4.5 is also immensely powerful. Lemme explain broadly what you use each of them for. Gemini three Pro, anytime you're doing any native features in anti-gravity, which we're gonna cover in this, in this classroom, this masterclass use Gemini three Pro High. All the models are fine tuned to its individual technologies.
+
+So for example, Claude 4.5 Pro has various different things. It's got its own browsers. It's really good at different bits and pieces, but if you're doing Native Tech, use that specific thing. Okay, so Pro High is for your, think of it like your Galaxy brand, your big lifting and shifting thing. I like to use 4.5 Sonet personally when it comes to copy on the page.
+
+If it's something to do with copy all, you're really troubleshooting. I find that Sonet 4.5 is fantastic. Gemini three Pro High is very, very, very powerful at design. So think about this, Gemini equals design. Claude equals troubleshooting and coding. Okay? And then G-P-T-O-S-S is where like, you know, an NINT can poop with an IKEA of 50 could do their thing.
+
+So that's when you normally do token management. But honestly, if you're doing this for your business or your clients, I'd recommend that you get one of max plans either on Gemini or Cloud. Claude. It's really worth it. And. You have a lot of fun doing it. So let's say, for example, I wanna do this. Now I'm gonna say, Hey there, dude, I would like you to import this project from the below GitHub repo.
+
+Really cool. Okay. Come down here. Post that in, and there we go. That's literally it. Now you, the great thing about anti-gravity is that you can literally just talk to it and it will go forth and do that. So it's having a think. And then what this will do is go to, now the reason it's able to do this, I should clarify, is because the GitHub repo is publicly accessible, and you can always check this in GitHub by coming over here to settings.
+
+Okay? And then if you scroll down, you're gonna see something on privacy. Okay. And you can see the change visibility. It's currently public. If you ever wanna turn your project to private or public, you can do it right there, no questions asked. Super duper straightforward. So when it come back, it's gonna ask for whether you want to accept it.
+
+We just say, Hey, we're cool with that. That's fantastic. And then what this will do is basically bring all this stuff guys here, and then now you've got it. How up? It's got everything, all the brands we work with, all this cool stuff. It's brought down everything for you. How fricking cool is up. Now what I'd like to do is.
+
+Basically, because you're probably thinking, Jack, pretty cool. How do I actually physically see this and what does it look like? Well, what we wanna do is basically check it out on what we call the local host. Really fricking fancy way of saying that it's just on your computer, right? Because if you think about it, anytime you're using any software that is using GPUs in a comp in an office somewhere.
+
+So if you look at Glider, for example, our text speech startup, this one here, really, really cool. Here's the thing. We are renting a specific GPU in a building that is exclusive for people using glider, right? When you're using cloud services, you're just going to some huge data center and using it. What this, all that's happening here is it's running on your laptop.
+
+That's all local host means is it's on your laptop. That's literally it. Now it's done everything here. I'm gonna say, awesome. Open this entire thing up for me in the local host. Okay, great. I'm gonna send this one up here. Fantastic. And then we'll be able to see this ourselves. Again, I'm gonna cover through everything like this, but you can see now it walks through everything.
+
+It's got different, um. We call these artifacts where you can do various different things. It'll show you the things it's doing. We've got these things here. We can cross them off and do various different things to see the tasks. Okay. It's very, it is really, really, really freaking cool. And again, what you can also do here is actually edit and interact with 'em.
+
+You can review, you can say, for example, when you actually ask, uh, anti grab to do something, what it will do is come up with a list. There's actually several artifacts. And if I say, do you know, dude, I don't really like. Where this is heading, I can click on review and I can say something like, Hey, could you also just change the color of this website to have a dominant yellow?
+
+Beautiful. Okay. Now that is a bit of a crazy example, but what you can do when it spins up these artifacts, you can give it feedback dynamically, which is really freaking cool. So we're gonna come down here, we're gonna accept this. We're gonna run the command. And now we're gonna be able to physically see this.
+
+Now, while this is happening in the background, I wanna touch on another really important concept that's gonna be very helpful for you, and that's something called the terminal. So the terminal, you can access by doing command plus space bar like so. Uh, oops. Command space bar and type in terminal. If you're on a Mac.
+
+Cool. We open this up. Now the terminal, and guys, look at this. You see it was opened up at local Host 3 0 0 2. That means just hosting on your laptop. Now look guys, look at how freaking cool this is. It's so freaking cool. Now, one of the amazing things about anti-gravity is the fact that. It, everything. Um, you know, this whole browser control thing, what Gemini can do here is open the browser, have a look through it, te push the buttons, open things, check things, check the design, and it can self-correct itself.
+
+It can self-correct, which is awesome. You can do this in cursor and use cord code. You need to add and plug into that. It's pretty straightforward, but it's very cool. But it's just naturally baked into the whole system, so it's very decent and you can see now you've got this running on your laptop. How freaking calls that.
+
+It's all yours now. And then you can just basically yap to it and say, Hey dude, change this, change this, change that. It will do it. And then you can publish it and then you get the whole thing to yourself. Bow fricking call this up. So this is all, this is. Now let's talk about the terminal for a second.
+
+The terminal is what's known as a CLI command line interface. And this is just how you chat to your computer. It lets you basically do anything you want to with your computer. So for example, in the terminal, once you install Claude, you'd give it the code for that. So for example, if you wanted to install Claude code on your laptop, what I could do.
+
+If I come over here and a show you, for instance, I've already installed to see this, I can see something like install clawed code. Okay, bam. Come down here. Let's have a look at this. And this is a one. For instance, there'll be certain things that you'll want to install in your journey. As you come down here and you can see it's got these things.
+
+All you do is you copy these things, you open up the terminal, okay, and you enter them in. That's it. Then you basically follow the instructions and install everything. But I've already installed them. But you get the idea. This effect of what the terminal lectures do is chat to everything we want to. Now, the other thing that we can do here, I'm gonna terminate this just 'cause I've got it already up and running, is that I can actually summon Claude here.
+
+Check this out. Okay, now I can chat to, I can say, Hey, create me a folder on my desktop titled Banana seven. Okay, hit enter. You can literally do things on your desktop with this. That's how crazy this is. So it's gonna do it. It's running different commands. It will run. There you go. And if I check on my desktop now, there should be a folder called Banana seven and is a, there you go.
+
+So you get the idea of freaking powerful. This thing is, it's very, very, very cool. So we've got an implementation plan. We click on, proceed with this, bring this over. And that's essentially, now we've covered how to grab the information from the GitHub and bring it into your project. The next thing that we're gonna do is actually build an app together, which you can check out by clicking on the video down below.

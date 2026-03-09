@@ -1,0 +1,125 @@
+ Alright guys, so in this one we are now gonna publish the application, which is very, very cool. So how do we actually physically do that? Well, the first thing I want to do is go to the MCP store, which you touched on last time, and then go to MCP servers and just type in GitHub. Okay. And then we are gonna connect to GitHub to make things.
+
+Way, way easier. This explains all the use cases that we can do. So for example, repository management, browse inquiry code, search files, analyze, commits, and understand project structure. We can issue PR and automation, we can do code analysis, team collaboration loads and really cool stuff. So we wanna go ahead and we wanna install it.
+
+So we just click on install right here. Looking for a GitHub personal token. What on earth is that? Well, we're gonna head over to GitHub to go ahead and grab that. So once you're in GitHub, guys, you come over here, click on settings like sir. Uh, load that up. And then I believe the next step, uh, that's it.
+
+Basically, you come down and click on developer settings, open this one up, and then you click on personal asset access tokens, and then fine grained token. Beautiful. And then click on generate a new token. And then we've got some cool stuff. So I'll call this one something like, uh, I dunno, call it Gemini.
+
+5,000 description. Hey, this uses Gemini. Whatever you wanna do, we can put expression, date. I'm gonna put mine for 90 days. That's cool. Public repose, all repose. Give all the permissions that you want to so you can come down here and add all permissions that you are happy with for it to take on. Um, just think about the ones you're gonna realistically going to be using.
+
+I know you've selected permissions person, the guys, I tend to give it all the permissions just so it has court blanche. When I need it to do something, it can physically do it. Then click on generate token. Then you wanna grab that token at gate, you come over and just post it in here into the GitHub token section.
+
+And guys, if this won't accept it, it's 'cause you need something called Docker installed, which is this little blue whale thing here. And that effectively enables anti-gravity to interact with GitHub and gives you an additional layer of protection. So now that's done. Um, what we need to do now, let's go to agent Manager and ask it a question.
+
+Do command E. Beautiful. Let's ask it a question. Awesome. Dude, I'd like you to quote for me a repo on GitHub called. Code 5,000. In fact, no call it stock 5,000 and publish it. Thank you. So we give the prompt over to anti-gravity and then we push that one over there and then it's gonna act get pushed through onto GitHub for us.
+
+And as you can see guys, as it's doing that, it's using the MCP tool. GitHub, MCP server create a repository, which is a tool that we gave it, which basically means that we don't have to go back and forth between them. It can do it for us. We sit back, we relax. And we enjoy ourself and we just watch the wondrous code happening in the background.
+
+Typically speaking, guys, I've always found, I mean, look at this. Say it's done, so let's check it out. If I click this one up, does it happen? And would you believe Stock 5,000 is there and now whenever we make any changes to stock 5,000, it will happen automatically in the GitHub repo because it's connected.
+
+But then the question becomes, well, how do I get this beautiful, this beautiful code and actually publish it now online? Well, to do that guys, what we're gonna do is I'm gonna open it over here, so we've got a nice clean tap is we're gonna head over to. V sell.com or the cell in this environment is how we get all the code that's hosted on GitHub and bring it to real world.
+
+So for example, if you come on scale with Teddy, our agency website, this is hosted. On GitHub, youve the cell. It's all connected. How freaking cool is it guys? So I come into the cell and what I'd wanna do is click on add new and add a new project. Now all you do is connect this to GitHub. I can't show 'cause I'm already connected, but effectively you link it, it's like a sign on thing, it connects, and then you're ready to rock and roll.
+
+I've got stock 5,000 here. I click on import like so Frame preset will usually. Pre-populate based on what it is. Now, I wanna show a couple of things there, a couple hacks and tips and tricks that are gonna be really useful for you to understand, to get your basic things up, first of all. So here we have environmental variables.
+
+So let's say for example, that we want to have a chat bot in it. And in fact, you know what, we're gonna build this one together. I'm gonna, I'm gonna show you exactly how you do environmental variables afterwards. I'm gonna write it down here because I think it's so cool just to understand how that works, that it'd be really worth you doing.
+
+So ignore that for time being as publish it and get it live. And I'm gonna show you what environmental variables looks like because all they really are is it's like, let's say that we've got an API to like a chat GBT or Gemini, or N eight N or make. What this enables us to do is actually protect the visibility of those in the web application itself.
+
+So we're not exposing any API keys anywhere. So this is publishing itself, and then I'm gonna show you how you can get a unique domain for it. But the first thing really, that we have to check that it's live and it's functional. And when it's live and functional, we can do anything. So it's live. That's a good sign.
+
+We click on it. Let's have a quick look. There we go. We've got portfolio pulse, which is really cool. We've got the different things here, so let's actually see if we can improve this a little bit design-wise. 'cause I'm not a huge fan of this. So if I come back over then to anti-gravity, let's come over here and give it some feedback.
+
+Hey there, dude, I'm not a big fan of the design. I'd like you to have a dark background with some colors on the stocks. I want each of the stock graphs to be different based on the one that I select. Get some better contrast for me. And if I select different items, I want those items to display. In the graph down below, I'll make any of the UI improvements that you think might be beneficial for me.
+
+In addition to that, I'd also like you to add in a chat window where I can chat with an AI model about these stocks and graphs, and it can answer my questions. I'll provide to you an API key to do that, but what I'd like you to do is just specify what the environmental variable should be called and I'll provide the API key myself within vercel.
+
+Okay, cool. So what is happening here? Well, here's the thing. It's now gonna do the changes, but what we wanna do is give it an API key. Okay? So we design these things, we'll approve these changes, and then we can actually test. Now, whilst it's doing that in the background, guys, let me come over to open editor.
+
+We want to come over to, in fact, let's bring this guy down a little bit over here. And actually guys, in fact, whilst it's doing that, I wanna show you some interesting things about the cell. Okay. So if I come to dashboard, let me show you how this all works in practice. So this is like WordPress. Think of it like that.
+
+Okay. Over here we have the deployments. So this shows you basically the deployments, um, when things went live, when things didn't. What we can do at any time we want to is to roll back. So say for example, we do a big change to the website where. We don't track the SP 500. We track the FS E 100 and we lost a lot of money in the s and p, and we're like, okay, we need to change it back.
+
+Anytime you push the GitHub, you'll see a new line here and I'll show you that in a second. But what we can do is select the line that we liked the best and we'll just roll it back so we make a mistake. It's completely cool. It's fine. Again, you can copy the URL. You can do loads of different things. Then you've got analytics.
+
+This will show you. The page views. Now we can enable this ourselves, and I'll show you how to do that in a second. But let's come down and check in on anti-gravity. It probably needs some approval, so we'll just give that an approval. And what we can also do while we're doing this is actually have both open at the same time.
+
+And that's typically what I do. I'll have on a separate screen as I'm running through and doing various different things. So we come back over. Then let's have a look. So web analytics, if you click on enable. Okay. Now one thing I will say about Michel is it's, I, I've got several websites with this, like dozens of websites.
+
+It's still completely free. Their free plan is so generous. Um, it's crazy if I click on Enable. That's cool. Now, how cool is this? We need to do is install these packages and I'll show you how to do that in a second. So let's come down here and let's give that task to a second agent, shall we? While we're waiting, and this is the be of, of these multi-agent EP guys that we can do multiple things simultaneously.
+
+So come down here, let's add in a new one here and say, Hey, I want you to install this analytics package, please. And then push it to GitHub. Alright? Bam. Sweet. And then we'll put that one out there. How fricking cool is that? It's actually ridiculous. Come down here and bam, there we go. So it's interpreting the command, which is fantastic.
+
+We do need to just change this real quick. I'm gonna come down here and push this in. Alright, one second guys. Bring this over here. My mistake is we need to push this one in the terminal. So let's come down here to the terminal and publish this one here. So just come down, hit this one, and hit enter. So this is now gonna download the cell analytics for us, which is great.
+
+You can tell that's working because it's got these little, um, loading icons on there, which is very, very cool. So give this a hot second. There we go. One package is found, looking for funding found, blah, blah, blah, blah. So it is all working and it's there perfectly. So we come back over them to this and click on import.
+
+Now we've installed the actual package for the cell analytics. Come back to anti-gravity, give it this command, and then publish that in there. And then now it will import the analytics for us, so we can actually push that into GitHub, which is beautiful to give that a hot second. Meanwhile, let's come over here and check our thing.
+
+Everything is running perfectly in the background. We've got the Instant Link projects. This is now running for his there, it's making changes, making sure the UI is gorgeous. Come back over here and you can see how everything's going. We just run. And again, you can see this master agent view is just so fricking helpful as everything's going on.
+
+Then what else have we got? So then we have speed insights. Exact same thing. You can do the, um, exact same process. Again, you can enable it. If you enable it, you then go ahead to, um, activate that. Although this is saying hub teams can now enable speed insights on a single project. Great. So I can't enable it on this one because I've enabled it on second project and I need to upgrade to do that.
+
+But you can do it for one. Then you've got the logs, which basically show you everything that's happened, you queries, you can see there. You resource your environment, variables, loads of really cool stuff that's happening. You can go through, check all these things out. You've got redirects, which is a really cool one.
+
+So this is like if, um. Um, you change a page and it now points somewhere else. You can actually see where those hard redirects are. Again, you need to upgrade for that, but it's only like $20 a month and well worth doing. And again, you've got, um, orbit thing here is your firewall, AI gateway. Loads of cool settings to have a play around with base, realistically on the stuff that you actually physically want to do.
+
+Dan, let's come back over now to anti-gravity, which is cool. We're gonna click on Run, which is fantastic. And then this seems to be finished, so just give us a hot second and we can check how it's gone. Now, what's cool here guys, is it's now completed and added in the chat functionality. So click on this now.
+
+Let's have a look to see if it's published it live. So it's come over here and then let's open it up and have a see if it looks any different and does it look different? It doesn't. So let's come back over to Anti-Gravity. I think it's some of the changes. It just hasn't published yet. Hey there, dude, I want you to publish these changes to GitHub for me automatically.
+
+Thank you. Okay, ba. So now this will do it for us beautifully. Then when it's uploaded and you can see the new change, we can then add in our open AI key and then actually chat with it and see our new fantastic version. And voila, it is done after about a minute. So now it's done. The code is updated. So if you click on this, you'll see now on the GitHub, the new version that's fully there, and you can see all of this stuff.
+
+The next thing I'd recommend that you do is change this repo to private. And we wanna do that so that people can't just come along and. Grandma, a beautiful new million dollar, um, stock exchange apps. It changes to private. That's cool. I understand. And that's fine. Cool. Because remember we've got a token to Gemini, so we don't need it to be public, to be fair.
+
+So we've made the repair private, which is cool. Cool. Now I come back over to. Our new app and for refresher, we should see some changes. Do we see changes? No. Let's make sure it's all been published. So if we come back down here and have a quick look, we can actually check all the different logs within the app itself.
+
+And this is awesome guys. So if you come onto the overview for project, click on deployments, you can see there's been an error. So we need to double check what this error actually was. Let's have a quick look. Command, MPM Run, build with two. So whenever you get errors, this is so cool. All right, so all we do is gonna come down and find this.
+
+Like so, and then we can actually give this error back to Gemini to resolve for us. So we're gonna come down, we're gonna take a big screenshot of this. Cool. Click on copy. Head over to this and say There was an error in the deployment. Please fix this. Bam, I hit that one off. So I'm so glad that we got the opportunity to fix that.
+
+Now, while that's fixed it in the background, I wanna show you something else that you can do. So if your app is never working, I always want you to do the following, which is right Click. Click on, inspect, and you'll see all of the stuff on the right hand side. Now, if something doesn't work, now when you refresh it, it also shows you many things.
+
+It shows you the errors. Now, there are no errors on this yet, but it would appear down here. So you can do is come down, take a screenshot of this, push it into Gemini and ask it what happened. The other thing you wanna check in this error log, if you ever, ever come across any problems, is down here and click on network.
+
+So if you've got weird and wacky web hooks coming off and it's just not sending information, you can actually see all here. And again, all you do is just copy it, send it back over to Gemini and it'll help you troubleshoot it for you directly, which is cool. So we'll come back over. We're gonna accept these changes.
+
+Beautiful guys. So now it's done a fixed deployment error. There was a strict type check failing on the chalk tool tip format. Of course it was guys. I was just wondering how long it was gonna take to catch up. So now we've done a good troubleshooting, which I couldn't have planned that better. That's how cool that is gonna come over and let's see if we refresh it, if it goes live.
+
+Give that a second and do we see something different just like that? It's updated for us instantaneously. As you can see now it's taken on the chances. This is crazy, man. That is really cool. I love how it does that. That's actually outrageous. So we've got the stuff down here, but we see a chat interface.
+
+So I click on this guy. Now if I say something like, Hey, what day is it today? Okay, nothing should come back an API key's missing. So how do I securely get my API key in this new app without exposing it to the world? So we get charged like a gazillion dollars. Well, I'm glad you asked that question 'cause I got you back.
+
+Well, first thing is let's grab the API key, so it's head over to platform ai. Um, dot com. We are gonna give for API keys. So we are coming on the left hand side down here to, man, they've changed it, haven't it? I think we to sign in, lemme just sign in real quick. Alright, let's give this loaded up. Give 'em my email address and then sign in.
+
+It's gonna ask my triple verification, I'm sure, as it as it usually always loves to do that for me. Okay, one time code, lemme go sort this out. Would you believe it? Guys, I'm finally in. So click on dashboard and then we are looking for API keys on the left hand side, which we can find. Here, beautiful. And then we just create a brand new one, which is decent.
+
+So create a new secret key. We'll call this one. Let's call this one stock. Uh, 2025. Default project is fine. Actually call it 2026, right? And then click on create a new secret key. Now you've done that Also, by the way, top tip is when it comes down to usage of this stuff, I, I only literally load it in and leave it as it is.
+
+Like you don't want to have, for example, unlimited usage. So this is so cheap, like at $1 57, that's fine, and I just have a budget. That's it. So you can't spend more than a budget, which is just really cool. It just makes life a bazillion times easier for me and everything that I'm doing. So I absolutely love that.
+
+So what do we do now? Well, we head back over to the cell. We can leave this, we come off and let's find this one together. Come back home. Let's get into our project, which is going to be, it's actually disappeared. Let's just refresh this. Cool stock 5,000. Bam. We wanna come down here and we wanna click on settings.
+
+Then in settings we're looking for environment variables. Dun, dun, dun. Cool. Now what we're gonna do is add in a value and a key. So on this section here, I want you to paste in the API key that you just got. And then if you come over here, you can see this is what the actual header needs to be. So we copy this.
+
+Okay. And then come back over. And then when you hear, enter in your value, and then you can click on save. And then when that's done, you can see it's vi ai API key. And for example, when you connect to Stripe or super base or whatever you wanna connect it to, it's the exact same process, which is specify the en envi environmental variables.
+
+And then you just give the key's. So simple as that. So that's all done. And then we click on redeploy. So come down here and we say, that is fine, and redeploy. Give that a second. And when it's redeployed, which is rigging everything, deployment created, we view it. Let's see if we can actually chat. So no, uh, building latest duration, let's give it a second.
+
+Again, you can get it faster if you upgrade to the $20 a month option, which is cool. I'm really genuinely impressed with how they do their free plan. So generous. It's very, very cool. So this usually takes like 20, 60 seconds or 20 seconds of a dot. Cool. We click on visit and now if this is worked properly, we'll actually be able to have a conversation with our portfolio polls.
+
+Alright, cool. So come down here and say, Hey dude, what's the market sentiment on Nvidia? Is it worth checking out now? Okay. Boom. And let's see, it's typing. Give it a second. And look at that now. We fully connected it to chat GBT. How freaking crazy is that? And when you can build this, you can literally guys build anything.
+
+Now, the other thing I wanna show you very quickly is, let's just say we got home. We said, you know what? I don't like that change. I think that change is really bad. What we can do, if you come back to the dashboard here, as I showed you, if I come back over to, let's go on the settings for this, okay? If I come onto.
+
+I believe actually what we need to do is come into projects, right? Let's get outta the deployment details real quick and check this out together, because this is gonna be really helpful for you, how you upkeep it, how you test it, how you do everything. Now, bear in mind this, anytime you give it a command from anti-gravity, it will update for us automatically and we'll work, which is awesome.
+
+But if I've done a change, I don't like it, either I can come into the cell. Cl push it back if I want to, or I can actually just change the GitHub and roll it back. And that's one of the key tips I I what I want to take away with anti-gravity is that you want to commit. Often commit often means that you do a change and then commit it to GitHub because you have version control.
+
+You can roll it back if you don't like it. Worst thing you can do is build for like six hours. Never commit and realize, damn, that version I had at hour five was the best and now it's terrible. This is what helps us to stop from doing that. Now if you come back over here, what we can do now, here me bring my recording thing out the way is we can have a look at deployments and I can roll it back.
+
+So let's just say I wanna roll this one back. I come back over redeploy. Yeah, send this one back. That's fine. And now we'll send it back in time to the last deployment, and then we can actually physically go on and use it from there. And now we've covered exactly how to build the app, how to test it, how to build faster than 99% of people.
+
+Check out the video down below to know exactly what you should be doing next.

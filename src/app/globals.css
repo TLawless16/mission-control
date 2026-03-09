@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --bg-main: #000000;
+  --bg-secondary: #0A0A0A;
+  --bg-card: #141414;
+  --bg-hover: #1A1A1A;
+  --border: rgba(255, 255, 255, 0.1);
+  --text-primary: #FFFFFF;
+  --text-secondary: #A0A0A0;
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-xl;
+  }
+}
+
+body {
+  background-image: radial-gradient(circle at 15% 50%, rgba(79, 70, 229, 0.15), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(147, 51, 234, 0.15), transparent 25%);
+}

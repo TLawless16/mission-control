@@ -1,0 +1,115 @@
+AntiGravity Cloning System:   Hardy, beautiful AI automate it. In this video, I'm gonna show you exactly how to clone any websites or application that you have. So basically, if you build something that's gorgeous, like a great website or app, maybe you've got multiple clients, maybe you are selling websites, maybe you're scaling up and you don't wanna have to recreate everything.
+
+This is the process that I use. To do that exact thing. So we're in anti-gravity, we're having a rock and roll, good time. The example that we're gonna use for this video is this gorgeous, beautiful website. So let's say for example, that we've targeted a niche that is very under attacked, but it's highly profitable, so maybe pest control or something like that, right?
+
+And we're thinking really, really cool. Wouldn't it be great if I could just replace everything on this page for that particular image? Well, how would we do that? Well, essentially what you want is your master asset, which is. The website, which is hosted on GitHub, which is over here. So all you're gonna do is copy the code, uh, this is just to show you how you get started with this.
+
+And then we're gonna head over to Anti-Gravity. Now we'll run anti-gravity. We're gonna come over here and you're gonna say, uh, hey, uh, basically clone this repo. And then enter in the link. Okay, sweet. Beautiful. So first thing we do realistically speaking is get the repair cloned. Then what we're gonna do once we've got the files lefthand side, the way that I personally like to do this is I like to have almost like a folder per client on the lefthand side.
+
+'cause then if I wanna make any changes to it, I can go into that specifically. I can open that project. There's a million different things and ways that I can physically do that. It really does just sort of depend when you. Want to make macro changes when you want, when you, let's say, for example, that you're managing 10 different websites.
+
+What we don't want to do is almost like, you know, accidentally change the wrong website. So typically speaking at that point, you'll want to have separate folders on your computer to do that, which I'll show you how you do it on, on this and this exact thing. So when it come down here, which is great, it's doing it.
+
+Let's just open a folder real quick. Wonderful. So now it's actually fully completed that. What do we do next? Well, what we wanna do is create what I call a cloning protocol. So let me show you what that looks like. If I come to my brain browser real quick and lemme come over to our website, what we wanna do is identify the aspects that we would want to change.
+
+For everything. So for sure it's gonna be the logo for sure. It's gonna, there's gonna be copy changes. So if I would just literally jot this down. So you would have, if I just jot it down here, we'd have a logo, we would have copy changes, number one. What else would we want to change? Well, for sure the trusted brands, right?
+
+Uh, trusted brand Legos. Sweet. Or maybe we'd wanna remove that. We've got various other bits of copy that we like. We've got investment, ROI, so one is going to be pricing. Beautiful. And then of course we're gonna want some reviews. Fantastic. And then we've got this animation. I'm gonna come down and then obviously I think this can be fairly standard and probably also color scheme, right.
+
+Cool. So what we do is copy this. We head back over to anti-gravity and then we're get a prompt, which is the following. I would like for you to create for me a skill on the left hand side. This is going to be the cloning protocol skill. Now, essentially what's gonna happen is I'm gonna ask you to clone this website, this application.
+
+And when I do that, I want you to systematically go through these five things with me. Okay? So I'm gonna give you the information, the context. You're gonna ask me any further clarification questions or media assets that you require, and the dimensions of which you require those images and assets, and you're going to implement it into the websites.
+
+Based on the website, the five components that I believe wanted to change are the following. Alright, I'm gonna come down here. We're doing a little bit of competitive research on the, uh, voice transcription, which is always really fun. So logo, copy changes, trusted run theme, logos, pricing scheme. Awesome.
+
+Alright. I will give you image assets and different copy for all those things. Your job is to implement all of it based on that information. Hm. Okay. So then what we're gonna do is use the anti-gravity skill creator, which I'll grab very quickly from our community. A little hack, by the way, you can always just come to, uh, the classroom and if you're searching for anything, we can just literally go down and type in skills like this.
+
+And then you can see, uh, you'll basically get any resource that's relevant now, which is super freaking cool. So let's come down here and we want the skill, create skill. So let's come over and grab all of this. Beautiful. And then we're gonna head over to Anti-Gravity. Then I'm gonna paste in this and then hit enter, which is cool.
+
+Then what it's gonna do is create a skill for that exact process for us that we can then reuse essentially whenever we want to clone the entire website. And what's really, really interesting, hey guys, is it wants to understand the structure of the client website so it can get a very context aware skill.
+
+And what I really like about this is that the skill itself now is almost being hardwired to the particular asset. So the view here is that we leave this. This entire site here, right? This entire project, Anti-Gravity is gonna have the website and then it's gonna have the cloning skill. Now, the idea is that whenever we want to re clone something, we just whip back over here.
+
+We basically give it the information, and then it will just simply create a clone of that website. When we have that clone, we just export that clone onto our desktop, and then we'll have like, let's say a folder on our desktop that says clients, and then we just basically have all their websites that live, that live within that meaning that you get a flawless.
+
+Replication on all of your projects at the same time, which is fricking crazy. Okay, beautiful. So that's corrected the cloning skill protocol. So look, cloning protocol is six phase systematic workflow for rebranding a client website template. When triggered, it'll walk you through each phase in order.
+
+Lego copy, trusted brands, pricing, reviews and call scheme. Awesome. Uh, and then how to trigger it. By the way, if you've got integrations into your high level, again, you just add that as another level. So have a seven step CLO protocol for everything that you need, meaning that you can spin up a hundred of these.
+
+You could spin up a thousands if you wanted to. It really doesn't matter. So now this is done one, the whole thing I wanna do as well is what we call housekeeping. Uh, that dasd word we don't like. Dude, I'd just like you to organize my files. On the left hand side, one needs to be cloning skill. And number two, the second folder should be website.
+
+So I only wanna see two folders and that can click within those folders to look at everything, just to keep it nice and clean. Awesome. I like to do, I like to do that mainly just visually. 'cause I think this is a lot to look at. And I saw some comments in the community talking about the. You know, file, organization, file manage, making it very confusing.
+
+I wanna reduce that cognitive strain for you. Uh, it's an easiest way to do that. It's just a little bit of file organization on the left hand side. Beautiful. And now it is wonderful and organized and butter way. Guys, this is a game changing day. I'm actually drinking tea today. Hmm. Not quite as Crispus coffee, I must admit.
+
+So. What do we do now? Okay, well we built the infrastructure, which is awesome. What I would like now is a very simple cloning mechanism and to do that, now typically speaking, we'd always use something like paper form, right? And then paper form's cool because you can create forms in that. But I'll be honest, when you scale up, and I had this issue recently and I had like thousands and thousands of submissions, it's like you constantly have to keep grading it so we can use paper form.
+
+What we can also do, if we wish, is build a custom. Form creative for this. So what I might say is, Hey, the dude, what I'd like you to do now for me is build a beautiful, simple, uh, website, uh, with a leg on top. We'll call it, I don't know, glider websites. And what I would like you to do is just ask those six questions with the ability to.
+
+Upload image assets, work required. And then what I also like is information about the brand. I'd like information about the website. Basically all information that you require. Decline the website on a form. When that's completed, I want you to store that for me in my firebase, using my Firebase MCP. And critically, if you don't have the right configurations of Firebase, just change it.
+
+Awesome. Now let me just double check. I've got Firebase, MCP enabled, MCP servers, uh, manage MCP servers. And let's have a look. Fireflies. That's because I rotated the, the um, excuse me, I rotated the token. That's why i's not showing. It's actually super base, not firebase. My apologies. So let's reenable this guy.
+
+Let's disenable notebook L lamb for a second. Uh, we love our knowledge and netbook l Lamb, but let's just disenable it for a moment. Cool. And then come back over to the agent. Uh, and lemme just change this back to, um, the correct one, which is going to be super base. Cool and make sure, call this one and gdo.
+
+Alright, beautiful, sweet. Then send 'em off to do it. So what we've done now in one single prompt is created a dynamic form in one prompt and we're connecting it to superb base. And what that then means, this is where it gets crazy, is I don't even need to look at superb base ever. I can literally, once it's done, set up an email that comes to me or they'll say it's done or whatever it is.
+
+And then actually what we can do is just tell this website clown it. Go to the most recent submission in cl so you don't even to look at the answers. That's how crazy it is. And if it's missing anything, we can do follow P. There's so many different things we can do, but essentially what we're doing here is not only like all like automating all this cloning procedure, but we're also automating the whole collection of the data, which is fricking incredible.
+
+Um, and this is the kind of stuff we do. And these beautiful exclusive masterclasses and community guys. We get into the south, we get deep into the south. Cool. And here, look at this skill. Look at the detail of this skill. It's really, really something else. Like genuinely speaking, you see what it's done.
+
+Very interestingly, if you look at the color, color schemes on this is it's really picked out quite intelligently, the specific colors so it knows. Where to make those color brushes. And when I designed this template, which by the way, completely free exclusive community access for you, I, I did it in a way that typically speaking, we have this rule of 70 20 10 in design where 70% is one color.
+
+Then you want little strokes, right? 'cause if everything's a hero, nothing's a hero. So you want to know the specifics to move around a little bit. So all this stuff is by design, um, and it's freaking gorgeous. It really, really is sick. So this is gonna generate it. Once it's generated, then we can start actually playing around with how you actually physically go ahead and do this.
+
+I should also say, if you've never connected super base, you do this by coming down here to the dots, click on MCP servers and all we do is super base like so. And then you'll see what we can do. And bear in mind, hopefully at this point you've already covered all the basics in the anti-gravity class. So this will be something that you'll know, but I'm just covering it here.
+
+Uh, just for posterity, I click on this here, it opens up. All we do is create a token. Well, of course we need to sign in first. Then once you land on a page, we'll ask you to create a token. You just put whatever you want to give it a name as typically speaking, you wanna call it. So we'll call this one on websites, anti-gravity, and then you can set how long you want to expire.
+
+I'm doing an hour just because I'm doing this as a test. And then you can see, uh, it loads up. And then what we can do is copy this token here and then back over to anti-gravity right here, enter that in, and then click on save. And eventually that now has. The wonderful connection, which is really sick.
+
+And that just, that's exactly how it'll connect now to super base to create everything. So we come back over to the agent, we are going to accept these changes, and then it will complete all the design for us. Wonderful. And then we have this website, which will basically be our launch website. So submit project brief.
+
+Which is cool. Brief submitted close. Let's go ahead and get started. So it's auto, ah, okay. I, you know what guys? I didn't scroll up. That might explain the why. So we're gonna go up here, tells about your brand get started. Cool Brand company name. We can call this one. Ben's Ice Cream. Uh, now the reason I've asked for that website by the way, really interestingly is because what we could do if we wanted to is actually scrape a lot this stuff from the website, including their logo using the fire crawl.
+
+MCP. Super cool. We are a speech dictation tool. We help people. Basically Yap. And then the words appear on screen. Industry niche again. It could be like voice, ai, contact, email. Could be, I dunno. test@test.com. Cool. And then we've got some website details. So basically they could fill out all these information, design, profile account.
+
+Again, look at this light and clean, bold, and vibrant. You can customize all this stuff if you want to. So it looks like, wow, I'm really submitting a project brief. They're not gonna know that this is gonna be great instantaneously. And then we can even upload the logo and brand mark if we want to copy messaging, trusted brands, pricing plans.
+
+What are the plans? Look at this. They can even just amend all this stuff. Like this is actually crazy. Reviews and testimonials, color scheme, and this is one that I've got, right? But look at the quality of this guys. And it's even got a preview screen. That's how fricking amazing this is. That is. And look at this.
+
+If it goes to, if it's no in a contrast, it'll change the text to black. Check this out. I come down here. Look at that guys. This is ridiculous. I'm actually super impressed with this. This is, this is ridiculous. So we've got a, let's go with an nice blue, that's cool. Ready to launch, submit project. Brief.
+
+Brief submitted call. So let's not go back to anti-gravity, accept all of these changes. And then I'm gonna say, Hey there, dude, I just submitted a change. Uh, one was a test. The last one wasn't. So I didn't include any Legos in this. I'm doing this just as an example. Could you just validate for me that you got that information from superb base?
+
+Cool. And send that one off and let it come back and confirm what is happening. So we're effective on building a cloning system to do anything that you want to, right? We've got a website, we've got our cloning skill, which again is marvelously detailed. And if we went through that form, obviously I'd recommend what you do.
+
+Is go through that to iterate it. The thing with clients though, generally speaking, is they don't want to add in a lot of stuff. So if you could do what we call magic extract, which is a feature that you offer, which is really cool, um, what we could then do with that is actually pull all that information down ourselves, which would be amazing.
+
+So this super base link I gave it is for an inactive wand. So lemme fix that and I'll come straight back. So really cool. I've connected it now. Now because it wasn't connected. All the information that I gave, it went into the ether, so. Who knows where that is. But basically what we've done now is, I've just prompted this to go ahead and create a fake one, uh, an example set of data and make sure all the configurations of that.
+
+And you can see it's doing all the things. It's creating all these tables. Also, what's really cool is the super base will just gobble up the images, which is grown. Little hack, by the way, is just also being clear on just make sure they can handle image sizes of various different dimensions. There's no kind of like restrictions on that, which is very cool.
+
+Then I've asked it to just for the sample one, create a couple of logos to include in it. So again, we could do that for clients if we want to, or for your own businesses. Completely. Your call and this same process by the way, works for anything you want to, this is just for cloning apps and websites.
+
+Cloning pages is slightly easier. You do that all in one folder. This is wonderful.  um, but basically you just keep on, you can just, you know, expand this up, add infinitum. It's literally crazy, guys. And just like that. Would you believe it? Pinch yourself right now. You need to pinch yourself. Look at this.
+
+It's done everything. It's got all these different things here. It's got all the information. It's got, here are a headline, here are subtext loads of crazy, incredible things. It's pierced up. But if we head over now to super base right here, look at this. So by the way, you come down to database and it'll show you schema, visualize it, which is just visualize the schema if you like.
+
+Probably not better. But it's basically see the stuff. This is all of the information that we're capturing. It's really fricking cool. You can come down to tables as well. I believe it's in tables. Lemme just validate. Yep. And then click on this and then view in table editor. And then this will be, this should be all information, brand name, brand, website, and brand description, brand text.
+
+Uh, obviously this has just got like random images on it because I asked it to pre-populate it basically with some random information. Even got stuff in there like color scheme, which is great. If you're looking for a place to host your images, by the way, what I recommend you do is head over to image dot image bb.com.
+
+Any image that anti-gravity generates. It can store an image bb, all you do is literally come down to API grab your API key and then throw it into anti-gravity. Super. Cool. Cool. So now what I'm gonna say is awesome. Now I want you to claim, lemme just come down here one sec. And, uh, my experimentation with speech to text is bumping off a little bit.
+
+One sec guys. Okay, great. I'm back. Switch it. This side guys. Hey there. So what I would like you to do now is using this information and the fake images you created. Clone the website and then save that on the left hand side as website one, then open it up in a local host. Beautiful. Send that one off, let it rock and roll.
+
+And that's it. And of course, we're using the cloning skill to do this because that's exactly what it's about. Now this, for example, this folder becomes your master, your cloning engine. And whenever you wanna do that, we grab the information from superb base and we run it through. So it'll be full cloning system to make unlimited stuff, and we'll see exactly what that looks like once it's finished in the actual declining lab for us.
+
+And then once the clean and website process is done, I'm just gonna get a, a new, a brand new fresh tea for this recording. So you can see this is the original and then we can get the client version, which is over here typing is there to start your project. Very cool. Come down. You can see basically it's changed all the green to purple, which is fantastic.
+
+Uh, come down. Investing. Again, if you would've said different price points, it would be there, but essentially you'll get the entire thing. And what I'll do for you down below as well is I will include for you the skill, the cloning skill to replicate it. Now, when you clone it, one of the things that you might realize, say for example this is great, is that this is wonderful, this here.
+
+Has not changed. 'cause this is a custom asset. So what we may want to do is add in a specific line for our skill to say, cool, for this bit here, you're gonna create an X, Y, Z image, or you do whatever you want to, right? To make it as specific as possible. Again, it knows that and once again, you can be specific on anything.
+
+So you go through the process one, and then you refine the skill as you go. With that in mind, I hope you have a blessed and beautiful day and I'll catch you inside the next wonderful video.

@@ -1,0 +1,2 @@
+This is a secure auto-clicker test file to trigger the Accept All button in the IDE.
+If you are seeing this save automatically, the Zero UI Friction script is working perfectly!

@@ -1,0 +1,3043 @@
+1
+00:00:00,000 --> 00:00:03,900
+Congratulations on completing your very first N8N automation.
+
+2
+00:00:04,200 --> 00:00:06,520
+Now the next thing I want to do is give you a slightly different
+
+3
+00:00:06,521 --> 00:00:08,560
+angle on the whole N8N journey,
+
+4
+00:00:08,940 --> 00:00:11,380
+taking you through the entire interface in a little bit more detail.
+
+5
+00:00:11,700 --> 00:00:15,780
+With the view to get your fully functioning first AI automation built.
+
+6
+00:00:15,940 --> 00:00:19,720
+And to do that, I'm gonna grab Jack from the past who's gonna go
+
+7
+00:00:19,721 --> 00:00:22,760
+through, not too far on the past, maybe like three months in the past.
+
+8
+00:00:23,060 --> 00:00:26,020
+To come through step by step exactly how you do that.
+
+9
+00:00:26,060 --> 00:00:28,460
+One of the reasons I did that is because I put so much time
+
+10
+00:00:28,461 --> 00:00:31,100
+and energy thought into how to to simplify this entire process.
+
+11
+00:00:31,740 --> 00:00:34,540
+So well, I don't even wanna try it again in case I kinda zig
+
+12
+00:00:34,541 --> 00:00:37,240
+when I should design because I explain it so well.
+
+13
+00:00:37,380 --> 00:00:40,540
+So I'm gonna pass over to previous Jack and he's gonna run through you
+
+14
+00:00:40,541 --> 00:00:45,398
+now how to build your very first AI agent masterclass.
+
+15
+00:00:45,578 --> 00:00:49,338
+I'm gonna take you from a complete beginner to building your very first functional
+
+16
+00:00:49,339 --> 00:00:52,918
+AI agent. Now the thing about AI agents is it can feel very complicated.
+
+17
+00:00:53,098 --> 00:00:56,858
+So how do you actually build them without spending 40 hours a week on
+
+18
+00:00:56,859 --> 00:01:01,238
+YouTube going through everything else. And NATN itself can feel like it has quite
+
+19
+00:01:01,239 --> 00:01:03,538
+a steep learning curve. So in this video,
+
+20
+00:01:03,698 --> 00:01:06,878
+I'm gonna break down what the 20% of things that you need to know
+
+21
+00:01:06,879 --> 00:01:09,218
+that will get you 80% of the result is.
+
+22
+00:01:09,298 --> 00:01:12,078
+You're gonna learn the who, the what, the why, how to use NATN and
+
+23
+00:01:12,079 --> 00:01:15,098
+by the end of the video, you're gonna have a fully functioning AI agent
+
+24
+00:01:15,099 --> 00:01:17,338
+that you can use. My name is Jack, by the way, I run the
+
+25
+00:01:17,339 --> 00:01:20,058
+largest paid AI automations community on the planet.
+
+26
+00:01:20,098 --> 00:01:22,898
+I've helped thousands of business owners make money with NATN,
+
+27
+00:01:23,098 --> 00:01:25,478
+sell to different businesses or automate their own businesses.
+
+28
+00:01:25,738 --> 00:01:27,798
+So, if you haven't already, grab that coffee,
+
+29
+00:01:28,118 --> 00:01:31,658
+let's start straight in. Let's start with what N8N is and some alternatives.
+
+30
+00:01:32,078 --> 00:01:37,078
+So, N8N is a no code automation platform within
+
+31
+00:01:37,079 --> 00:01:41,138
+which you can use AI. I wanna show you this really clear crystal graphic
+
+32
+00:01:41,139 --> 00:01:43,778
+to help you understand it a little bit better. And this will really explain
+
+33
+00:01:43,779 --> 00:01:47,378
+what I do and also where the future of the opportunity here is,
+
+34
+00:01:47,438 --> 00:01:49,898
+okay? On the left hand side, we have AI, all right?
+
+35
+00:01:50,398 --> 00:01:53,758
+And on the right hand side, we have the no code automation tools,
+
+36
+00:01:53,759 --> 00:01:57,358
+and then when you combine those two extremely fast growing markets together,
+
+37
+00:01:57,578 --> 00:02:01,278
+that's where the explosion happens. N8N sits in the right hand side,
+
+38
+00:02:01,418 --> 00:02:05,378
+which is a no code platform on which we can do many things.
+
+39
+00:02:05,658 --> 00:02:08,658
+For example, one of the key things that a no code platform like N8N
+
+40
+00:02:08,659 --> 00:02:10,818
+will do, and don't worry if this looks overwhelming,
+
+41
+00:02:11,058 --> 00:02:14,358
+we're going to build everything step by step, but essentially it enables us to
+
+42
+00:02:14,359 --> 00:02:16,598
+connect different apps together, right? Like Gmail,
+
+43
+00:02:16,858 --> 00:02:18,938
+Calendar, Notion, Connected Internet,
+
+44
+00:02:19,218 --> 00:02:24,078
+any application could possibly imagine. with other applications kind of like Lego
+
+45
+00:02:24,079 --> 00:02:26,558
+bricks, think of NATN as a Lego maker.
+
+46
+00:02:27,098 --> 00:02:29,278
+And these other apps like make.com,
+
+47
+00:02:29,518 --> 00:02:33,738
+like Zapier or other no code platform and they all have their individual quirks.
+
+48
+00:02:34,038 --> 00:02:38,278
+So from our purposes, what we're interested in here is using AI and we're
+
+49
+00:02:38,279 --> 00:02:41,618
+also using these no code builders which can run automations.
+
+50
+00:02:41,958 --> 00:02:45,198
+The no code builders enable us to create and run some incredible automations.
+
+51
+00:02:45,578 --> 00:02:49,738
+That's kind of how bits are now. The awesome alternatives to NATN based on
+
+52
+00:02:49,739 --> 00:02:51,938
+your preference. So, annotate itself, I mean,
+
+53
+00:02:52,018 --> 00:02:54,758
+if you look at classic one, it's main.com, you may have seen automations that
+
+54
+00:02:54,759 --> 00:02:58,538
+look a little bit like this. You can technically use any of them.
+
+55
+00:02:58,818 --> 00:03:02,458
+The reason why we're talking about n8n today, primarily is because they have a
+
+56
+00:03:02,459 --> 00:03:05,578
+feature in n8n called an AI agent feature,
+
+57
+00:03:05,778 --> 00:03:07,658
+which I'll show you right here, and this is what we've been focusing on
+
+58
+00:03:07,659 --> 00:03:11,878
+today. Now, most platforms operate sequentially.
+
+59
+00:03:12,318 --> 00:03:16,698
+In other words, the scenario starts on the left and finishes over to the
+
+60
+00:03:16,699 --> 00:03:19,758
+right, but in In NA10, one of the things you can do with this
+
+61
+00:03:19,759 --> 00:03:24,598
+AI agent tool, AI agent feature is to give it access to
+
+62
+00:03:24,599 --> 00:03:27,658
+lots of different tools and with access to those tools,
+
+63
+00:03:27,818 --> 00:03:30,318
+it can basically go back and forth as much as it wants to.
+
+64
+00:03:30,558 --> 00:03:34,278
+We give it a brain, an AI brain, and then this is just conceptually,
+
+65
+00:03:34,318 --> 00:03:37,198
+so don't worry if you've not seen this before. We give it some memory
+
+66
+00:03:37,199 --> 00:03:39,258
+and we can say, hey, AI agent,
+
+67
+00:03:39,518 --> 00:03:43,038
+you know, I here's a query from a customer, he wants to buck an
+
+68
+00:03:43,039 --> 00:03:46,218
+appointment, we need to check our calendar, and this agent has access to these
+
+69
+00:03:46,219 --> 00:03:49,178
+tools. Think of it like a manager with several employees,
+
+70
+00:03:49,338 --> 00:03:53,858
+okay, and then those employees have tools and this agent has different tools So
+
+71
+00:03:53,859 --> 00:03:57,598
+he can send messages, he can check messages, and it just does all the
+
+72
+00:03:57,599 --> 00:04:01,378
+work for you Sequentially and one of the really important things I want you
+
+73
+00:04:01,379 --> 00:04:05,978
+to know about AI agents is that the performance increases When we
+
+74
+00:04:05,979 --> 00:04:10,078
+use AI agents even if you use a lower tier model the output will
+
+75
+00:04:10,079 --> 00:04:13,118
+be higher So I just want to give you that context about any time
+
+76
+00:04:13,119 --> 00:04:15,138
+now if you may be thinking But what is the sort of stuff that
+
+77
+00:04:15,139 --> 00:04:17,858
+I can do with NA10? Why do I want to learn AI agents?
+
+78
+00:04:18,318 --> 00:04:20,898
+Well, AI agents are pretty for flipping powerful, as you can imagine.
+
+79
+00:04:21,238 --> 00:04:23,758
+We have AI, and then lots of tools. So for instance,
+
+80
+00:04:24,238 --> 00:04:27,758
+this thing here could be a personal productivity assistant.
+
+81
+00:04:28,158 --> 00:04:31,398
+We can message it on WhatsApp or Telegram, it can create appointments,
+
+82
+00:04:31,658 --> 00:04:35,198
+it can send emails, it can check appointments, it can research things on the
+
+83
+00:04:35,199 --> 00:04:38,538
+internet, it can send messages on WhatsApp. If I show you my community for
+
+84
+00:04:38,539 --> 00:04:41,538
+instance, we've got so many unique automations here.
+
+85
+00:04:41,558 --> 00:04:44,098
+Now if I just check out this, for example, Some of the classic ones,
+
+86
+00:04:44,578 --> 00:04:47,418
+social media, scraping different social media,
+
+87
+00:04:47,738 --> 00:04:51,378
+you know, like all your competitors or your own comments or the likes and
+
+88
+00:04:51,379 --> 00:04:53,698
+the views and the shares, all the one individual place.
+
+89
+00:04:53,758 --> 00:04:56,658
+We can create unique content for every single platform,
+
+90
+00:04:56,858 --> 00:04:59,538
+Instagram, TikTok, YouTube. We can do incredible things,
+
+91
+00:04:59,678 --> 00:05:03,338
+like voice AI. We have basically optimizations that create money,
+
+92
+00:05:03,758 --> 00:05:08,478
+lead generation, newsletters, agents. There's like hundreds and hundreds and thousands of possible
+
+93
+00:05:08,479 --> 00:05:11,998
+use cases and applications. One I build my last video is something that would
+
+94
+00:05:11,999 --> 00:05:16,378
+scrape all the likes, shares, comments and feedback from TikTok and give you a
+
+95
+00:05:16,379 --> 00:05:19,378
+really nice crisp document. It looks a little bit something like this to transcript
+
+96
+00:05:19,379 --> 00:05:22,138
+the description of the statistics and then we can use this to correct things.
+
+97
+00:05:22,318 --> 00:05:26,318
+So I say that to say that the opportunities with no code platforms and
+
+98
+00:05:26,319 --> 00:05:29,598
+AI are literally limitless. So now you understand that. Now you can pick your
+
+99
+00:05:29,599 --> 00:05:32,258
+no code platform of choice if you're a beginner, you may like make.
+
+100
+00:05:32,898 --> 00:05:36,058
+There is a slightly steep learning kit and a tent which is why I
+
+101
+00:05:36,059 --> 00:05:38,538
+want to cut to the crap and give you the 20% that will get
+
+102
+00:05:38,539 --> 00:05:41,558
+you 80% results so you can watch this and have a functioning.
+
+103
+00:05:41,718 --> 00:05:43,978
+I would also like to emphasize, there is no better time than right now
+
+104
+00:05:43,979 --> 00:05:47,018
+to be learning these school sets and that's why we're using N8s and we're
+
+105
+00:05:47,019 --> 00:05:49,758
+going to connect to all our platforms. We can essentially, once you learn how
+
+106
+00:05:49,759 --> 00:05:52,338
+to build these like a bricks together, you can create anything and you will
+
+107
+00:05:52,339 --> 00:05:54,758
+have that edge I'm working by the end of the video. Okay, so let's
+
+108
+00:05:54,759 --> 00:05:57,438
+now go through the N8s and interface together so we're going to create our
+
+109
+00:05:57,439 --> 00:05:59,678
+account together. The way we're going to do that is come over here to
+
+110
+00:05:59,679 --> 00:06:02,018
+get started in the top right hand corner. And then we'll get into some
+
+111
+00:06:02,019 --> 00:06:06,698
+information. I'm gonna say my name is Bobby. Knuckles,
+
+112
+00:06:06,699 --> 00:06:09,118
+if I could spell it, that'd be great, wouldn't it? Beautiful,
+
+113
+00:06:09,238 --> 00:06:11,418
+complete email. So we give it an email, a name, and then we give
+
+114
+00:06:11,419 --> 00:06:13,778
+it an account name. Don't worry too much about that, provide it with it's
+
+115
+00:06:13,779 --> 00:06:16,578
+unique, and then you can start your 14 day free trial.
+
+116
+00:06:16,858 --> 00:06:19,178
+One thing I would just also say about this, well, this email's a new
+
+117
+00:06:19,179 --> 00:06:21,438
+song, let's skip to the assignment page. Now, one of the cool things about
+
+118
+00:06:21,439 --> 00:06:23,918
+NA10 guys is the fact that we can do a couple of things as
+
+119
+00:06:23,919 --> 00:06:26,238
+you scale. Number one is, we can self-host it.
+
+120
+00:06:26,498 --> 00:06:30,218
+What that means is that the data will stick on your laptop And effectively
+
+121
+00:06:30,219 --> 00:06:34,498
+the cost per your large executions is just the running cost of having it
+
+122
+00:06:34,499 --> 00:06:38,618
+on your laptop So over time, that's how it performs or the models and
+
+123
+00:06:38,619 --> 00:06:41,698
+it's really good for data But for 99% of you right now,
+
+124
+00:06:41,699 --> 00:06:44,738
+it's not something to worry about. So now we create an end count You're
+
+125
+00:06:44,739 --> 00:06:48,598
+going to basically be see on this screen all of the workflows that you've
+
+126
+00:06:48,599 --> 00:06:51,098
+created. You won't need to use most of this stuff Guys,
+
+127
+00:06:51,158 --> 00:06:53,618
+but I'll just give you a quick tell down what the interface looks like
+
+128
+00:06:53,619 --> 00:06:56,538
+and hide it Now when you'd like to create a new workflow You come
+
+129
+00:06:56,539 --> 00:06:59,438
+to this big purple burn in the top right and click on create a
+
+130
+00:06:59,439 --> 00:07:02,898
+workflow Then you will see this cool thing here now you can go light
+
+131
+00:07:02,899 --> 00:07:05,238
+mode of dark mode I'll just give you a quick overview of that if
+
+132
+00:07:05,239 --> 00:07:07,958
+you come down to the bottom left and click these three dots You click
+
+133
+00:07:07,959 --> 00:07:11,978
+on settings this will load up you can scroll down light theme dark theme
+
+134
+00:07:11,979 --> 00:07:14,238
+a lot of people love the dark theme But yeah,
+
+135
+00:07:14,358 --> 00:07:17,398
+you can basically alternate your interface like that a lot of the stuff on
+
+136
+00:07:17,399 --> 00:07:19,898
+the left You won't really need to worry too much about but one thing
+
+137
+00:07:19,899 --> 00:07:22,438
+I want to just Basically show you right now if you see it's got
+
+138
+00:07:22,439 --> 00:07:25,938
+one update and a ten is a platform think of it like software where
+
+139
+00:07:25,939 --> 00:07:30,078
+they always release updates, but it doesn't automatically update for you.
+
+140
+00:07:30,338 --> 00:07:32,778
+So to do that, you're gonna click on this one update when you see
+
+141
+00:07:32,779 --> 00:07:36,738
+this, and you can see what they've done here, is they have basically done
+
+142
+00:07:36,739 --> 00:07:39,018
+some bug fixes, so we can actually fix this. And once you click on
+
+143
+00:07:39,019 --> 00:07:41,378
+it, you see this new page, okay? Now if you click on cloud,
+
+144
+00:07:41,778 --> 00:07:45,418
+if you haven't done a new one yet, log into the N8N cloud dashboard.
+
+145
+00:07:45,618 --> 00:07:47,758
+Beautiful, and then you can come down and let's have a good look.
+
+146
+00:07:48,018 --> 00:07:50,558
+You see right here it says 1.82.1,
+
+147
+00:07:50,718 --> 00:07:53,638
+you can click on that, and you can choose the latest version that's in
+
+148
+00:07:53,639 --> 00:07:55,718
+beta or the latest stable version.
+
+149
+00:07:55,938 --> 00:07:58,638
+So we'll go for the latest in beta, and then we can click on
+
+150
+00:07:58,639 --> 00:08:02,658
+Save Changes Confirm. You'll need to do this periodically as and when it updates,
+
+151
+00:08:02,678 --> 00:08:05,338
+just to make sure that you're running off the latest version of N8M.
+
+152
+00:08:05,478 --> 00:08:07,598
+Cool, so now we've updated. Of course, yours would be the straight way,
+
+153
+00:08:07,658 --> 00:08:09,998
+but I just want to make sure you understand that. Let's go over to
+
+154
+00:08:09,999 --> 00:08:12,038
+our N8M scenario. Awesome,
+
+155
+00:08:12,238 --> 00:08:14,558
+cool, so we click off this and you're going to see about this.
+
+156
+00:08:14,858 --> 00:08:17,178
+Now you can move around by having two fingers on your mousepad.
+
+157
+00:08:17,498 --> 00:08:21,278
+You'll see in the bottom left, this shows you a macro-based perspective where you're
+
+158
+00:08:21,279 --> 00:08:24,638
+at. You've got executions here, So this is essentially when you run the automation,
+
+159
+00:08:24,798 --> 00:08:26,878
+everything that will happen will happen around the site.
+
+160
+00:08:27,078 --> 00:08:31,098
+But I'm a big believer that the best way to actually learn N8N is
+
+161
+00:08:31,099 --> 00:08:34,038
+to build something together and you can explain that on that framework.
+
+162
+00:08:34,238 --> 00:08:36,958
+In N8N, there are like five types of nodes that you can have the
+
+163
+00:08:36,959 --> 00:08:40,218
+first way to understand our trigger nodes. So think of every scenario,
+
+164
+00:08:40,238 --> 00:08:44,978
+okay, as having something that begins the scenario and then a defined output.
+
+165
+00:08:45,158 --> 00:08:47,538
+So we want to have a look at triggers and what the type of
+
+166
+00:08:47,539 --> 00:08:49,598
+triggers are. So if I click on add first step,
+
+167
+00:08:49,818 --> 00:08:52,558
+there are a few different things we can have to trigger this Sonara.
+
+168
+00:08:52,858 --> 00:08:55,278
+It could be the fact that you want to send a message to yourself
+
+169
+00:08:55,279 --> 00:08:57,518
+or to somebody else. That trick is a Sonara.
+
+170
+00:08:57,638 --> 00:09:00,618
+For instance, I could have on here Telegram.
+
+171
+00:09:01,358 --> 00:09:04,438
+Beautiful. And I could say, hey, on message, when you receive a message,
+
+172
+00:09:04,958 --> 00:09:07,258
+you're going to fire out something on Telegram. That's really,
+
+173
+00:09:07,259 --> 00:09:09,758
+really cool. Another one you could have, you could have WhatsApp,
+
+174
+00:09:10,558 --> 00:09:14,258
+you could have Gmail. So I could go on Gmail whenever I got an
+
+175
+00:09:14,259 --> 00:09:16,478
+email, the entire Sonara trick is together.
+
+176
+00:09:16,778 --> 00:09:20,238
+There are lots of different ones, but a couple ones are very unique to
+
+177
+00:09:20,239 --> 00:09:23,198
+NATAM. If you just want to run the workflow or test them.
+
+178
+00:09:23,558 --> 00:09:25,438
+One of the things that you can do, and by the way, this is
+
+179
+00:09:25,439 --> 00:09:27,878
+how it works. You click on add a step, and then right on the
+
+180
+00:09:27,879 --> 00:09:30,738
+side, you'll see everything you can use. I can click on Trigger manually.
+
+181
+00:09:31,318 --> 00:09:34,378
+And what that basically means is don't worry about the trick.
+
+182
+00:09:34,458 --> 00:09:36,738
+I'm not sure what I want to trigger the scenario yet.
+
+183
+00:09:36,878 --> 00:09:38,818
+I just kind of want to run through it and see what it's about.
+
+184
+00:09:39,198 --> 00:09:43,898
+So we can just use this testing workflow module and begin testing our automation,
+
+185
+00:09:43,899 --> 00:09:46,658
+and then we can add that in later if we wish to.
+
+186
+00:09:46,918 --> 00:09:49,298
+So this is a really the cool one and the other great one I
+
+187
+00:09:49,299 --> 00:09:54,098
+really like is this one here which is Chat Trigger.
+
+188
+00:09:54,358 --> 00:09:58,318
+Now Chat Trigger is a really interesting one because this is like a text
+
+189
+00:09:58,319 --> 00:10:01,398
+input that we give to it and you can click on Open Chat and
+
+190
+00:10:01,399 --> 00:10:04,338
+you can say something like hello or give it any kind of thing that
+
+191
+00:10:04,339 --> 00:10:08,578
+you would like and when you do this that text will trigger the automation.
+
+192
+00:10:08,958 --> 00:10:11,738
+The cool thing about the Chat thing guys is you can actually take that
+
+193
+00:10:11,739 --> 00:10:14,578
+code, you can put it as a chat but on your website you could
+
+194
+00:10:14,579 --> 00:10:17,978
+chat with it wherever you want to so you then are able to give
+
+195
+00:10:17,979 --> 00:10:20,098
+that to clients, I have people in your organization,
+
+196
+00:10:20,678 --> 00:10:23,218
+give it a text input. Now,
+
+197
+00:10:23,219 --> 00:10:25,478
+I've got this up. I want to show you an example of something.
+
+198
+00:10:25,958 --> 00:10:29,598
+We've got these triggers. The final trigger I want to show you just before
+
+199
+00:10:29,599 --> 00:10:31,658
+we get started is a really cool one,
+
+200
+00:10:31,958 --> 00:10:37,318
+which is schedule trigger. The schedule trigger module is
+
+201
+00:10:37,319 --> 00:10:40,098
+really cool because what it will do is you can then say,
+
+202
+00:10:40,238 --> 00:10:44,638
+hey, periodically every week I want this to run every seven days,
+
+203
+00:10:44,698 --> 00:10:47,998
+every two days, is whatever it is, then at that specified time,
+
+204
+00:10:48,338 --> 00:10:50,978
+the automation will kick off. That would be useful if,
+
+205
+00:10:51,058 --> 00:10:54,238
+for example, we wanted to check a database for new leads,
+
+206
+00:10:54,478 --> 00:10:57,118
+and then with those leads, we're gonna process those leads, and then we're gonna
+
+207
+00:10:57,119 --> 00:10:59,738
+do something really cool with it. So there's lots of different things and just
+
+208
+00:10:59,739 --> 00:11:02,138
+understanding the map of NATAN.
+
+209
+00:11:02,418 --> 00:11:06,398
+You can then start to piece together different scenarios that you will actually use
+
+210
+00:11:06,399 --> 00:11:08,438
+in the business context, okay? Now,
+
+211
+00:11:08,439 --> 00:11:11,298
+I wanna show you how the module processes themselves work on the triggers.
+
+212
+00:11:11,678 --> 00:11:14,738
+So for this automation, what I'm just gonna do very quickly is I'm going
+
+213
+00:11:14,739 --> 00:11:17,078
+to get a chat trigger, which is cool,
+
+214
+00:11:17,258 --> 00:11:21,038
+beautiful. So the first thing we're going do is add an AI module.
+
+215
+00:11:21,218 --> 00:11:23,518
+So to do that, we're going to add in the AI agent. So I'm
+
+216
+00:11:23,519 --> 00:11:26,778
+going to click on Advanced AI. I look for AI agent,
+
+217
+00:11:27,318 --> 00:11:30,098
+beautiful. Now, what we're going to do, first of all, is connect together,
+
+218
+00:11:30,538 --> 00:11:32,658
+an AI together, chat GPT, or whatever,
+
+219
+00:11:32,858 --> 00:11:35,618
+which we're going to prefer to. I'll explain how it all works. So when
+
+220
+00:11:35,619 --> 00:11:38,118
+you add in an AI agent,
+
+221
+00:11:38,338 --> 00:11:41,178
+there are three things that you need to do. And the agent itself,
+
+222
+00:11:41,179 --> 00:11:43,558
+by the way, is the second type the module you can have,
+
+223
+00:11:43,698 --> 00:11:46,538
+which is around a large language model type of non-tour.
+
+224
+00:11:46,898 --> 00:11:48,718
+So what we're going to do is add in a chat model by clicking
+
+225
+00:11:48,719 --> 00:11:50,898
+this plus button here, and we're going to pick what we want.
+
+226
+00:11:51,058 --> 00:11:53,738
+So I'd recommend just keep it simple. Go for OpenAI here,
+
+227
+00:11:53,818 --> 00:11:57,158
+which is pretty cool. And what we're going to do guys is create a
+
+228
+00:11:57,159 --> 00:11:59,458
+credential together with that. So to do that,
+
+229
+00:11:59,558 --> 00:12:03,458
+you're going to head over to platform.openai.com,
+
+230
+00:12:03,798 --> 00:12:07,038
+forward slash API keys, deposit like five dollars.
+
+231
+00:12:07,398 --> 00:12:10,038
+You're going to come over here to the top right, click on Create,
+
+232
+00:12:10,538 --> 00:12:13,998
+a new secret kit. I will call this one something like OpenAI,
+
+233
+00:12:14,838 --> 00:12:16,978
+NATM, and click on Create a new secret key.
+
+234
+00:12:17,338 --> 00:12:19,758
+A lot of tech guys, whenever you create a credential,
+
+235
+00:12:19,998 --> 00:12:22,578
+you always want to make sure you don't share that with anybody because they
+
+236
+00:12:22,579 --> 00:12:24,938
+will use your credits essentially. So we copy that,
+
+237
+00:12:25,238 --> 00:12:27,458
+we click Done. Then guys, head back over.
+
+238
+00:12:28,618 --> 00:12:32,438
+And on Credentials, you click on this, you click on Create a new credential.
+
+239
+00:12:32,858 --> 00:12:35,238
+And then in the API key section, you paste it in,
+
+240
+00:12:35,478 --> 00:12:39,558
+then click Save. And you'll see this create successfully created whatever is credential.
+
+241
+00:12:39,559 --> 00:12:42,138
+Now, there's two ways that you'll connect things in NATM,
+
+242
+00:12:42,298 --> 00:12:44,978
+one is by an API key, which is a secret key,
+
+243
+00:12:45,098 --> 00:12:47,398
+which towels the service that it's used to doing it,
+
+244
+00:12:47,598 --> 00:12:51,358
+therefore you can like control the billing. And the second is something called OAuth.
+
+245
+00:12:51,598 --> 00:12:53,978
+When you click a button, it will open a new tab,
+
+246
+00:12:54,178 --> 00:12:56,198
+you sign in and it then it's connected. Now,
+
+247
+00:12:56,518 --> 00:13:00,258
+in NATM, there are three panels for you to think about.
+
+248
+00:13:00,698 --> 00:13:04,198
+On the left-hand side, we have everything that came from the previous module.
+
+249
+00:13:04,698 --> 00:13:08,078
+In the middle, this is everything you use to control the current module,
+
+250
+00:13:08,418 --> 00:13:11,738
+and then the The right-hand side is the output from that module,
+
+251
+00:13:12,018 --> 00:13:14,178
+which is slightly different than you see in other platforms.
+
+252
+00:13:14,758 --> 00:13:18,038
+So, as you can see, we've now got our beautiful AI agent.
+
+253
+00:13:18,398 --> 00:13:20,998
+We've got this chat message. So, what I suggest we do is we come
+
+254
+00:13:20,999 --> 00:13:23,498
+down and ask it a question. I click on Open Chat,
+
+255
+00:13:23,758 --> 00:13:29,058
+and I can say something like, who was the tallest man in
+
+256
+00:13:29,059 --> 00:13:31,778
+the world? Okay? I'm going to come down like this.
+
+257
+00:13:32,958 --> 00:13:35,038
+There we go. I now click on Answer. Now,
+
+258
+00:13:35,238 --> 00:13:38,698
+when you see those hours turning, that means that the AI agent itself is
+
+259
+00:13:38,699 --> 00:13:42,478
+working. working, it's now consulting with the GPD model that we chose,
+
+260
+00:13:42,818 --> 00:13:45,418
+and it's loading up to find out what the answer is, and then we'll
+
+261
+00:13:45,419 --> 00:13:47,518
+get that answer back from the model. Now as you can see,
+
+262
+00:13:47,738 --> 00:13:50,798
+it says of it's last night's date, the largest man in the world thought
+
+263
+00:13:50,799 --> 00:13:53,318
+it would rob world low 8.11 inches. Awesome,
+
+264
+00:13:53,478 --> 00:13:55,678
+now guys check this out, I'm going to click X, get that down,
+
+265
+00:13:56,038 --> 00:13:59,698
+I double click on it, and you can see everything on the left was
+
+266
+00:13:59,699 --> 00:14:02,678
+the inputs, and everything on the right is the output right,
+
+267
+00:14:02,818 --> 00:14:05,538
+and what you're going to notice guys when you configure things like the agents,
+
+268
+00:14:05,718 --> 00:14:08,258
+is that we have a couple of things to think about. The first one
+
+269
+00:14:08,259 --> 00:14:10,558
+here is source for the prompt.
+
+270
+00:14:11,258 --> 00:14:13,818
+You can connect chat trigonode, which is basically it's like,
+
+271
+00:14:13,858 --> 00:14:16,578
+hey, you know, you're connected to a chat window. So I kind of just,
+
+272
+00:14:16,579 --> 00:14:19,418
+I'm just going to kind of use that. The second thing that you'll find
+
+273
+00:14:19,419 --> 00:14:22,238
+yourself using more often than not is the defined below.
+
+274
+00:14:22,758 --> 00:14:24,898
+Okay. Now, the defined below basis says,
+
+275
+00:14:24,899 --> 00:14:28,418
+okay, call, I'll let you tell me what the input is.
+
+276
+00:14:28,698 --> 00:14:31,738
+Now, NATN has a drag and drop feature. So what we can do is
+
+277
+00:14:31,739 --> 00:14:35,578
+we can come down here and we can click drag and bring that over.
+
+278
+00:14:35,898 --> 00:14:38,558
+So So essentially what we're saying is it's adjacent to chat import,
+
+279
+00:14:38,718 --> 00:14:41,418
+so it looks quite Cody, but essentially if it's green,
+
+280
+00:14:41,578 --> 00:14:44,578
+it means it recognizes what it is and you can see this is what
+
+281
+00:14:44,579 --> 00:14:47,818
+that thing was, which essentially means whenever you get a chat,
+
+282
+00:14:48,158 --> 00:14:51,058
+whatever that, whatever that item is, which will change every message,
+
+283
+00:14:51,378 --> 00:14:53,458
+that's the thing that it will physically use for us.
+
+284
+00:14:53,558 --> 00:14:56,478
+Now as you can imagine, opportunities with the agent is really simple.
+
+285
+00:14:56,558 --> 00:14:59,678
+So what we've done now is we've got a trigger and we have an
+
+286
+00:14:59,679 --> 00:15:01,738
+AI agent and that's how we figure it.
+
+287
+00:15:01,739 --> 00:15:04,738
+Now, what you can do with this AI agent is add in lots of
+
+288
+00:15:04,739 --> 00:15:07,458
+tools, like Gmail, Calendar, all that sort of stuff,
+
+289
+00:15:07,558 --> 00:15:09,578
+and we can add in some cool side note,
+
+290
+00:15:09,978 --> 00:15:14,838
+which is memory. Now, memory is its ability to remember the conversation
+
+291
+00:15:14,839 --> 00:15:17,298
+that it's had. So, if you click on memory, you're going to see a
+
+292
+00:15:17,299 --> 00:15:19,798
+few options. The only one you need to worry about just to get started
+
+293
+00:15:19,799 --> 00:15:22,498
+is simple memory, and it's as simple as that.
+
+294
+00:15:22,818 --> 00:15:26,258
+Now, when you're giving it memory, what it kind of wants to do is
+
+295
+00:15:26,259 --> 00:15:28,578
+say, like, I remember the conversation, no problem,
+
+296
+00:15:28,738 --> 00:15:31,658
+but how do you want me to define what a conversation is?
+
+297
+00:15:31,659 --> 00:15:36,238
+So often times here you'll see you're defyable it because it's
+
+298
+00:15:36,239 --> 00:15:39,638
+a chat trigger mode It knows what it is But if I say defyable
+
+299
+00:15:39,639 --> 00:15:43,238
+it because maybe you have a telegram message or maybe it's some other kind
+
+300
+00:15:43,239 --> 00:15:45,498
+of chat But what we want to do is to give it a key
+
+301
+00:15:45,499 --> 00:15:48,778
+and a key a really clear one is session ID So you can come
+
+302
+00:15:48,779 --> 00:15:52,678
+that you can grab it over and now it will know the context length
+
+303
+00:15:52,679 --> 00:15:55,158
+window So for example, how do you know that's a case?
+
+304
+00:15:55,159 --> 00:15:58,458
+Well, if I delete it and I open the chat and I say hey,
+
+305
+00:15:58,518 --> 00:15:59,938
+what did I just ask you?
+
+306
+00:16:04,018 --> 00:16:06,618
+It will not be able to tell me, and it won't be able to
+
+307
+00:16:06,619 --> 00:16:09,578
+tell me because it has no memory. I can't access previous messages,
+
+308
+00:16:09,579 --> 00:16:12,158
+but if I click on memory, and I give it simple memory,
+
+309
+00:16:12,598 --> 00:16:15,358
+and you see it's connected to the session I do, and we can say
+
+310
+00:16:15,359 --> 00:16:17,718
+how many contacts will say 10 sounds healthy,
+
+311
+00:16:18,158 --> 00:16:20,418
+and then I can say something like,
+
+312
+00:16:20,478 --> 00:16:25,018
+I don't know, who is the tallest
+
+313
+00:16:25,019 --> 00:16:28,118
+man ever? Okay, and then what we can do,
+
+314
+00:16:28,298 --> 00:16:30,438
+once I ask that question, it's given from Wardler,
+
+315
+00:16:30,738 --> 00:16:32,938
+and say to it guys. Hey, what did I just ask you?
+
+316
+00:16:33,298 --> 00:16:35,358
+Can you see how it just checks the memory? Can we get that take?
+
+317
+00:16:35,878 --> 00:16:38,338
+You ask me who the tools man, I really like that. And just like
+
+318
+00:16:38,339 --> 00:16:41,898
+that guys, you've got an agent now with actual physically working memory.
+
+319
+00:16:42,178 --> 00:16:44,838
+So we've covered triggers and we've covered AI.
+
+320
+00:16:45,038 --> 00:16:47,898
+Now, the next kind of note I want you to think about in an
+
+321
+00:16:47,899 --> 00:16:51,358
+A10 is our action notes. So action notes could be something like we want
+
+322
+00:16:51,359 --> 00:16:53,458
+it to perform some kind of action.
+
+323
+00:16:53,598 --> 00:16:56,678
+And there's many different tools that you can use. You'll see on the right
+
+324
+00:16:56,679 --> 00:16:59,198
+hand side, when you search for the final touch of things. The one that
+
+325
+00:16:59,199 --> 00:17:01,958
+I want to use in this video guys is air table. Now air table,
+
+326
+00:17:02,078 --> 00:17:04,978
+you can use Google Sheets or whatever you want to, but essentially air tables
+
+327
+00:17:04,979 --> 00:17:07,818
+kind of like Google Sheets put on steroids. It's way more powerful,
+
+328
+00:17:07,998 --> 00:17:10,798
+way more configurable. So what I'm going to do here is I'm going to
+
+329
+00:17:10,799 --> 00:17:15,458
+add an air table module and I'm going to get this agent to search
+
+330
+00:17:15,459 --> 00:17:19,898
+it, to pull down information or create a record or do something really cool,
+
+331
+00:17:20,018 --> 00:17:22,638
+okay. So what you can do in this one example, guys, is I can
+
+332
+00:17:22,639 --> 00:17:25,058
+say, hey, I want you to create a record.
+
+333
+00:17:25,418 --> 00:17:28,078
+Now what I'm going to do is quickly show you what AirTable looks like,
+
+334
+00:17:28,198 --> 00:17:30,418
+just to get an example, then you can bulb this in any way that
+
+335
+00:17:30,419 --> 00:17:32,578
+you'd like to. We have it at airtable.com,
+
+336
+00:17:32,778 --> 00:17:35,818
+I come down to creating a bottom left and start from scratch,
+
+337
+00:17:35,978 --> 00:17:39,218
+right? So you can use AirTable, you can use things like,
+
+338
+00:17:39,658 --> 00:17:42,178
+see this Google Docs, beautiful, creative document,
+
+339
+00:17:42,298 --> 00:17:44,898
+amazing. We can do things like, ah, I don't know what we do,
+
+340
+00:17:44,958 --> 00:17:47,758
+we can maybe want to do Google Sheets phenomenal.
+
+341
+00:17:48,318 --> 00:17:51,478
+Maybe we want to, I don't know, we could do something like,
+
+342
+00:17:53,218 --> 00:17:56,578
+such an internet, right? Right, we could do any number of things that you
+
+343
+00:17:56,579 --> 00:17:59,018
+would like within this entire scenario.
+
+344
+00:17:59,198 --> 00:18:01,418
+So these are more your action oriented nodes. Like what are the things that
+
+345
+00:18:01,419 --> 00:18:03,738
+you want me to do? These could either sit in a workflow,
+
+346
+00:18:03,739 --> 00:18:07,578
+going left to right, or what you could do if you're using an agent
+
+347
+00:18:07,579 --> 00:18:09,738
+is add them as tools. So I could say,
+
+348
+00:18:09,739 --> 00:18:12,238
+hey, air table tool, right? And we can specify,
+
+349
+00:18:12,239 --> 00:18:14,518
+hey, I want you to be able to go and check a database.
+
+350
+00:18:14,858 --> 00:18:17,018
+I want you to be able to, you know,
+
+351
+00:18:17,078 --> 00:18:20,338
+let as a, for instance, create a Google document.
+
+352
+00:18:20,678 --> 00:18:23,718
+And we feed these tools into the agent like so.
+
+353
+00:18:23,719 --> 00:18:26,198
+And then we can give a prompt on our agent about what we would
+
+354
+00:18:26,199 --> 00:18:28,738
+like it to do of course guys I'm going to delete these and one
+
+355
+00:18:28,739 --> 00:18:30,738
+thing I want to show you very quickly is we need to know our
+
+356
+00:18:30,739 --> 00:18:35,318
+workflows So we'll come up with one AI agent Starter Beautiful
+
+357
+00:18:35,319 --> 00:18:38,138
+and a lot tip as always be saving it This is all to save
+
+358
+00:18:38,139 --> 00:18:40,878
+it which is awesome I want to ever you want to activate snore and
+
+359
+00:18:40,879 --> 00:18:43,598
+play the run you can just toggle this in here and that will send
+
+360
+00:18:43,599 --> 00:18:46,478
+you do it Now you've also got this execution tab so it shows us
+
+361
+00:18:46,479 --> 00:18:49,518
+all the stuff that we've done So let's go through the process now of
+
+362
+00:18:49,519 --> 00:18:52,698
+actually adding in a tool that it might use So if I click on
+
+363
+00:18:52,699 --> 00:18:55,618
+this tool section here and let's say that I want it to be able
+
+364
+00:18:55,619 --> 00:18:58,338
+to I don't know Do something with air table,
+
+365
+00:18:58,558 --> 00:19:01,858
+right? Which is a really great simple one to do it offers free to
+
+366
+00:19:01,859 --> 00:19:04,738
+use up to five major records You don't have to worry about that What
+
+367
+00:19:04,739 --> 00:19:06,918
+we'd need to do and this is a good example of how you would
+
+368
+00:19:06,919 --> 00:19:10,438
+connect something in a real-life business use case that people are using For their
+
+369
+00:19:10,439 --> 00:19:13,918
+end things so come down to create a new credential and you can see
+
+370
+00:19:13,919 --> 00:19:17,538
+here you got access token and owe off to We're gonna click on access
+
+371
+00:19:17,539 --> 00:19:20,818
+token around now Now how does this work? We're gonna head over to the
+
+372
+00:19:20,819 --> 00:19:24,618
+beautiful air table like so. So you're gonna have a guys to airtable.com forward
+
+373
+00:19:24,619 --> 00:19:26,758
+slash create, forward slash tokens.
+
+374
+00:19:27,218 --> 00:19:30,138
+Click on create a new token. And even if you don't plan on using
+
+375
+00:19:30,139 --> 00:19:32,578
+airtable, this is great to understand how you connect things.
+
+376
+00:19:32,998 --> 00:19:35,378
+But it's very good. So call this one BTG,
+
+377
+00:19:35,598 --> 00:19:37,798
+which is just a number token. We're gonna add scopes.
+
+378
+00:19:38,178 --> 00:19:40,458
+Scopes by the way guys are things that you want it to do.
+
+379
+00:19:40,618 --> 00:19:44,698
+So say for example, you wanna give access to a contractor or a member
+
+380
+00:19:44,699 --> 00:19:48,978
+of your team, but you don't want them to be able to do certain
+
+381
+00:19:48,979 --> 00:19:52,358
+things like read certain bases or make certain changes.
+
+382
+00:19:52,538 --> 00:19:54,858
+You want to give read on the access. You can specify that.
+
+383
+00:19:54,998 --> 00:19:58,278
+I've given it access to all the things. I've like that full capability and
+
+384
+00:19:58,279 --> 00:20:00,958
+then on access you can look on ad base. I've just said hey all
+
+385
+00:20:00,959 --> 00:20:04,438
+current of future bases and I click on create the token and then we'll
+
+386
+00:20:04,439 --> 00:20:07,038
+see this beautiful token here and you just copy it.
+
+387
+00:20:07,238 --> 00:20:11,138
+You come back over to your n8n scenario and then guys you paste it
+
+388
+00:20:11,139 --> 00:20:13,518
+in as you access token and then click on save.
+
+389
+00:20:13,978 --> 00:20:18,758
+And once that's done, you'll see that you're now successfully connected to
+
+390
+00:20:18,759 --> 00:20:22,158
+our table. So what we should do is create a base together and just
+
+391
+00:20:22,159 --> 00:20:25,358
+see if it can do something really cool. So I've got an entire base
+
+392
+00:20:25,359 --> 00:20:31,458
+here. I'm gonna basically come over and call it something like business master
+
+393
+00:20:31,459 --> 00:20:33,778
+class, okay? And I'm gonna do something really simple.
+
+394
+00:20:34,178 --> 00:20:36,658
+I'm gonna have name and then I'm gonna have something like,
+
+395
+00:20:36,718 --> 00:20:39,258
+I don't know, action. Dad,
+
+396
+00:20:39,398 --> 00:20:42,158
+that's simple and I've got a sign in status, just something really silly.
+
+397
+00:20:42,638 --> 00:20:45,438
+I come back with an 8n, what I can do is I can click
+
+398
+00:20:45,439 --> 00:20:48,898
+on Air Table. Now, again, this is how we check all stuff.
+
+399
+00:20:49,098 --> 00:20:53,098
+If I click on execute previous nodes, what that would do is execute everything
+
+400
+00:20:53,099 --> 00:20:55,158
+previous to the Air Table.
+
+401
+00:20:55,358 --> 00:20:57,398
+By the way, click on this guy. What I wanted to do, first of
+
+402
+00:20:57,399 --> 00:20:59,638
+all, is the resources record that's fine.
+
+403
+00:21:00,038 --> 00:21:02,658
+If I click on Operation, I can say, hey, I want you to create
+
+404
+00:21:02,659 --> 00:21:04,918
+or update something. I pick a base.
+
+405
+00:21:05,098 --> 00:21:07,238
+Now what did we say? We said business masterclass, right?
+
+406
+00:21:07,298 --> 00:21:09,998
+So come down. Business masterclass.
+
+407
+00:21:10,818 --> 00:21:13,118
+And is it there? It is cool.
+
+408
+00:21:13,298 --> 00:21:15,698
+So it's found it automatically. And then table.
+
+409
+00:21:15,938 --> 00:21:18,578
+I want to select on table one. I think you can do it anytime.
+
+410
+00:21:18,598 --> 00:21:21,578
+You see this magic button here. That lets the AI,
+
+411
+00:21:21,758 --> 00:21:25,778
+the AI agent define what that answer would be.
+
+412
+00:21:25,858 --> 00:21:27,878
+And we'll use that shortly. Now if I come down here,
+
+413
+00:21:27,898 --> 00:21:31,578
+you can see what it's done is essentially pulled everything through.
+
+414
+00:21:31,858 --> 00:21:34,138
+So what we're going to say is, say, when I go for name,
+
+415
+00:21:34,798 --> 00:21:37,078
+we'll just let the AI decide what the name is,
+
+416
+00:21:37,218 --> 00:21:39,578
+and then action, we'll let the AI decide what that action is,
+
+417
+00:21:39,618 --> 00:21:42,538
+right? And then what we can do guys is come off like that.
+
+418
+00:21:42,858 --> 00:21:45,018
+Now, I'm going to show you another really cool thing we can do in
+
+419
+00:21:45,019 --> 00:21:47,698
+this is I'm going to on link these for a moment. You see this
+
+420
+00:21:47,699 --> 00:21:50,398
+track window, I'm going to say something like, hey,
+
+421
+00:21:51,438 --> 00:21:56,078
+create me a fake name
+
+422
+00:21:56,079 --> 00:22:00,878
+and action of the day for a superhero
+
+423
+00:22:00,879 --> 00:22:04,598
+that that loves coffee,
+
+424
+00:22:04,738 --> 00:22:07,778
+all right, I hit Enter. Now, that wasn't connected,
+
+425
+00:22:07,898 --> 00:22:11,078
+that's fine. What do I do, I connect these together? I double-click it and
+
+426
+00:22:11,079 --> 00:22:13,738
+now here's a really cool feature with NATM guys, as you have a pin
+
+427
+00:22:13,739 --> 00:22:18,718
+feature and what the pin feature does is essentially takes the data and pins
+
+428
+00:22:18,719 --> 00:22:22,478
+it in. In other words, every time we run this now and I pass
+
+429
+00:22:22,479 --> 00:22:25,018
+that first part, we'll run it from here,
+
+430
+00:22:25,019 --> 00:22:28,638
+it will just use that information. That's really good if you've got webhugs or
+
+431
+00:22:28,639 --> 00:22:31,878
+you connect to the forms or you're doing something different, You don't need to
+
+432
+00:22:31,879 --> 00:22:35,138
+keep on repeating the whole process. So now look if I come here for
+
+433
+00:22:35,139 --> 00:22:38,158
+instance guys And I click on this agent. We want to give it some
+
+434
+00:22:38,159 --> 00:22:41,178
+kind of problem So what you'll see is this option section you click on
+
+435
+00:22:41,179 --> 00:22:45,498
+add option. I want to give it a system message a system Message is
+
+436
+00:22:45,499 --> 00:22:49,318
+think of it as telling the AI what it's about and then your user
+
+437
+00:22:49,319 --> 00:22:53,218
+message is the very little bit So if I say something like hey you
+
+438
+00:22:53,219 --> 00:22:58,038
+create action mess actions and Names for
+
+439
+00:22:58,039 --> 00:23:04,458
+superheroes Okay. Update this information in
+
+440
+00:23:04,459 --> 00:23:06,578
+AirTable. Obviously, there's way better prompts.
+
+441
+00:23:06,838 --> 00:23:09,238
+I just want to show that looks like okay. Now, if I come off
+
+442
+00:23:09,239 --> 00:23:11,498
+and I check this out guys, if I run this scenario once,
+
+443
+00:23:11,678 --> 00:23:13,898
+I come down. You can run a story at any time you want to
+
+444
+00:23:13,899 --> 00:23:17,198
+by clicking Test Workflow. Now, it's because I pen the data,
+
+445
+00:23:17,638 --> 00:23:21,358
+it's already using that exact data. You can see the AirTable's been updated,
+
+446
+00:23:21,838 --> 00:23:24,038
+the memory's been accessed, and it's used the model,
+
+447
+00:23:24,218 --> 00:23:26,198
+so if we come over to our scenario, do we see something from it?
+
+448
+00:23:27,378 --> 00:23:29,758
+Caffinator, bruise of justice, one cup at a time.
+
+449
+00:23:30,158 --> 00:23:32,698
+So guys, congratulations on following that through.
+
+450
+00:23:32,838 --> 00:23:35,018
+You've now actually visited the course of your first automation,
+
+451
+00:23:35,019 --> 00:23:38,258
+which I think is really cool. Now we come back over to NATAN.
+
+452
+00:23:38,778 --> 00:23:42,018
+That essentially covers the language model part of it,
+
+453
+00:23:42,298 --> 00:23:45,058
+the trigger part of it, and also these things of tools,
+
+454
+00:23:45,198 --> 00:23:48,178
+so we can either use to give to an agent, or we can stack
+
+455
+00:23:48,179 --> 00:23:50,918
+them across, and do very wonderful things. The other type of tool we might
+
+456
+00:23:50,919 --> 00:23:53,778
+need are utility focus, so that could be a really interesting stuff like,
+
+457
+00:23:54,058 --> 00:23:57,278
+we can have if this then then things. I can add certain branches in,
+
+458
+00:23:57,338 --> 00:24:00,218
+right? So I can say, hey, let's say this AI agent,
+
+459
+00:24:00,558 --> 00:24:02,838
+we feed it a customer, all right?
+
+460
+00:24:03,298 --> 00:24:05,858
+And we say, look, I want you just to check, what do we want
+
+461
+00:24:05,859 --> 00:24:08,098
+to work with them? Do they admit the right incompatible?
+
+462
+00:24:08,278 --> 00:24:11,378
+Do they not? And what we can say to this thing here is we
+
+463
+00:24:11,379 --> 00:24:13,438
+can say, look, you're going to get a value, right?
+
+464
+00:24:13,718 --> 00:24:17,278
+And what we can say is, if this value is true,
+
+465
+00:24:23,018 --> 00:24:25,818
+you're send it down that room. So for example, what that could be guys
+
+466
+00:24:25,819 --> 00:24:28,538
+is we could say look if it's true, awesome,
+
+467
+00:24:28,798 --> 00:24:31,678
+then we'll send them an email, we'll add Gmail module in here so you
+
+468
+00:24:31,679 --> 00:24:34,298
+could do something like send the Gmail module,
+
+469
+00:24:34,678 --> 00:24:37,718
+do X, do Y, what we could even bake some other stuff into the
+
+470
+00:24:37,719 --> 00:24:39,958
+agent if we wish to, saying hey, if you think it's good,
+
+471
+00:24:40,298 --> 00:24:43,078
+send them an email, but we can use these different types of utility nodes
+
+472
+00:24:43,079 --> 00:24:46,298
+in NA10 to do some different things. And there's so many different tool nodes
+
+473
+00:24:46,299 --> 00:24:49,658
+that you can use, but just think of it as data transformation.
+
+474
+00:24:49,998 --> 00:24:53,818
+In other words, you'll have a series of data coming into the This this
+
+475
+00:24:53,819 --> 00:24:56,938
+this this sort of this node and then based on what you want it
+
+476
+00:24:56,939 --> 00:25:00,118
+to do It will slide to go into different directions like you know You
+
+477
+00:25:00,119 --> 00:25:03,838
+can do all these things here the popular ones are filters if statements Lipping
+
+478
+00:25:03,839 --> 00:25:06,018
+over Merging things together.
+
+479
+00:25:06,358 --> 00:25:10,118
+It goes in so many different beautiful ways One really cool one that you
+
+480
+00:25:10,119 --> 00:25:12,578
+can do guys outside of flow and you can see actually you got like
+
+481
+00:25:12,579 --> 00:25:15,038
+Compared data set stop and arrow switch.
+
+482
+00:25:15,338 --> 00:25:18,498
+You can wait the weight is a really cool one If you want to
+
+483
+00:25:18,499 --> 00:25:21,218
+add time delays, but when I want to shave very quickly just to kind
+
+484
+00:25:21,219 --> 00:25:23,598
+of help you level up but some really cool stuff is code.
+
+485
+00:25:24,078 --> 00:25:28,698
+Now, this is no code, right? But I showed you my last automation on
+
+486
+00:25:28,699 --> 00:25:30,918
+my YouTube channel. This automation,
+
+487
+00:25:30,919 --> 00:25:32,998
+which is right here, okay?
+
+488
+00:25:33,498 --> 00:25:36,478
+Now, what you can do with this, this was an interesting one that scrubs
+
+489
+00:25:36,479 --> 00:25:40,778
+TikTok, is you can actually speak to ChatGBT and say,
+
+490
+00:25:40,918 --> 00:25:43,478
+hey, I'm getting all of this information.
+
+491
+00:25:43,898 --> 00:25:47,058
+And what I want you to do is to be able to put it
+
+492
+00:25:47,059 --> 00:25:50,818
+in a particular outpot. And what ChatGBT will do with any module is create
+
+493
+00:25:50,819 --> 00:25:53,898
+code for you. And you can pick the language, you enter it in there
+
+494
+00:25:53,899 --> 00:25:58,398
+and it will transpose and transform your actual data.
+
+495
+00:25:58,898 --> 00:26:01,938
+So why is that so interesting? Well, in this case, I had something that
+
+496
+00:26:01,939 --> 00:26:06,638
+was one input. Okay, here you can see I was getting all this
+
+497
+00:26:06,639 --> 00:26:10,278
+stuff in one input. And what I wanted it to do is basically turn
+
+498
+00:26:10,279 --> 00:26:13,038
+this in, as you can see, five outputs.
+
+499
+00:26:13,358 --> 00:26:16,478
+So I spoke to Chad GBT and I said, Hey, these are the inputs.
+
+500
+00:26:16,898 --> 00:26:20,078
+I want you to write some code this but it's like the outputs and
+
+501
+00:26:20,079 --> 00:26:22,458
+then what it will do is give you some code you type it in
+
+502
+00:26:22,459 --> 00:26:25,678
+and then that will generate for you. Think of the code module as a
+
+503
+00:26:25,679 --> 00:26:30,078
+really really cool node it's kind of like the WD40 of n810 and it
+
+504
+00:26:30,079 --> 00:26:32,638
+opens up your snores so quick it can help get you out of many
+
+505
+00:26:32,639 --> 00:26:36,138
+fixes and it's super super super valuable to use and then just coming back
+
+506
+00:26:36,139 --> 00:26:39,158
+up to this snore of there's other things we can do tools like retrieval
+
+507
+00:26:39,159 --> 00:26:43,318
+augmented generation which we've covered in different videos but just for your knowledge here
+
+508
+00:26:43,319 --> 00:26:48,038
+that's your ability to access data stores rag being this really fancy
+
+509
+00:26:48,039 --> 00:26:51,538
+word for. Instead of having like lots of information in a kind of prompt,
+
+510
+00:26:51,698 --> 00:26:55,638
+we can store millions of piece of information and tune them into smaller bits
+
+511
+00:26:55,639 --> 00:26:59,158
+and give them unique codes and the AI can reach everyone grab that data
+
+512
+00:26:59,159 --> 00:27:02,658
+information and bring them down to retrieve it dynamically,
+
+513
+00:27:03,318 --> 00:27:07,658
+meaning you can operate quickly and have a vast larger source of things.
+
+514
+00:27:07,818 --> 00:27:10,398
+So we have these different tools. The other thing you can do in an
+
+515
+00:27:10,399 --> 00:27:13,258
+A10 that I think is worth calling out here, unlike some other platforms,
+
+516
+00:27:13,738 --> 00:27:16,998
+is you can have things that have multiple triggers in one scenario.
+
+517
+00:27:17,478 --> 00:27:20,718
+So in this AI agent here, for example, I've got this telegram trigger,
+
+518
+00:27:20,858 --> 00:27:23,818
+which can trigger the scenario. I've also got this Google Drive trigger,
+
+519
+00:27:23,978 --> 00:27:27,338
+right? Where the second that a file is created in my Google Drive,
+
+520
+00:27:27,378 --> 00:27:30,358
+it downloads it and adds it to my pine cord database.
+
+521
+00:27:30,718 --> 00:27:33,078
+For example, this is good if I get new documents,
+
+522
+00:27:33,079 --> 00:27:35,898
+my business, that I want to be able to chat to my AI about,
+
+523
+00:27:36,198 --> 00:27:39,338
+it will add them to my Google Drive and it will automatically add it
+
+524
+00:27:39,339 --> 00:27:42,738
+to my knowledge base, meaning that I can then use it later when I
+
+525
+00:27:42,739 --> 00:27:44,838
+have the conversations with my AI agents.
+
+526
+00:27:44,918 --> 00:27:46,978
+One of our guys, now we're going to take all the stuff that we've
+
+527
+00:27:46,979 --> 00:27:50,418
+learned together so far in this video to build an agent that can do
+
+528
+00:27:50,419 --> 00:27:54,018
+something really cool for you. Now, what you'll often find as a business owner
+
+529
+00:27:54,019 --> 00:27:58,378
+is that you don't need AI agents to run most of your business.
+
+530
+00:27:58,578 --> 00:28:03,098
+Actually, guys, it's usually the really simple short flows that have
+
+531
+00:28:03,099 --> 00:28:05,438
+an AI that does very defined things. For example,
+
+532
+00:28:05,538 --> 00:28:07,998
+instead of an AI agent, you can type in AI.
+
+533
+00:28:08,558 --> 00:28:10,678
+You can even type in open AI, for example.
+
+534
+00:28:10,738 --> 00:28:14,498
+Click on this guy. And then come down message a model all right now
+
+535
+00:28:14,499 --> 00:28:18,118
+with this That is just using the model so I could say hey here
+
+536
+00:28:18,119 --> 00:28:22,378
+come today to do something really cool That gives you really clearly defined outputs
+
+537
+00:28:22,379 --> 00:28:25,678
+and agent gives you autonomy One of the ways that you can know whether
+
+538
+00:28:25,679 --> 00:28:29,118
+or not you should use an agent in other words an agent Has access
+
+539
+00:28:29,119 --> 00:28:32,978
+to all these tools or just simply an AI is is it going to
+
+540
+00:28:32,979 --> 00:28:37,278
+be consistent? Outputs every single time in other words Do you know what the
+
+541
+00:28:37,279 --> 00:28:40,178
+defined output will be if you know I need you to do a very
+
+542
+00:28:40,179 --> 00:28:42,898
+set defined task then use an AI.
+
+543
+00:28:43,138 --> 00:28:45,698
+If you think the task output is extremely variable,
+
+544
+00:28:45,998 --> 00:28:48,618
+then you advise towards an agent in this case.
+
+545
+00:28:48,958 --> 00:28:52,098
+Now, what I'm gonna do in this example is just show you the function
+
+546
+00:28:52,099 --> 00:28:54,958
+of an agent so you can use that and then you can apply it
+
+547
+00:28:54,959 --> 00:28:57,458
+to a business and anyone you'd like to. So what I thought would be
+
+548
+00:28:57,459 --> 00:29:00,458
+a cool example for us to build together is, let's say that we have
+
+549
+00:29:00,459 --> 00:29:02,738
+a form that a client fills out.
+
+550
+00:29:03,038 --> 00:29:05,418
+What I wanna do is to get that information from that form.
+
+551
+00:29:05,698 --> 00:29:07,878
+I wanna feed it to the AI agent.
+
+552
+00:29:08,198 --> 00:29:11,518
+This AI agent is then gonna analyze it based on some information,
+
+553
+00:29:11,818 --> 00:29:14,578
+and then he's going to update our air table database. So say you're a
+
+554
+00:29:14,579 --> 00:29:17,138
+business, say you want to work with me, fill out this form.
+
+555
+00:29:17,458 --> 00:29:19,658
+We're going to have AI assess their criteria,
+
+556
+00:29:20,118 --> 00:29:23,318
+and then tell us in a form all the information and database in a
+
+557
+00:29:23,319 --> 00:29:26,318
+table with a view of whether or not what you call them and what
+
+558
+00:29:26,319 --> 00:29:28,358
+the biases are. So what do we want to do?
+
+559
+00:29:28,378 --> 00:29:30,598
+Well, we need a trigger. So what I'm going to do in this one,
+
+560
+00:29:30,599 --> 00:29:35,038
+guys, is we're going to create an account on a free website.
+
+561
+00:29:35,358 --> 00:29:37,818
+So we're going to use Typeform. So let's click on Add First Step.
+
+562
+00:29:37,819 --> 00:29:39,978
+type, let's type in type form,
+
+563
+00:29:40,158 --> 00:29:42,998
+type form trigger, awesome. All right. And then we're going to bring this guy
+
+564
+00:29:42,999 --> 00:29:45,258
+over here and we're going to connect them together.
+
+565
+00:29:45,558 --> 00:29:47,958
+So let's head over to type form now and figure that out.
+
+566
+00:29:47,978 --> 00:29:50,758
+Okay. So you learn on typhoon.com. You can create a free account.
+
+567
+00:29:51,018 --> 00:29:54,478
+Let's just create a new one together very quickly, create a new form,
+
+568
+00:29:54,758 --> 00:29:58,338
+awesome. Give that a second to load. And let's just do create with AI.
+
+569
+00:29:59,318 --> 00:30:02,798
+Let's do for lead qualification forms,
+
+570
+00:30:02,818 --> 00:30:06,218
+that's pretty cool. We'll call this one Magoo Enterprises.
+
+571
+00:30:09,398 --> 00:30:14,658
+Okay, and let's say the function of our business is to to
+
+572
+00:30:14,659 --> 00:30:17,538
+create, I don't know, let's say go to market
+
+573
+00:30:22,098 --> 00:30:25,838
+strategies for MMA gyms. Beautiful.
+
+574
+00:30:26,298 --> 00:30:28,938
+Click continue. Now this is just generating something I think fake,
+
+575
+00:30:29,118 --> 00:30:31,378
+you know, fake tissues. It's got a lot of different things there.
+
+576
+00:30:31,478 --> 00:30:33,578
+That's absolutely fine. Generate questions.
+
+577
+00:30:35,258 --> 00:30:39,018
+Beautiful. So we've got here, please provide information which initially practice every business.
+
+578
+00:30:39,318 --> 00:30:41,978
+You may use your services. Blah, blah, blah, really cool.
+
+579
+00:30:42,118 --> 00:30:46,278
+And let's just add one of the questions. Let's change this one to what's
+
+580
+00:30:46,279 --> 00:30:48,418
+your budget, okay?
+
+581
+00:30:49,018 --> 00:30:52,758
+And we come down here. And so that will say zero to 10K.
+
+582
+00:30:53,538 --> 00:30:56,538
+And then this one can be 10K plus. Cool.
+
+583
+00:30:56,539 --> 00:30:58,618
+Alright, so now we're going to publish this one,
+
+584
+00:30:58,838 --> 00:31:01,658
+beautiful, we like it,
+
+585
+00:31:01,798 --> 00:31:04,998
+it's already rocking wrong. So let's get it over to our N8N scenario,
+
+586
+00:31:05,478 --> 00:31:07,918
+click on type form and let's add a new credential,
+
+587
+00:31:07,938 --> 00:31:10,898
+also create a new credential, and let's see what our two looks like,
+
+588
+00:31:11,438 --> 00:31:14,018
+you know, I think we'll just go with the access token, so let's come
+
+589
+00:31:14,019 --> 00:31:16,418
+back over to type form and we want to find out an access token,
+
+590
+00:31:16,538 --> 00:31:19,758
+so click on this over here, usually you'll find it in your setting somewhere,
+
+591
+00:31:20,398 --> 00:31:22,658
+so let's have a good look, there we go,
+
+592
+00:31:23,158 --> 00:31:26,718
+personalized tokens, personal tokens and then generate a new token.
+
+593
+00:31:27,178 --> 00:31:28,978
+I will call this one. I don't know, Magoo.
+
+594
+00:31:33,358 --> 00:31:36,358
+Enter prizes. All right, sweet. All scopes is fine.
+
+595
+00:31:36,578 --> 00:31:39,438
+This means it can read right all the things, generate token, ace,
+
+596
+00:31:40,038 --> 00:31:44,558
+and then click on copy. Then let's go over to n8n and type in
+
+597
+00:31:44,559 --> 00:31:47,218
+the access token there. I know we're going to click on save.
+
+598
+00:31:47,638 --> 00:31:51,218
+And guys, in the school community, we've got full n10 courses going through getting
+
+599
+00:31:51,219 --> 00:31:53,898
+started, building blogs, have connected any time to websites,
+
+600
+00:31:54,218 --> 00:31:56,558
+first aid assistants, all this thing, global scenarios,
+
+601
+00:31:56,858 --> 00:32:00,158
+how you connected to everything. We're releasing these modules now a couple of weeks
+
+602
+00:32:00,159 --> 00:32:03,038
+at the moment, so we've got loads in the classroom and that's growing a
+
+603
+00:32:03,039 --> 00:32:04,798
+lot of the coming weeks. If you want to go to the third, you're
+
+604
+00:32:04,799 --> 00:32:07,878
+always welcome to come over and say, hey, get some help and check this
+
+605
+00:32:07,879 --> 00:32:10,178
+out and get lots of tech support as well.
+
+606
+00:32:10,678 --> 00:32:13,358
+So we've got the credential, okay, so we've got the token.
+
+607
+00:32:13,558 --> 00:32:16,858
+We come over now to our scenario, which is over here,
+
+608
+00:32:16,978 --> 00:32:19,978
+because I've got a million tabs open. All right, and we type in the
+
+609
+00:32:19,979 --> 00:32:22,438
+access token. Once that's done, it's saved.
+
+610
+00:32:22,598 --> 00:32:25,618
+That means now that we've connected to it. Now what we'll do here guys
+
+611
+00:32:25,619 --> 00:32:27,998
+is basically decide which formula we want to grab.
+
+612
+00:32:28,178 --> 00:32:30,238
+So I click on this guy and I say I want to go for,
+
+613
+00:32:30,898 --> 00:32:33,058
+well we didn't really name it, did we actually, so let's come back over
+
+614
+00:32:33,059 --> 00:32:36,378
+here, click off this and let me go enter prizes.
+
+615
+00:32:36,778 --> 00:32:39,118
+Yeah, we did actually name it to be fair. So I come back over
+
+616
+00:32:39,119 --> 00:32:43,458
+to our forms in a workspace. Okay,
+
+617
+00:32:43,598 --> 00:32:46,078
+it's this guy here. So let's just give this one in your name and
+
+618
+00:32:46,079 --> 00:32:48,398
+let's call this one, magoo.
+
+619
+00:32:48,399 --> 00:32:50,718
+All right, click on save, flip and awesome.
+
+620
+00:32:51,258 --> 00:32:53,798
+And I'm going to click off, fantastic. We come back over,
+
+621
+00:32:54,118 --> 00:32:56,918
+we set the ID, it's not there yet, so what we can do is
+
+622
+00:32:56,919 --> 00:32:59,638
+to refresh list. I want you to know,
+
+623
+00:32:59,718 --> 00:33:02,098
+McGue is appeared. Ace, so we can test the step.
+
+624
+00:33:02,378 --> 00:33:04,478
+Now, if you're testing a step like this, this is saying,
+
+625
+00:33:04,518 --> 00:33:07,618
+cool, I'm waiting for input from the resource.
+
+626
+00:33:07,998 --> 00:33:10,318
+So I come over here to McGue, I click on it,
+
+627
+00:33:10,638 --> 00:33:13,158
+I can, let's see if we can have a quick look at what this
+
+628
+00:33:13,159 --> 00:33:15,558
+physically looks like. Well, if we click on share, for example,
+
+629
+00:33:15,559 --> 00:33:18,578
+call, copy the link, and we'll just paste that in here.
+
+630
+00:33:18,938 --> 00:33:21,698
+We can give it some information, okay? So this is now learning up.
+
+631
+00:33:21,798 --> 00:33:23,918
+Okay, so we've opened it up, I've given it some fake information,
+
+632
+00:33:23,919 --> 00:33:26,378
+we click okay, that number doesn't look right,
+
+633
+00:33:26,518 --> 00:33:28,738
+let's give it some numbers, it won't make sense. That look good,
+
+634
+00:33:28,898 --> 00:33:30,918
+hopefully that looks good. Oh my gosh,
+
+635
+00:33:31,018 --> 00:33:32,938
+they're really keen on getting this correct, isn't it? Okay, let me give it
+
+636
+00:33:32,939 --> 00:33:35,198
+a real number. All right, we've given it a UK number, hopefully we'll accept
+
+637
+00:33:35,199 --> 00:33:37,738
+that now. Awesome, so we say hey, and that may look so,
+
+638
+00:33:37,739 --> 00:33:40,078
+I might mix my shots fitness, we'll see gym owners,
+
+639
+00:33:40,398 --> 00:33:43,918
+and then we'll say hey, active communities, obviously whatever you you want to and
+
+640
+00:33:43,919 --> 00:33:46,438
+we'll say it's 10k plus which is cool. We click on submit.
+
+641
+00:33:46,798 --> 00:33:49,798
+That's been done. We come over to n8 and guys look at this every
+
+642
+00:33:49,799 --> 00:33:53,838
+single piece of information that you just got from your client will appear automatically
+
+643
+00:33:53,839 --> 00:33:56,538
+for you. Now with that, what do you want to do? Let's go over
+
+644
+00:33:56,539 --> 00:33:58,998
+to the agent now. Now we've got a system message here,
+
+645
+00:33:59,058 --> 00:34:01,318
+okay? And to give you very quick hack on how to prompt these very
+
+646
+00:34:01,319 --> 00:34:03,738
+quickly, we want to give it four things. Context,
+
+647
+00:34:04,298 --> 00:34:07,118
+the definition of its role, action specification,
+
+648
+00:34:07,458 --> 00:34:09,518
+basically stating the action and task going to perform,
+
+649
+00:34:09,519 --> 00:34:12,978
+Then error handling if this then do this so very quickly.
+
+650
+00:34:12,979 --> 00:34:17,438
+I'll just copy this and we'll head over to Claude using this template You
+
+651
+00:34:17,439 --> 00:34:22,438
+know right for me a specification and a an AI agent
+
+652
+00:34:22,439 --> 00:34:27,178
+system message for somebody who will
+
+653
+00:34:28,158 --> 00:34:32,758
+Take a new customer info And
+
+654
+00:34:32,759 --> 00:34:37,638
+fill out required forms determining whether
+
+655
+00:34:37,639 --> 00:34:42,158
+or not They would be
+
+656
+00:34:42,159 --> 00:34:49,638
+a good fit for our consultancy Program
+
+657
+00:34:49,639 --> 00:34:54,358
+you will have air table as a tool boom There's
+
+658
+00:34:54,359 --> 00:34:57,318
+a template and to that end we can get something very short sharpen quick
+
+659
+00:34:57,319 --> 00:35:00,558
+from Claude Which is great and then we'll do copy this will then paste
+
+660
+00:35:00,559 --> 00:35:03,658
+into the system message And then we can run through this whole thing together,
+
+661
+00:35:03,659 --> 00:35:06,998
+which is called obviously just kind of change this based on your own particular
+
+662
+00:35:06,999 --> 00:35:09,978
+use cases Alright,
+
+663
+00:35:10,118 --> 00:35:12,398
+beautiful. This is ace. Okay,
+
+664
+00:35:12,818 --> 00:35:18,018
+air table is create Only
+
+665
+00:35:18,019 --> 00:35:21,698
+cool and what you would I'd encourage you to do guys very very briefly
+
+666
+00:35:21,699 --> 00:35:25,058
+is when you create tools I would want you to say you will have
+
+667
+00:35:25,059 --> 00:35:28,858
+the available tools air table blah blah blah blah XYZ now these are getting
+
+668
+00:35:28,859 --> 00:35:32,078
+increasingly better to know exactly what they are Which is really handy.
+
+669
+00:35:32,298 --> 00:35:35,118
+So it's you won't need to do that too much Which is fine,
+
+670
+00:35:35,258 --> 00:35:38,578
+but it's just FYI now what we need to do in the actual information
+
+671
+00:35:38,579 --> 00:35:41,658
+itself in instead of expression, click on fix,
+
+672
+00:35:41,898 --> 00:35:44,758
+just so we can basically edit it. And we want to just bring this
+
+673
+00:35:44,759 --> 00:35:46,818
+all over and bring in the first name. Actually,
+
+674
+00:35:46,898 --> 00:35:49,578
+we won't need their first name, but probably what we'd want is their company,
+
+675
+00:35:50,498 --> 00:35:53,658
+which best describes them, who their main use cases are,
+
+676
+00:35:53,718 --> 00:35:57,758
+what the use cases are, where they're located, and what their budget is,
+
+677
+00:35:57,878 --> 00:36:00,158
+okay. And then what I'm gonna do, guys, I can come to club,
+
+678
+00:36:00,159 --> 00:36:03,318
+let me just copy this information here, come over to anything,
+
+679
+00:36:03,978 --> 00:36:06,278
+and post that down. All right, so we've given it a system message,
+
+680
+00:36:06,478 --> 00:36:09,678
+we've given it a WhatsApp message, which is called and we'll click off it.
+
+681
+00:36:09,998 --> 00:36:12,538
+I'm going to click on type form, just like we learned earlier,
+
+682
+00:36:13,078 --> 00:36:15,958
+I'm going to pin. So I pinned it, which basically means that you're not
+
+683
+00:36:15,959 --> 00:36:18,118
+going to change. You can also edit this, by the way, if I said
+
+684
+00:36:18,119 --> 00:36:20,938
+like, hey, budget is 10k plus, I can edit it dynamically,
+
+685
+00:36:21,138 --> 00:36:23,678
+which is really cool. Click on save, click off that,
+
+686
+00:36:23,758 --> 00:36:27,158
+right? Now, in terms of this, let's say what we want it to do.
+
+687
+00:36:27,278 --> 00:36:30,878
+We've got name, action, let's go back over to our table and instead of
+
+688
+00:36:30,879 --> 00:36:35,298
+action, let's just say, will they be a good fit?
+
+689
+00:36:35,518 --> 00:36:39,918
+Question mark, right? And then let's also here just have company name to double
+
+690
+00:36:39,919 --> 00:36:44,998
+click Company name Awesome,
+
+691
+00:36:44,999 --> 00:36:48,598
+and then we can right click and then we can insert right and then
+
+692
+00:36:48,599 --> 00:36:53,378
+why don't we have something like budget And
+
+693
+00:36:53,379 --> 00:36:56,138
+then what we can also do is right click here and let's just have
+
+694
+00:36:57,398 --> 00:37:01,958
+assessment You know summary of client So this will give us a
+
+695
+00:37:01,959 --> 00:37:06,038
+call summary right beautiful So that's delete all this stuff in our table very
+
+696
+00:37:06,039 --> 00:37:08,258
+quickly. Click right. Delete. Ace.
+
+697
+00:37:08,398 --> 00:37:10,718
+Right. Now let's come back over to our N8N scenario.
+
+698
+00:37:11,018 --> 00:37:13,738
+What I'm going to do is refresh this. Ace.
+
+699
+00:37:13,898 --> 00:37:16,258
+So company name. What we can do guys now. This is really cool.
+
+700
+00:37:17,158 --> 00:37:20,618
+Is we can actually define it from other things. So since their company name
+
+701
+00:37:20,619 --> 00:37:22,738
+is already hard coded, I can see this is type form.
+
+702
+00:37:23,078 --> 00:37:25,518
+By the way, if you have like 20 modules, you'll be able to cycle
+
+703
+00:37:25,519 --> 00:37:27,998
+through the moon. I come here. The company name.
+
+704
+00:37:28,138 --> 00:37:30,418
+I grab. I bring over. Pretty cool.
+
+705
+00:37:30,518 --> 00:37:33,318
+Right. budget. We know what that is. Bring that over.
+
+706
+00:37:33,718 --> 00:37:35,798
+Will they be a good fit? What I'm going to say here guys is
+
+707
+00:37:35,799 --> 00:37:38,038
+let the model define the answer to that.
+
+708
+00:37:38,498 --> 00:37:40,518
+So it will read that and say it's asking the question.
+
+709
+00:37:40,958 --> 00:37:44,358
+Summary of client it will do that. Assigning status of just other fields we
+
+710
+00:37:44,359 --> 00:37:46,738
+left. So we don't need to worry about that. We click off.
+
+711
+00:37:47,038 --> 00:37:49,998
+Now how would this work? I would simply test workflow and we can see
+
+712
+00:37:49,999 --> 00:37:52,098
+the magic happening. So look, it's grab the data.
+
+713
+00:37:52,518 --> 00:37:55,358
+The AI agents got the memory found. So let's figure out why that is.
+
+714
+00:37:55,858 --> 00:37:58,838
+Ah, you see, this is a really good example of how we do this.
+
+715
+00:37:59,078 --> 00:38:02,998
+You see how it's got memory? It doesn't need its memory,
+
+716
+00:38:03,158 --> 00:38:06,838
+but the reason why it's failed is because we had a previous trigger.
+
+717
+00:38:07,018 --> 00:38:09,038
+You see, and it's not working like that.
+
+718
+00:38:09,358 --> 00:38:11,938
+So what we could do is a couple of things. We don't really need
+
+719
+00:38:11,939 --> 00:38:16,398
+it, but you'd need to define it with some information that exists before.
+
+720
+00:38:16,538 --> 00:38:19,538
+In other words, what do you want me to perceive to be the memory
+
+721
+00:38:19,539 --> 00:38:22,018
+ID here, right? Maybe one of the things that we want to do is
+
+722
+00:38:22,019 --> 00:38:24,218
+say, look, anytime we get this email that comes through,
+
+723
+00:38:24,438 --> 00:38:27,618
+this is how I want to define with memories. In reality,
+
+724
+00:38:27,778 --> 00:38:30,418
+guys, we don't really need it, so I'm going to remove the memory here.
+
+725
+00:38:30,538 --> 00:38:33,598
+Okay, guys, so let's just test this one together. We'll click on Test Workflow,
+
+726
+00:38:33,818 --> 00:38:37,598
+it's checking Open Eye Model, Air Table, so you can see it's updated something,
+
+727
+00:38:37,878 --> 00:38:40,118
+which is great, so let's go over now to the Air Table and see
+
+728
+00:38:40,119 --> 00:38:43,578
+what's happened. Look at this, guys. And it's added the entire thing,
+
+729
+00:38:43,658 --> 00:38:46,058
+so it's like, AcmeCorp, yes. It's focused on this,
+
+730
+00:38:46,318 --> 00:38:48,498
+blah, blah, blah, blah, somebody of client will be a good fit,
+
+731
+00:38:48,658 --> 00:38:50,858
+yes. And just like that, it's crushed it.
+
+732
+00:38:50,859 --> 00:38:53,278
+We could also add new things in that we could say hey say yes
+
+733
+00:38:53,279 --> 00:38:56,138
+and give me a reason why you think it would be The one final
+
+734
+00:38:56,139 --> 00:38:58,418
+bonus thing I want to add in here guys is the ability to do
+
+735
+00:38:58,419 --> 00:39:01,058
+research on the client and add it to your CRM So to do that,
+
+736
+00:39:01,138 --> 00:39:03,198
+we're going to add a really cool tool We are going to add click
+
+737
+00:39:03,199 --> 00:39:05,918
+on this button here And so we're going to look for Serb which is
+
+738
+00:39:05,919 --> 00:39:10,018
+cool which is Serb API which basically lets us use Google Serb So do
+
+739
+00:39:10,019 --> 00:39:14,338
+that guys, head over to Serb API.com forward slash dashboard And when you do
+
+740
+00:39:14,339 --> 00:39:17,478
+that, you'll see this API key section and it will generate free automatically quick,
+
+741
+00:39:17,658 --> 00:39:21,458
+I want you to copy that API key then head back over to NATM.
+
+742
+00:39:21,658 --> 00:39:23,898
+Once you've done that, come down, create a new credential,
+
+743
+00:39:24,578 --> 00:39:27,298
+paste that API key in here and then you'll be connected.
+
+744
+00:39:27,498 --> 00:39:30,838
+And now with that, let's add a new message to our chat box.
+
+745
+00:39:30,978 --> 00:39:33,758
+Hey, I want you to do some research on the company and enter that
+
+746
+00:39:33,759 --> 00:39:36,478
+information. So let's come over to our table. Then after budget,
+
+747
+00:39:36,618 --> 00:39:41,158
+let's insert, right? Let's do company research,
+
+748
+00:39:41,558 --> 00:39:44,258
+okay? Come off that. This car feels fine.
+
+749
+00:39:44,358 --> 00:39:46,578
+Actually, we need to do that properly. Come down, insert it right.
+
+750
+00:39:46,798 --> 00:39:50,698
+Let's do company. Research.
+
+751
+00:39:51,858 --> 00:39:54,998
+All right, beautiful. So we come back over now to our phenomenal scenario,
+
+752
+00:39:54,999 --> 00:39:57,258
+which is this one here. So for example, guys,
+
+753
+00:39:57,318 --> 00:39:59,218
+if I come back if it's Type 1 Trigger and I say, Hey, the
+
+754
+00:39:59,219 --> 00:40:01,478
+company is multi-leaders.com, which is really cool.
+
+755
+00:40:01,658 --> 00:40:03,778
+I click on save and come off this.
+
+756
+00:40:03,958 --> 00:40:06,258
+Let's run it now and see if we'll actually add that stuff in.
+
+757
+00:40:06,378 --> 00:40:08,278
+So we give a little bit of research onto it. And guys, if I
+
+758
+00:40:08,279 --> 00:40:10,598
+come over and have a look at this, now I'm adding the link. You
+
+759
+00:40:10,599 --> 00:40:13,038
+can see where it's done. And more much, I'll leave a premium martial arts
+
+760
+00:40:13,039 --> 00:40:15,258
+community specializing in K-Boxing, and you know, I keep it in jiu-jitsu,
+
+761
+00:40:15,718 --> 00:40:17,778
+how do I know if that's true? Because I go there,

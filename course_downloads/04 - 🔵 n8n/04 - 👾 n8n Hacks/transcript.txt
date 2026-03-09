@@ -1,0 +1,47 @@
+1
+00:00:00,011 --> 00:00:02,108
+Alright guys, let's jump into some Anit and hacks.
+
+2
+00:00:02,109 --> 00:00:05,669
+First of all, Anit and always get upgraded.
+
+3
+00:00:05,761 --> 00:00:08,274
+So for example, they're always making patches and bugs. Now here's the thing,
+
+4
+00:00:08,275 --> 00:00:11,211
+it does not upgrade for you automatically,
+
+5
+00:00:11,212 --> 00:00:13,919
+even if you're just using Anit and itself.
+
+6
+00:00:13,920 --> 00:00:15,710
+So the first thing I want to show you right now is how you
+
+7
+00:00:15,711 --> 00:00:17,832
+can, uh, upgrade your software.
+
+8
+00:00:17,833 --> 00:00:20,564
+Because things don't break and they just won't work sometimes.
+
+9
+00:00:20,634 --> 00:00:23,414
+For example, you'll see someone else's scenario and it doesn't look the same as
+
+10
+00:00:23,415 --> 00:00:25,759
+yours. How do you fix that? Bottom left,
+
+11
+00:00:26,111 --> 00:00:28,409
+updates, click on the updates and you can see here,
+
+12
+00:00:28,410 --> 00:00:30,770
+these are different thing
