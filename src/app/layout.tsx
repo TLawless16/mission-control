@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'GravityClaw Mission Control',
-  description: 'SMB Platform Command Center',
+  title: 'ApexRex AI — Mission Control',
+  description: 'ApexRex AI Platform Command Center',
 };
 
 export default function RootLayout({

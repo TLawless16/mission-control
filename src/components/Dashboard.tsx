@@ -32,7 +32,8 @@ function getKanbanColumn(task: DBTask): string {
 }
 
 import { View } from '@/components/Sidebar';
-import MediaPathWidget from './MediaPathWidget';
+// MediaPathWidget removed — was showing debug file path on dashboard
+// import MediaPathWidget from './MediaPathWidget';
 
 export default function Dashboard({ setActiveView }: { setActiveView?: (v: View) => void }) {
   const allProjects = useStore((s) => s.projects);
@@ -106,8 +107,7 @@ export default function Dashboard({ setActiveView }: { setActiveView?: (v: View)
         ))}
       </div>
 
-      {/* Onboarding Media Path */}
-      <MediaPathWidget />
+      {/* MediaPathWidget removed — debug widget */}
 
       {/* Urgent + Project Progress */}
       <div className="grid grid-cols-2 gap-4">

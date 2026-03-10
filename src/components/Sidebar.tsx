@@ -104,7 +104,7 @@ export default function Sidebar({ activeView, setActiveView }: SidebarProps) {
         <h1 className={`font-bold flex items-center ${collapsed ? 'text-2xl justify-center' : 'text-xl gap-2'}`}>
           🚀 {!collapsed && <span>Mission Control</span>}
         </h1>
-        {!collapsed && <p className="text-[10px] absolute top-[45px]" style={{ color: 'var(--text-secondary)' }}>Jarvis & Tim — BIAB Platform</p>}
+        {!collapsed && <p className="text-[10px] absolute top-[45px]" style={{ color: 'var(--text-secondary)' }}>ApexRex AI Platform</p>}
       </div>
 
       <nav className="flex-1 overflow-y-auto p-3 space-y-1" style={{ scrollbarWidth: 'none' }}>
@@ -117,7 +117,7 @@ export default function Sidebar({ activeView, setActiveView }: SidebarProps) {
           {!collapsed && <span className="text-sm">Dashboard</span>}
         </button>
 
-        {/* BIAB Platform Section */}
+        {/* ApexRex Platform Section */}
         <div className="mt-2">
           <button onClick={() => {
             if (collapsed) { setCollapsed(false); setPlatformOpen(true); setClientsOpen(false); }
@@ -128,8 +128,8 @@ export default function Sidebar({ activeView, setActiveView }: SidebarProps) {
             }
           }}
             className={`w-full flex items-center ${collapsed ? 'justify-center p-2' : 'gap-2 px-3 py-2'} text-xs font-bold uppercase tracking-wider`}
-            style={{ color: 'var(--accent-blue)' }} title="BIAB Platform">
-            {collapsed ? <span className="text-xl">🏗️</span> : <><span>{platformOpen ? '▼' : '▶'}</span><span>🏗️ BIAB Platform</span></>}
+            style={{ color: 'var(--accent-blue)' }} title="ApexRex Platform">
+            {collapsed ? <span className="text-xl">🏗️</span> : <><span>{platformOpen ? '▼' : '▶'}</span><span>🏗️ ApexRex Platform</span></>}
           </button>
           {(platformOpen && !collapsed) && (
             <div className="ml-2 space-y-0.5">
