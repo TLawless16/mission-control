@@ -6,7 +6,8 @@
     "dev": "node -e \"require('fs').rmSync('.next', {recursive:true, force:true})\" && next dev -p 3333",
     "build": "next build",
     "start": "next start",
-    "seed": "npx tsx scripts/seed_demo_tasks.ts"
+    "seed": "npx tsx scripts/seed_demo_tasks.ts",
+    "postinstall": "prisma generate"
   },
   "prisma": {
     "seed": "npx tsx scripts/seed_demo_tasks.ts"
